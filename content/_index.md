@@ -3,7 +3,10 @@
 title:
 date: 2024-01-26
 type: landing
-
+banner:
+  caption: ''
+  image: 'icon.jpg'
+  
 sections:
   - block: hero
     content:

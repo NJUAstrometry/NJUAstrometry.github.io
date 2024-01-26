@@ -1,9 +1,9 @@
 ---
 title: A new master graduate student joined our group.
-date: 2023-9-01
+date: 2023-09-01
 ---
 
-Welcome to Zheng-Wei Wang.
+A warm welcome to Zheng-Wei Wang (王圳伟).
 
 <!--more-->
 
