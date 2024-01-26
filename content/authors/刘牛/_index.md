@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Niu LIU 刘牛
+title: Niu Liu 刘牛
 
 # Full Name (for SEO)
 first_name: Niu 
