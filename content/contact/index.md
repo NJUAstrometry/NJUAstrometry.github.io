@@ -20,8 +20,8 @@ sections:
         country: China
         country_code: CN
       coordinates:
-        latitude: '118.96'
-        longitude: '32.13'
+        latitude: '32.13'
+        longitude: '118.96'
       directions: Enter the Astronomy Building and take the stairs to Office 317 on Floor 3
       office_hours:
         - 'Monday 09:00 to 12:00'

@@ -16,7 +16,6 @@ sections:
         <br>
         
         The **Astrometry Research Group** at Nanjing University is interested in various topics in the field of fundamental astronomy, including the astronomical reference system and Earth rotation.
-    
   
   - block: collection
     content:
@@ -36,7 +35,6 @@ sections:
     design:
       view: card
       columns: '1'
-  
   
   - block: markdown
     content:
