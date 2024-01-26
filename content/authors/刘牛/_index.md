@@ -6,6 +6,10 @@ title: Niu LIU 刘牛
 first_name: Niu 
 last_name: Liu
 
+# Username (this should match the folder name)
+authors:
+  - 刘牛
+
 # Is this the primary user of the site?
 superuser: true
 

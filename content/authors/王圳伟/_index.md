@@ -28,15 +28,13 @@ interests:
   - Reference frames
   - Astrometric Catalogs
   - Extragalactic sources
+  - astrometric VLBI
 
 education:
   courses:
-    - course: PhD in Astronomy
-      institution: Nanjing University
-      year: 2020
     - course: BSc in Astronomy
       institution: Nanjing University
-      year: 2015
+      year: 2023
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -45,7 +43,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:xx@nju.edu.cn'
+    link: 'mailto:502023260011@smail.nju.edu.cn'
   - icon: google-scholar
     icon_pack: ai
     link: 
@@ -70,4 +68,4 @@ user_groups:
   - Grad Students
 --- 
 
-My main research interest focuses on the astronomical reference system theory, including the overall property of the VLBI and Gaia celestial reference frame, position-frequency relation of extragalactic sources.
+I'm interested in astronomical reference frames and astrometric VLBI. As a new student in our group, I'm also willing to explore different fields in astrometry and astrophysics.
