@@ -1,21 +1,22 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2024-01-26
 type: landing
 
 sections:
   - block: hero
     content:
       title: |
-        Wowchemy
+        Astrometry
         Research Group
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The **Astrometry Research Group** at Nanjing University is interested in various topics in the field of fundamental astronomy, including the astronomical reference system and Earth rotation.
+    
   
   - block: collection
     content:
@@ -36,25 +37,6 @@ sections:
       view: card
       columns: '1'
   
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
   
   - block: markdown
     content:
