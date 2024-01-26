@@ -1,28 +1,28 @@
 ---
-title: Example Event
+title: 中国空间站工程巡天工程望远镜CSST天体测量科学课题推进讨论会
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: 中国空间站工程巡天工程望远镜CSST天体测量科学课题推进讨论会
+event_url: 
 
-location: Wowchemy HQ
+location: Nanjing University International Conference Center
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: 163 Xianlin Street
+  city: Nanjing
+  region: Jiangsu
+  postcode: '210023'
+  country: China 
 
-summary: An example event.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: 中国空间站工程巡天工程望远镜CSST天体测量科学课题推进讨论会
+abstract: ' 中国空间站工程巡天望远镜（China Space Station  Telescope，简称“CSST”），是中国空间站工程最重要的空间科学设施，是我国迄今为止规模最大、指标最先进的空间天文望远镜，也将是未来十年世界上最重要的空间天文观测仪器之一。为推进CSST天体测量科学课题的全面开展，召开“中国空间站工程巡天望远镜CSST天体测量科学课题推进研讨会”。会议内容主要包括：已结题的二类课题成果和最新进展；一类课题研究进展、课题成果；各课题对未来仿真数据要求等。'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2023-11-09T08:00:00Z'
+date_end: '2023-11-11T18:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2024-01-26T00:00:00Z'
 
 authors: []
 tags: []
@@ -54,10 +54,10 @@ slides:
 projects:
 ---
 
-Slides can be added in a few ways:
+<!-- Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
 
-Further event details, including page elements such as image galleries, can be added to the body of this page.
+Further event details, including page elements such as image galleries, can be added to the body of this page. -->
