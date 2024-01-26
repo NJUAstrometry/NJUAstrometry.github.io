@@ -20,13 +20,13 @@ sections:
         country: China
         country_code: CN
       coordinates:
-        longitude: '118.950122'
+        longitude: '118.955122'
         latitude: '32.125405'
       directions: Enter the Astronomy Building and take the stairs to Office 317 on Floor 3
       office_hours:
         - 'Monday 09:00 to 12:00'
         - 'Wednesday 08:00 to 12:00'
-      appointment_url: 'https://calendly.com'
+      # appointment_url: 'https://calendly.com'
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
