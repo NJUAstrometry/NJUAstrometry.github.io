@@ -19,7 +19,7 @@ role: Associate Professor
 # Organizations/Affiliations
 organizations:
   - name: Nanjing University
-    url: 'x'
+    url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include VLBI astrometry and space astrometry.
