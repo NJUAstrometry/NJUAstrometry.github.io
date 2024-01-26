@@ -8,8 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Astrometry
-        Research Group
+        南京大学天体测量课题组
       image:
         filename: welcome.jpg
       text: |
