@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Zhen-Wei Wang (王圳伟)
+title: Zhen-Wei Wang 王圳伟
 
 # Full Name (for SEO)
 first_name: Zhen-Wei 

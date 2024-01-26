@@ -13,7 +13,7 @@ sections:
         align: center
         background:
           image:
-            filename: welcome.jpg
+            filename: coder.jpg
             filters:
               brightness: 0.7
           position: right
@@ -23,7 +23,7 @@ sections:
         align: left
         background:
           image:
-            filename: welcome.jpg
+            filename: contact.jpg
             filters:
               brightness: 0.7
           position: center

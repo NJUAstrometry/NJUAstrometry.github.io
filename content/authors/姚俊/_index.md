@@ -1,21 +1,25 @@
 ---
 # Display name
-title: Niu LIU
+title: Jun Yao 姚俊
 
 # Full Name (for SEO)
-first_name: Niu 
-last_name: Liu
+first_name: Jun 
+last_name: Yao
+
+# Username (this should match the folder name)
+authors:
+  - 姚俊
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Associate Professor
+role: PhD student
 
 # Organizations/Affiliations
 organizations:
   - name: Nanjing University
-    url: 'https://liuniu.fun'
+    url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include VLBI astrometry and space astrometry.
@@ -41,7 +45,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:niu.liu@nju.edu.cn'
+    link: 'mailto:xx@nju.edu.cn'
   - icon: google-scholar
     icon_pack: ai
     link: 
@@ -63,7 +67,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Grad Students
 ---
 
 My main research interest focuses on the astronomical reference system theory, including the overall property of the VLBI and Gaia celestial reference frame, position-frequency relation of extragalactic sources.
