@@ -19,7 +19,7 @@ abstract: ' 中国空间站工程巡天望远镜（China Space Station  Telescop
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: '2023-11-09T08:00:00Z'
 date_end: '2023-11-11T18:00:00Z'
-all_day: false
+all_day: true
 
 # Schedule page publish date (NOT talk date).
 publishDate: '2024-01-26T00:00:00Z'

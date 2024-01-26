@@ -22,21 +22,19 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include VLBI astrometry and space astrometry.
+bio: My research interests include VLBI astrometry and reference frame.
 
 interests:
   - Reference frames
-  - Astrometric Catalogs
-  - Extragalactic sources
+  - Ephemerides
 
 education:
   courses:
-    - course: PhD in Astronomy
+    - course: PhD candidate in Astronomy
       institution: Nanjing University
-      year: 2020
     - course: BSc in Astronomy
       institution: Nanjing University
-      year: 2015
+      year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -45,7 +43,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:xx@nju.edu.cn'
+    link: 'mailto:mg20260018@smail.nju.edu.cn'
   - icon: google-scholar
     icon_pack: ai
     link: 
@@ -70,4 +68,4 @@ user_groups:
   - Grad Students
 ---
 
-My main research interest focuses on the astronomical reference system theory, including the overall property of the VLBI and Gaia celestial reference frame, position-frequency relation of extragalactic sources.
+My main research interest focuses on the alignment of astronomical reference frames, including the the VLBI and Gaia celestial reference frame, as well as the ephemerides.
