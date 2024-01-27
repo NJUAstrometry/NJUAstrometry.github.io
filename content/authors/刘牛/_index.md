@@ -46,10 +46,10 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:niu.liu@nju.edu.cn'
-  - icon: google-scholar
+  - icon: arxiv
     icon_pack: ai
     link: 
-  - icon: github
+  - icon: orcid
     icon_pack: fab
     link: 
 # Link to a PDF of your resume/CV from the About widget.
