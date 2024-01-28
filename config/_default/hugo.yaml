@@ -14,16 +14,6 @@ defaultContentLanguage: en
 hasCJKLanguage: true
 defaultContentLanguageInSubdir: true
 removePathAccents: true
-languages:
-  en:
-    contentDir: content/en
-    languageName: English
-    weight: 1
-  zh:
-    contentDir: content/zh
-    languageName: Chinese
-    weight: 1
-date: 2021-11-03T12:34:56+01:00
 
 ############################
 ## ADVANCED
@@ -70,3 +60,8 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+frontmatter:
+  date:
+  - :filename
+  - :default
