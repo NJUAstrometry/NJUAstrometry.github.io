@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Zhen-Wei Wang 王圳伟
+title: Zhen-Wei Wang 
 
 # Full Name (for SEO)
 first_name: Zhen-Wei 
@@ -8,7 +8,7 @@ last_name: Wang
 
 # Username (this should match the folder name)
 authors:
-  - 王圳伟
+  - zwwang
 
 # Is this the primary user of the site?
 superuser: false
@@ -65,7 +65,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Graduate Students
 --- 
 
 I'm interested in astronomical reference frames and astrometric VLBI. As a new student in our group, I'm also willing to explore different fields in astrometry and astrophysics.

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Niu Liu 刘牛
+title: Niu Liu 
 
 # Full Name (for SEO)
 first_name: Niu 
@@ -8,7 +8,7 @@ last_name: Liu
 
 # Username (this should match the folder name)
 authors:
-  - 刘牛
+  - nliu
 
 # Is this the primary user of the site?
 superuser: true

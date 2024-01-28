@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Zi Zhu 朱紫
+title: Zi Zhu 
 
 # Full name (for SEO)
 first_name: Zi
@@ -8,7 +8,7 @@ last_name: Zhu
 
 # Username (this should match the folder name)
 authors:
-  - 朱紫
+  - zzhu
 
 # Is this the primary user of the site?
 superuser: false
@@ -69,4 +69,3 @@ user_groups:
 ---
 
 I have engaged in long-term research on astronomical reference frames and Galactic astronomy, leading multiple projects funded by the National Natural Science Foundation of China. My main research areas include astrometric methods, astronomical reference frames, and Galactic astronomy. I have published over 20 SCI papers.
-...

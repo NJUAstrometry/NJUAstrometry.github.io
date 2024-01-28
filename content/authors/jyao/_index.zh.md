@@ -1,24 +1,24 @@
 ---
 # Display name
-title: Jun Yao 姚俊
+title: 姚俊
 
 # Full Name (for SEO)
-first_name: Jun 
-last_name: Yao
+first_name: 俊 
+last_name: 姚
 
 # Username (this should match the folder name)
 authors:
-  - 姚俊
+  - jyao
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: PhD student
+role: 博士研究生
 
 # Organizations/Affiliations
 organizations:
-  - name: Nanjing University
+  - name: 南京大学
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -30,10 +30,10 @@ interests:
 
 education:
   courses:
-    - course: PhD candidate in Astronomy
-      institution: Nanjing University
-    - course: BSc in Astronomy
-      institution: Nanjing University
+    - course: 天文学博士研究生
+      institution: 南京大学
+    - course: 天文学学士学位
+      institution: 南京大学
       year: 2020
 
 # Social/Academic Networking
@@ -65,7 +65,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - 研究生
 ---
 
 My main research interest focuses on the alignment of astronomical reference frames, including the VLBI and Gaia celestial reference frame, as well as the ephemerides.

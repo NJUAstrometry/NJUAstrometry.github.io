@@ -1,39 +1,39 @@
 ---
 # Display name
-title: Zhen-Wei Wang 王圳伟
+title: 王圳伟
 
 # Full Name (for SEO)
-first_name: Zhen-Wei 
-last_name: Wang
+first_name: 圳伟
+last_name: 王
 
 # Username (this should match the folder name)
 authors:
-  - 王圳伟
+  - zwwang
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Master Student
+role: 硕士研究生
 
 # Organizations/Affiliations
 organizations:
-  - name: Nanjing University
+  - name: 南京大学
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include VLBI astrometry and space astrometry.
 
 interests:
-  - Reference frames
-  - Astrometric Catalogs
-  - Extragalactic sources
-  - astrometric VLBI
+  - 参考架
+  - 天体测量星表
+  - 河外源
+  - VLBI天体测量
 
 education:
   courses:
-    - course: BSc in Astronomy
-      institution: Nanjing University
+    - course: 学士学位
+      institution: 南京大学
       year: 2023
 
 # Social/Academic Networking
@@ -65,7 +65,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - 研究生
 --- 
 
 I'm interested in astronomical reference frames and astrometric VLBI. As a new student in our group, I'm also willing to explore different fields in astrometry and astrophysics.

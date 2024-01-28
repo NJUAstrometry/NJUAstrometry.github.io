@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jia-Cheng Liu 刘佳成
+title: Jia-Cheng Liu 
 
 # Full name (for SEO)
 first_name: Jia-Cheng
@@ -8,7 +8,7 @@ last_name: Liu
 
 # Username (this should match the folder name)
 authors:
-  - 刘佳成
+  - jcliu
 
 # Is this the primary user of the site?
 superuser: false
@@ -19,7 +19,7 @@ role: Professor
 # Organizations/Affiliations
 organizations:
   - name: Nanjing University
-    url: ''
+    url: 'https://astronomy.nju.edu.cn/szll/szgk/js/20230915/i250774.html'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include theoretical Mechanics, space astrometry, and astronomical reference systems.

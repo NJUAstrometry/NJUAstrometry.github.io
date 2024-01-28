@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Niu Liu 刘牛
+title: 刘牛
 
 # Full Name (for SEO)
 first_name: Niu 
@@ -8,34 +8,35 @@ last_name: Liu
 
 # Username (this should match the folder name)
 authors:
-  - 刘牛
+  - nliu
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Assistant Professor
+role: 准聘助理教授
 
 # Organizations/Affiliations
 organizations:
-  - name: Nanjing University
+  - name: 南京大学
     url: 'https://liuniu.fun'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include VLBI astrometry and space astrometry.
+bio: 研究领域包含空间天体测量和VLBI天体测量
 
 interests:
-  - Reference frames
-  - Astrometric Catalogs
-  - Extragalactic sources
+  - 天文参考系理论和方法
+  - VLBI天体测量
+  - 空间天体测量
+  - 脉冲星天体测量
 
 education:
   courses:
-    - course: PhD in Astronomy
-      institution: Nanjing University
+    - course: 天文学博士学位
+      institution: 南京大学
       year: 2020
-    - course: BSc in Astronomy
-      institution: Nanjing University
+    - course: 天文学学士学位
+      institution: 南京大学
       year: 2015
 
 # Social/Academic Networking
@@ -56,7 +57,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: files/cv-niuliu.pdf
+    link: files/cv-niuliu-zh.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -70,4 +71,4 @@ user_groups:
   - Researchers
 ---
 
-My main research interest focuses on the astronomical reference system theory, including the overall property of the VLBI and Gaia celestial reference frame, position-frequency relation of extragalactic sources.
+主要研究兴趣包括天文参考系理论、VLBI和Gaia天球参考架的特性分析、河外源的多波段位置关系等。

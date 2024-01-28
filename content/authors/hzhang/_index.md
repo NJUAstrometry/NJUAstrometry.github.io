@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Hong Zhang 张鸿
+title: Hong Zhang 
 
 # Full name (for SEO)
 first_name: Hong
@@ -8,7 +8,7 @@ last_name: Zhang
 
 # Username (this should match the folder name)
 authors:
-  - 张鸿
+  - hzhang
 
 # Is this the primary user of the site?
 superuser: false
@@ -61,7 +61,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - 教师
 ---
 
 

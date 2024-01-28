@@ -1,25 +1,25 @@
 ---
 # Display name
-title: Jia-Cheng Liu 刘佳成
+title: 刘佳成
 
 # Full name (for SEO)
-first_name: Jia-Cheng
-last_name: Liu
+first_name: 佳成
+last_name: 刘
 
 # Username (this should match the folder name)
 authors:
-  - 刘佳成
+  - jcliu
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor
+role: 教授
 
 # Organizations/Affiliations
 organizations:
-  - name: Nanjing University
-    url: ''
+  - name: 南京大学
+    url: 'https://astronomy.nju.edu.cn/szll/szgk/js/20230915/i250774.html'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include theoretical Mechanics, space astrometry, and astronomical reference systems.
@@ -31,11 +31,11 @@ interests:
 
 education:
   courses:
-    - course: PhD in Astronomy 
-      institution: Nanjing University
+    - course: 天文学博士学位
+      institution: 南京大学
       year: 2012
-    - course: BSc in Astronomy 
-      institution: Nanjing University
+    - course: 天文学学士学位 
+      institution: 南京大学
       year: 2008
 
 # Social/Academic Networking
@@ -64,7 +64,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - 教师
 ---
 
-I am now professor and supervisor of doctor students at School of Astronomy and Space Science, Nanjing University. I am also one of the deputy director of the astrometry commission, Chinese Astronomical Society. I visited SYTRE at Paris observatory as a joint PhD student from 2011.9 to 2012.9, and received PhD degree in astronomy in 2012. I received the “Excellent PhD Thesis of Nanjing University award” in 2013. In 2017, I was a visiting scholar at the Mullard Space Science Laboratory (UCL, London). My research interest include fundamental theories for astrometry, astronomical reference frames, Earth’s rotation models, and application of VLBI and Gaia data et al. I have published more than 20 scientific papers in major SCI journals for astronomy.
+目前任职中国天文学会天体测量专业委员会副主任，《天文学报》编委。主要研究方向：天体测量基本理论、天文参考系、地球自转模型、VLBI和空间天体测量数据的应用等,在主要天文SCI期刊发表论文20余篇。

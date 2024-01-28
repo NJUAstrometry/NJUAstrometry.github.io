@@ -18,8 +18,8 @@ role: 教授
 
 # Organizations/Affiliations
 organizations:
-  - name: Nanjing University
-    url: ''
+  - name: 南京大学
+    url: 'https://astronomy.nju.edu.cn/szll/szgk/js/20190816/i13830.html'
 
 # Short bio (displayed in user profile at end of posts)
 bio: 长期从事天文参考系研究和银河系天文学研究工作。
