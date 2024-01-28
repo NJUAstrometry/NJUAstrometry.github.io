@@ -7,7 +7,7 @@ main:
   - name: 简介
     url: tour
     weight: 10
-  - name: 动态
+  - name: 最新动态
     url: post
     weight: 20
   - name: 课题组成员
