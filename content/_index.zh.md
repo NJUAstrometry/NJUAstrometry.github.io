@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: NJU Astronomical Reference System & Astrometry
+title: 南京大学天体测量理论和天文参考系课题组
 date: 2024-01-26
 type: landing
 banner:
@@ -11,15 +11,13 @@ sections:
   - block: hero
     content:
       title: |
-        Astrometry Group
+        天体测量课题组
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Astronomical Reference System and Astrometry** Research Group operates within the esteemed School of Astronomy and Space Science (formerly known as Department of Astronomy) at Nanjing University, which has a rich history dating back to its founding in 1952.
-        Our research endeavors encompass a diverse range of fundamental astronomy topics, including the precise development and maintenance of astronomical reference systems, investigations into Earth's rotational dynamics, and the exploration of the Galactic dynamics and kinematics. 
-        These areas align with our dedication to advancing the field of astrometry and contributing to our understanding of the universe.
+        **天体测量理论和天文参考系课题组**隶属于南京大学天文与空间科学学院，主要研究领域包括参考系的基本理论、参考系的特性、相对论天体测量、基本天体测量理论和方法以及天体测量应用研究等，致力于推动天体测量领域的发展以及从天体位置和运动的角度促进我们对宇宙的认识和理解。
   
   - block: collection
     content:
