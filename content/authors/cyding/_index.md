@@ -43,17 +43,17 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:'
-  - icon: arxiv
-    icon_pack: ai
-    link: 
-  - icon: orcid
-    icon_pack: fab
-    link: 
+  # - icon: arxiv
+  #   icon_pack: ai
+  #   link: 
+  # - icon: orcid
+  #   icon_pack: fab
+  #   link: 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: 
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -67,4 +67,3 @@ user_groups:
   - Alumni
 ---
 
-.
