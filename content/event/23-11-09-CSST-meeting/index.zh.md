@@ -4,13 +4,14 @@ title: 中国空间站工程巡天工程望远镜CSST天体测量科学课题推
 event: 中国空间站工程巡天工程望远镜CSST天体测量科学课题推进讨论会
 event_url: 
 
-location: Nanjing University International Conference Center
-address:
-  street: 163 Xianlin Street
-  city: Nanjing
-  region: Jiangsu
-  postcode: '210023'
-  country: China 
+location: 南大国际会议中心
+# location: Nanjing University International Conference Center
+# address:
+#   street: 163 Xianlin Street
+#   city: Nanjing
+#   region: Jiangsu
+#   postcode: '210023'
+#   country: China 
 
 summary: CSST天体测量科学课题推进讨论会顺利召开
 abstract: '中国空间站工程巡天望远镜（China Space Station  Telescope，简称“CSST”），是中国空间站工程最重要的空间科学设施，是我国迄今为止规模最大、指标最先进的空间天文望远镜，也将是未来十年世界上最重要的空间天文观测仪器之一。为推进CSST天体测量科学课题的全面开展，召开“中国空间站工程巡天望远镜CSST天体测量科学课题推进研讨会”。会议内容主要包括：已结题的二类课题成果和最新进展；一类课题研究进展、课题成果；各课题对未来仿真数据要求等。'
