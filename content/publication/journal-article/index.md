@@ -13,8 +13,7 @@ author_notes:
 - 
 - 
 date: "2024-01-24T00:00:00Z"
-doi: ""
-
+doi: "10.1051/0004-6361/202245808"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2023-06-01T00:00:00Z"
@@ -28,16 +27,16 @@ publication_types: ["article-journal"]
 publication: "*A&A* 674, A187 (2023)"
 publication_short: ""
 
-abstract: This study aims to investigate the systematic errors in planetary ephemeris reference frames through pulsar timing observations.  We used the published data sets from several pulsar timing arrays and performed timing analyses for each pulsar using different planetary ephemerides retrieved from the Jet Propulsion Laboratory's Development Ephemeris (DE), Ephemeris of Planets and the Moon (EPM), and INPOP (Intégration Numérique Planétaire de l'Observatoire de Paris). Then, we compared the timing solutions and modeled the differences in position and proper motion by vector spherical harmonics of the first degree. The timing solutions were also compared with those determined by very long baseline interferometry (VLBI) astrometry. The orientation offsets between the latest editions of the DE, EPM, and INPOP series do not exceed 0.4 milliarcseconds (mas), while the relative spins between these ephemerides are less than 5 microarcseconds per year ($\mathrm{\mu as\,yr^{-1}}$). We do not detect significant glides in either position or proper motion between these ephemerides. The orientation of the pulsar timing frames deviates from that of the VLBI frame from zero by approximately 0.4 mas when considering the formal uncertainty and possible systematics. The orientation of current planetary ephemeris frames is as accurate as at least 0.4 mas, and the nonrotation is better than $\mathrm{5 \mu as\,yr^{-1}}$.
+abstract: 'This study aims to investigate the systematic errors in planetary ephemeris reference frames through pulsar timing observations.  We used the published data sets from several pulsar timing arrays and performed timing analyses for each pulsar using different planetary ephemerides retrieved from the Jet Propulsion Laboratory's Development Ephemeris (DE), Ephemeris of Planets and the Moon (EPM), and INPOP (Intégration Numérique Planétaire de l'Observatoire de Paris). Then, we compared the timing solutions and modeled the differences in position and proper motion by vector spherical harmonics of the first degree. The timing solutions were also compared with those determined by very long baseline interferometry (VLBI) astrometry. The orientation offsets between the latest editions of the DE, EPM, and INPOP series do not exceed 0.4 milliarcseconds (mas), while the relative spins between these ephemerides are less than 5 microarcseconds per year ($\mathrm{\mu as\,yr^{-1}}$). We do not detect significant glides in either position or proper motion between these ephemerides. The orientation of the pulsar timing frames deviates from that of the VLBI frame from zero by approximately 0.4 mas when considering the formal uncertainty and possible systematics. The orientation of current planetary ephemeris frames is as accurate as at least 0.4 mas, and the nonrotation is better than $\mathrm{5 \mu as\,yr^{-1}}$.'
 
 # Summary. An optional shortened abstract.
-summary: The orientation of current planetary ephemeris frames is as accurate as at least 0.4 mas, and the nonrotation is better than $\mathrm{5 \mu as\,yr^{-1}}$
+summary: 'The orientation of current planetary ephemeris frames is as accurate as at least 0.4 mas, and the nonrotation is better than $\mathrm{5 \mu as\,yr^{-1}}$.'
 
 tags:
-- astrometry 
-– ephemerides 
-– reference systems 
-– pulsars
+- "astrometry" 
+- "ephemerides" 
+- "reference systems" 
+- "pulsars"
 featured: false
 
 # links:
