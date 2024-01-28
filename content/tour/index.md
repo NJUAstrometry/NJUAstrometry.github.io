@@ -28,8 +28,8 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: National key discipline of Astrometry & Celestial Mechanics
-        content: 'The only among universities in China! The Department of Astronomy at NJU, founded in 1952, earns the longest history and a high reputation among the astronomy departments in China. '
+      - title: National key discipline of Astrometry
+        content: 'The only among universities in China!'
         align: right
         background:
           image:
