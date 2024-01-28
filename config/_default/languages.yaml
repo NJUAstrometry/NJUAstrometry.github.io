@@ -15,11 +15,11 @@ zh:
  title: 天体测量课题组
  params:
    description: 中文介绍
- menu:
-   main:
-     - name: 传
-       url: '#about'
-       weight: 1
+#  menu:
+#    main:
+#      - name: 传
+#        url: '#about'
+#        weight: 1
     #  - name: 传
     #    url: '#about'
     #    weight: 1
