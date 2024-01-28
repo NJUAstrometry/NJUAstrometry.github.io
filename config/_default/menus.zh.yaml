@@ -16,10 +16,10 @@ main:
   - name: 新闻
     url: event
     weight: 40
-  - name: 项目成果
+  - name: 科研项目
     url: project
     weight: 40
-  - name: 研究论文
+  - name: 研究成果
     url: publication
     weight: 50
   - name: 联系我们
