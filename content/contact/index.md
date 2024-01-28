@@ -10,7 +10,7 @@ sections:
       title: Contact
       text: |-
         If you are intersted in our studies and would like to join us or develop a collaboration with us, please feel free to contact us.
-      email: niu.liu@nju.edu.cn
+      email: 
       phone: (025) 8968 6051
       address:
         street: 163 Xianlin Road
@@ -37,13 +37,14 @@ sections:
       autolink: true
     
       # Email form provider
-      # form:
-      #   provider: netlify
-      #   formspree:
-      #     id:
-      #   netlify:
-      #     # Enable CAPTCHA challenge to reduce spam?
-      #     captcha: false
+      form:
+        # provider: netlify
+        provider: formspree
+        formspree:
+          id: xrgnerak
+        netlify:
+          # Enable CAPTCHA challenge to reduce spam?
+          captcha: false
     design:
       columns: '1'
 
