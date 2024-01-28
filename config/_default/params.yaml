@@ -10,6 +10,7 @@ appearance:
   theme_night:
   font: native
   font_size: L
+  color: purple
 
 # SEO
 
@@ -55,7 +56,7 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: 'Jan 2, 2024'
   time_format: '3:04 PM'
   address_format: en-us
 
@@ -72,7 +73,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/NJUAstrometry/NJUAstrometry.github.io'
     content_dir: content
     branch: main
   avatar:
