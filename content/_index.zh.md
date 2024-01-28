@@ -21,7 +21,7 @@ sections:
   
   - block: collection
     content:
-      title: Latest News
+      title: 最新动态
       subtitle:
       text:
       count: 5
@@ -43,7 +43,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./people/" cta_text="了解我们 →" %}}
     design:
       columns: '1'
 ---
