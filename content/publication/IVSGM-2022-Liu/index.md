@@ -1,5 +1,5 @@
 ---
-title: 'Evaluate the ICRF3 Axes' Stability via Extragalactic Source Position Time Series'
+title: "Evaluate the ICRF3 Axes' Stability via Extragalactic Source Position Time Series"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -7,9 +7,9 @@ title: 'Evaluate the ICRF3 Axes' Stability via Extragalactic Source Position Tim
 authors:
   - Niu Liu
   - Lambert, Sébastien
-  - Arias, Felicitas
-  - Jia-Cheng, Liu
-  - Zi, Zhu
+  - Arias Felicitas
+  - Jia-Cheng Liu
+  - Zi Zhu
 
 # Author notes (optional)
 # author_notes:
