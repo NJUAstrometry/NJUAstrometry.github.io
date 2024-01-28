@@ -21,7 +21,7 @@ sections:
         country_code: CN
       coordinates:
         longitude: '118.955022'
-        latitude: '32.127210'
+        latitude: '32.127510'
       directions: Enter the Astronomy Building and take the stairs to Office 317 on Floor 3
       office_hours:
         - 'Monday 09:00 to 12:00'
