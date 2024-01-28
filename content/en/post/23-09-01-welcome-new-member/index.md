@@ -1,7 +1,6 @@
 ---
 title: A new master graduate student joined our group.
-date: 2023-09-01T00:40:04-07:00
-publishDate: 2023-09-01T00:40:04-07:00
+date: 2023-09-01T00:00:00+08:00
 profile: false
 ---
 
