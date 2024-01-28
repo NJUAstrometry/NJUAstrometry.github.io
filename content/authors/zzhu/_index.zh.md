@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Zi Zhu 朱紫
+title: 朱紫
 
 # Full name (for SEO)
-first_name: Zi
-last_name: Zhu
+first_name: 紫
+last_name: 朱
 
 # Username (this should match the folder name)
 authors:
-  - 朱紫
+  - zzhu
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor
+role: 教授
 
 # Organizations/Affiliations
 organizations:
@@ -22,20 +22,23 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include astrometric methods, astronomical reference frames, and Galactic astronomy.
+bio: 长期从事天文参考系研究和银河系天文学研究工作。
 
 interests:
-  - Astrometric methods
-  - Astronomical reference systems
-  - Galactic astronomy
+  - 天体测量方法
+  - 天文参考系
+  - 银河系天文学
 
 education:
   courses:
-    - course: PhD in Astronomy 
-      institution: Chinese Academy of Sciences
+    - course: 博士学位
+      institution: 中国科学院陕西天文台
       year: 1994
-    - course: BSc in Astronomy 
-      institution: University of Science and Technology of China 
+    - course: 硕士学位
+      institution: 中国科学院陕西天文台
+      year: 1987
+    - course: 学士学位
+      institution: 中国科学技术大学 
       year: 1982
 
 # Social/Academic Networking
@@ -64,9 +67,8 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
-  - Principal Investigators
+  - 教师
+  - 带头人
 ---
 
-I have engaged in long-term research on astronomical reference frames and Galactic astronomy, leading multiple projects funded by the National Natural Science Foundation of China. My main research areas include astrometric methods, astronomical reference frames, and Galactic astronomy. I have published over 20 SCI papers.
-...
+多次赴德国波恩大学天文台、日本国立天文台从事空间天体测量、天文参考系、银河系天文学等方向的合作研究。2002年始在南京大学天文系工作。现任国际天文学联合会天体测量专业委员会组织成员、国家科学技术奖评审专家、博导。发表SCI论文20多篇。
