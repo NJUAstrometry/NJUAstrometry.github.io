@@ -42,7 +42,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:'
+    link: 'mailto:scracheld@163.com'
   # - icon: arxiv
   #   icon_pack: ai
   #   link: 

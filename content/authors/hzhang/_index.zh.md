@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Associate Professor
+role: 副教授
 
 # Organizations/Affiliations
 organizations:
