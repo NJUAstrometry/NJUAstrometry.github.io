@@ -28,8 +28,8 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+      - title: Key Laboratory of Modern Astronomy and Astrophysics (Ministry of Education)
+        content: 'The only one in astronomy among universities in China!'
         align: right
         background:
           image:

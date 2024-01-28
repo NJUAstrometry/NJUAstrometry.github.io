@@ -17,7 +17,7 @@ sections:
       text: |
         <br>
         
-        The **Astrometry Research Group**（天体测量课题组） at Nanjing University is interested in various topics in the field of fundamental astronomy, including the astronomical reference system and Earth rotation.
+        The **Astronomical Reference System and Astrometry Research Group**（天体测量理论和天文参考系课题组） at Nanjing University is interested in various topics in the field of fundamental astronomy, including the astronomical reference system, Earth rotation, and the Galactic dynamics and kinematics.
   
   - block: collection
     content:
