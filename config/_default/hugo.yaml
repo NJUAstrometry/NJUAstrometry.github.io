@@ -61,7 +61,3 @@ security:
 sitemap:
   _merge: deep
 
-frontmatter:
-  date:
-  - :filename
-  - :default
