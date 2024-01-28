@@ -1,16 +1,23 @@
 ---
-title: "An example journal article"
+title: "Systematics of planetary ephemeris reference frames inferred from pulsar timing astrometry"
 authors:
-- admin
-- Robert Ford
+- Niu Liu
+- Zi Zhu
+- John Antoniadis
+- Jia-Cheng Liu
+- Hong Zhang
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+- 
+- "corresponding author"
+- "corresponding author"
+- 
+- 
+date: "2024-01-24T00:00:00Z"
 doi: ""
 
+
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2023-06-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,26 +25,29 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*A&A* 674, A187 (2023)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: This study aims to investigate the systematic errors in planetary ephemeris reference frames through pulsar timing observations.  We used the published data sets from several pulsar timing arrays and performed timing analyses for each pulsar using different planetary ephemerides retrieved from the Jet Propulsion Laboratory's Development Ephemeris (DE), Ephemeris of Planets and the Moon (EPM), and INPOP (Intégration Numérique Planétaire de l'Observatoire de Paris). Then, we compared the timing solutions and modeled the differences in position and proper motion by vector spherical harmonics of the first degree. The timing solutions were also compared with those determined by very long baseline interferometry (VLBI) astrometry. The orientation offsets between the latest editions of the DE, EPM, and INPOP series do not exceed 0.4 milliarcseconds (mas), while the relative spins between these ephemerides are less than 5 microarcseconds per year ($\mathrm{\mu as\,yr^{-1}}$). We do not detect significant glides in either position or proper motion between these ephemerides. The orientation of the pulsar timing frames deviates from that of the VLBI frame from zero by approximately 0.4 mas when considering the formal uncertainty and possible systematics. The orientation of current planetary ephemeris frames is as accurate as at least 0.4 mas, and the nonrotation is better than $\mathrm{5 \mu as\,yr^{-1}}$.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: The orientation of current planetary ephemeris frames is as accurate as at least 0.4 mas, and the nonrotation is better than $\mathrm{5 \mu as\,yr^{-1}}$
 
 tags:
-- Source Themes
+- astrometry 
+– ephemerides 
+– reference systems 
+– pulsars
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: ''
+url_pdf: 'https://www.aanda.org/articles/aa/pdf/2023/06/aa45808-22.pdf'
+url_code: 'https://git.nju.edu.cn/neo/pulsar-ephem-crf'
+url_dataset: 'https://git.nju.edu.cn/neo/pulsar-ephem-crf'
 url_poster: ''
-url_project: ''
+url_project: 'https://njuastrometry.github.io/en/project/'
 url_slides: ''
 url_source: ''
 url_video: ''
@@ -45,7 +55,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
