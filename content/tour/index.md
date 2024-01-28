@@ -28,8 +28,8 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: Key Laboratory of Modern Astronomy and Astrophysics (Ministry of Education)
-        content: 'The only one in astronomy among universities in China!'
+      - title: National key discipline of Astrometry & Celestial Mechanics
+        content: 'The only among universities in China! The Department of Astronomy at NJU, founded in 1952, earns the longest history and a high reputation among the astronomy departments in China. '
         align: right
         background:
           image:
