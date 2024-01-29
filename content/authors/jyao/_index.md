@@ -65,7 +65,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Graduate Students
 ---
 
 My main research interest focuses on the alignment of astronomical reference frames, including the VLBI and Gaia celestial reference frame, as well as the ephemerides.
