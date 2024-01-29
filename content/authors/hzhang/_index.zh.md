@@ -18,8 +18,8 @@ role: 副教授
 
 # Organizations/Affiliations
 organizations:
-  - name: Nanjing University
-    url: ''
+  - name: 南京大学
+    url: 'https://www.nju.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -29,10 +29,10 @@ interests:
 education:
   # courses:
   #   - course: PhD in Astronomy 
-  #     institution: Nanjing University
+  #     institution: 南京大学
   #     year: 2012
   #   - course: BSc in Astronomy 
-  #     institution: Nanjing University
+  #     institution: 南京大学
   #     year: 2008
 
 # Social/Academic Networking

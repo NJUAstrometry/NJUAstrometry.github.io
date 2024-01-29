@@ -19,7 +19,7 @@ role: 准聘助理教授
 # Organizations/Affiliations
 organizations:
   - name: 南京大学
-    url: 'https://liuniu.fun'
+    url: 'https://www.nju.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: 研究领域包含空间天体测量和VLBI天体测量

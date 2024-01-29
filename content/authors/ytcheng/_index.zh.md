@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 姚俊
+title: 程雨婷
 
 # Full Name (for SEO)
-first_name: 俊 
-last_name: 姚
+first_name: 雨婷 
+last_name: 程
 
 # Username (this should match the folder name)
 authors:
@@ -18,7 +18,7 @@ role: 博士研究生
 
 # Organizations/Affiliations
 organizations:
-  - name: 南京大学
+  - name: 
     url: ''
 
 # Short bio (displayed in user profile at end of posts)

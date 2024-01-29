@@ -19,7 +19,7 @@ role: PhD student
 # Organizations/Affiliations
 organizations:
   - name: Nanjing University
-    url: ''
+    url: 'https://www.nju.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include VLBI astrometry and reference frame.

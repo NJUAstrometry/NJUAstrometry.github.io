@@ -15,7 +15,7 @@ role:
 
 # Organizations/Affiliations
 organizations:
-  - name: Nanjing University
+  - name: 
     url: ''
 
 # Short bio (displayed in user profile at end of posts)

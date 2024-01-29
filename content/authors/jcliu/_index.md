@@ -19,7 +19,7 @@ role: Professor
 # Organizations/Affiliations
 organizations:
   - name: Nanjing University
-    url: 'https://astronomy.nju.edu.cn/szll/szgk/js/20230915/i250774.html'
+    url: 'https://www.nju.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include theoretical Mechanics, space astrometry, and astronomical reference systems.

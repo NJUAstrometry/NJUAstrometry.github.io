@@ -19,7 +19,7 @@ role: 教授
 # Organizations/Affiliations
 organizations:
   - name: 南京大学
-    url: 'https://astronomy.nju.edu.cn/szll/szgk/js/20190816/i13830.html'
+    url: 'https://www.nju.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: 长期从事天文参考系研究和银河系天文学研究工作。
@@ -71,4 +71,5 @@ user_groups:
   - 带头人
 ---
 
+长期从事天文参考系研究和银河系天文学研究工作。
 多次赴德国波恩大学天文台、日本国立天文台从事空间天体测量、天文参考系、银河系天文学等方向的合作研究。2002年始在南京大学天文系工作。现任国际天文学联合会天体测量专业委员会组织成员、国家科学技术奖评审专家、博导。发表SCI论文20多篇。

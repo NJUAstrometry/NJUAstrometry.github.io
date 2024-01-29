@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Jun Yao 
+title: Yu-Ting Cheng 
 
 # Full Name (for SEO)
-first_name: Jun 
-last_name: Yao
+first_name: Yu-Ting
+last_name: Cheng
 
 # Username (this should match the folder name)
 authors:
@@ -18,7 +18,7 @@ role: PhD student
 
 # Organizations/Affiliations
 organizations:
-  - name: Nanjing University
+  - name: 
     url: ''
 
 # Short bio (displayed in user profile at end of posts)

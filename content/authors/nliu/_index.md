@@ -19,7 +19,7 @@ role: Assistant Professor
 # Organizations/Affiliations
 organizations:
   - name: Nanjing University
-    url: 'https://liuniu.fun'
+    url: 'https://www.nju.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include VLBI astrometry and space astrometry.

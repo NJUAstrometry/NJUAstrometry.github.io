@@ -19,7 +19,7 @@ role: 硕士研究生
 # Organizations/Affiliations
 organizations:
   - name: 南京大学
-    url: ''
+    url: 'https://www.nju.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include VLBI astrometry and space astrometry.
