@@ -68,7 +68,7 @@ email: ''
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - 教师
-  - 带头人
+  - 学术带头人
 ---
 
 长期从事天文参考系研究和银河系天文学研究工作。

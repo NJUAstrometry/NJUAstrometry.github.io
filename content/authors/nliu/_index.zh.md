@@ -69,7 +69,7 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - 教师
-  - 毕业生
+  # - 毕业生
 ---
 
 主要研究兴趣包括天文参考系理论、VLBI和Gaia天球参考架的特性分析、河外源的多波段位置关系等。
