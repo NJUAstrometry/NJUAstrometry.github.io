@@ -3,7 +3,7 @@
 title: 程雨婷
 
 # Full Name (for SEO)
-first_name: 雨婷 
+first_name: 雨婷
 last_name: 程
 
 # Username (this should match the folder name)
@@ -18,23 +18,25 @@ role: 博士研究生
 
 # Organizations/Affiliations
 organizations:
-  - name: 
+  - name: 巴黎天文台
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include VLBI astrometry and reference frame.
+bio: 
 
 interests:
-  - Reference frames
-  - Ephemerides
+
 
 education:
   courses:
     - course: 天文学博士研究生
-      institution: 南京大学
-    - course: 天文学学士学位
+      institution: 巴黎天文台
+    - course: 天体测量与天体力学硕士学位
       institution: 南京大学
       year: 2020
+    - course: 天文学学士学位
+      institution: 南京大学
+      year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -43,7 +45,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:mg20260018@smail.nju.edu.cn'
+    link: 'yu-ting.cheng@obspm.fr'
   # - icon: google-scholar
   #   icon_pack: ai
   #   link: 
@@ -52,9 +54,9 @@ social:
   #   link: 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: files/cv.pdf
+  - icon: cv
+    icon_pack: ai
+    link: files/cv-YutingCheng.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -68,4 +70,3 @@ user_groups:
   - 毕业生
 ---
 
-My main research interest focuses on the alignment of astronomical reference frames, including the VLBI and Gaia celestial reference frame, as well as the ephemerides.

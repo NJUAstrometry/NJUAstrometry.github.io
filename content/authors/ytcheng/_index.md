@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Yu-Ting Cheng 
+title: Yuting Cheng 
 
 # Full Name (for SEO)
-first_name: Yu-Ting
+first_name: Yuting 
 last_name: Cheng
 
 # Username (this should match the folder name)
@@ -14,27 +14,32 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD student
+role: 
 
 # Organizations/Affiliations
 organizations:
-  - name: 
+  - name: SYRTE / Observatoire de Paris
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include VLBI astrometry and reference frame.
+bio: My research interests include space geodesy, Earth rotation variations, GNSS data processing and polar motion modeling.
 
 interests:
-  - Reference frames
-  - Ephemerides
+  - Space geodesy
+  - GNSS
+  - Earth Orientation Parameters
+  - Geodynamics
 
 education:
   courses:
     - course: PhD candidate in Astronomy
-      institution: Nanjing University
-    - course: BSc in Astronomy
+      institution: SYRTE / Observatoire de Paris
+    - course: MS in Astrometry and Celestial Mechanics
       institution: Nanjing University
       year: 2020
+    - course: BSc in Astronomy
+      institution: Nanjing University
+      year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -43,7 +48,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:mg20260018@smail.nju.edu.cn'
+    link: 'mailto:yu-ting.cheng@obspm.fr'
   # - icon: google-scholar
   #   icon_pack: ai
   #   link: 
@@ -52,9 +57,9 @@ social:
   #   link: 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: files/cv.pdf
+  - icon: cv
+    icon_pack: ai
+    link: files/cv-YutingCheng.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -68,4 +73,4 @@ user_groups:
   - Alumni
 ---
 
-My main research interest focuses on the alignment of astronomical reference frames, including the VLBI and Gaia celestial reference frame, as well as the ephemerides.
+My main research interest includes GNSS modeling and data processing, space geodesy, Earth rotation variation estimation and modeling.
