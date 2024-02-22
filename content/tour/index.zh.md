@@ -8,8 +8,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
+      - title: 👋 欢迎来到课题组
+        content: 看看我们在研究什么...
         align: center
         background:
           image:
@@ -18,8 +18,8 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
+      - title: 宽松宁静的学习和工作环境 ☕️
+        content: '欢迎与我们交流和探讨!'
         align: left
         background:
           image:
@@ -28,7 +28,7 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: 全国唯一的天体测量与天体力学重点学科
+      - title: 全国高校中唯一的天体测量与天体力学重点学科
         content: ''
         align: right
         background:
