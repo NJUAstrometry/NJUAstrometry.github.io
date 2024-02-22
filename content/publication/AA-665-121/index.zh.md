@@ -82,55 +82,6 @@ projects:
 slides: ""
 
 # Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
-
-sections:
-  - block: slider
-    content:
-      slides:
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
-        align: center
-        background:
-          image:
-            filename: crf.jpg
-            filters:
-              brightness: 0.7
-          position: right
-          color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: left
-        background:
-          image:
-            filename: welcome.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
-      - title: National key discipline of Astrometry
-        content: 'The only among universities in China!'
-        align: right
-        background:
-          image:
-            filename: badge.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
-        link:
-          icon: graduation-cap
-          icon_pack: fas
-          text: Join Us
-          url: ../contact/
-    design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: ''
-      is_fullscreen: true
-      # Automatically transition through slides?
-      loop: false
-      # Duration of transition between slides (in ms)
-      interval: 2000
-
 ---
 
 <!-- {{% callout note %}}
@@ -150,6 +101,8 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 更确切来说，VLBI对地球自转参数的测量是通过VLBI的观测来解算地球自转参数。在解算中，需要输入许多先验模型，而天球参考架也是其中之一。由一系列河外射电源高精度位置定义的国际天球参考架（The International Celestial Reference Frame，ICRF）是VLBI解算中所主要使用的参考架。目前最新的国际天球参考架是第三代国际天球参考架（ICRF3[[1](#Charlot2020)]），其在2019年1月取代了第二代国际天球参考架（ICRF2[[2](#Fey2015)]）。相较于ICRF2，ICRF3中的河外源数目从3414增加到了4356颗，对用于定义框架轴的定义源进行了更加严格的挑选，并且首次加入了对银河系光行差效应的建模。
 
 光行差效应是指，对于一个运动的观测者，其观测到的目标光源的位置相对于光源的真实位置会有一个朝向速度方向的位移。这好比我们在下雨天坐车时，车窗上的雨滴的轨迹是倾斜而非竖直的，让人觉得雨滴是从斜前方打来而非从上方落下。更进一步而言，对对于一个加速运动的观测者，其观测到的目标光源会有一个朝向加速度方向的运动（自行）。我们所处的太阳系在绕着银河系中心旋转，因此，太阳系中的所有观测者都有一个指向银心方向的加速度，而这一加速度会使得我们观测的所有天体都有一个指向银心方向的视自行，即银河系光行差效应。
+
+{{< figure src="crf.jpg" caption="A caption" numbered="true" >}}
 
 考虑到EOP是连接天球参考架和地球参考架的参数，所使用的天球参考架的转变势必会对其造成一定影响。在本工作中，我们研究了ICRF2到ICRF3的转变，特别是银河系光行差建模对于VLBI解算地球自转参数的影响的大小。我们使用了从1980年到2020年40年间的VLBI观测数据，解算了考虑与不考虑银河系光行差的地球自转参数的变化。通过比较，我们发现了银河系光行差的建模与否会使得dY上有一个约${\rm 0.3~\mu as~yr^{-1}}$的速率差异，在40年的观测时间尺度上，这一差异会累计超过10个微角秒，这在目前高精度的岁差章动模型下是不可忽略的。此外，我们还发现，40年中银河系光行差效应对地球自转参数的影响并不完全一致，具体的影响随着观测目标源的分布以及参与观测的射电望远镜的分布发生改变变。而一个在全天球中更加均匀目标源的分布和一个地理上更加均匀的望远镜分布会有效的减少银河系光行差的建模对解算带来的影响。
 该项研究以《Effect of Galactic aberration on Earth orientation parameters: From the ICRF2 to the ICRF3》为题在2022年9月发表于欧洲《Astronomy and Astrophysics》上。南京大学天文与空间科学学院研究生姚俊同学为论文第一作者，南京大学刘佳成教授为论文的通讯作者。
