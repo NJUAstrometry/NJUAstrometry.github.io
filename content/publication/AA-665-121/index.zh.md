@@ -1,5 +1,5 @@
 ---
-title: "Effect of Galactic aberration on Earth orientation parameters: From the ICRF2 to the ICRF3 (银河系光行差效应对地球自转参数解算影响)"
+title: "Effect of Galactic aberration on Earth orientation parameters: From the ICRF2 to the ICRF3"
 authors:
 - 姚俊
 - 刘佳成
@@ -91,6 +91,8 @@ Click the *Cite* button above to demo the feature to enable visitors to import p
 {{% callout note %}}
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}} -->
+
+# 银河系光行差效应对地球自转参数解算影响
 
 天球参考架和地球参考架是天文中最常使用的两类参考架。其中，天球参考架主要依靠天体（过去主要是恒星，而现在主要是河外源）的位置来建立，与空间固连，适合描述天体在天空中的位置和运动；而地球参考架与地球固连，更适合描述望远镜等在地球上物体的地理经纬度、水平高度等。对于许多的天文观测和研究，我们需要同时用到天球参考架和地球参考架，而这时就需要用到两个参考架之间的转换。考虑地球参考架是与地球固连的，若能了解地球在天球参考架中的运动，便能得到地球参考架和天球参考架之间的转换。而地球自转参数（Earth Orientation Parameters，EOP）是一组描述地球在空间中运动的参数，其与岁差章动模型一起能描述地球自转轴在任意时刻时在空间中的指向。地球自转参数一共包含五个参数，分别为描述极移的两个参数($x_p$,$y_p$)、反映地球自转速率变化的参数dUT1以及岁差章动模型修正量($dX$,$dY$)。
 
