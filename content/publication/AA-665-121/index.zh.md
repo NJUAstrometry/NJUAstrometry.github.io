@@ -116,4 +116,4 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 
 - <span id="Charlot2020">[1] Charlot, P., “The third realization of the International Celestial Reference Frame by very long baseline interferometry”, A&A, vol. 644, 2020. doi:10.1051/0004-6361/202038368.
 - <span id="Fey2015">[2] Fey, A. L., “The Second Realization of the International Celestial Reference Frame by Very Long Baseline Interferometry”, A&A, vol. 150, no. 2, IOP, 2015. doi:10.1088/0004-6256/150/2/58.
-- <span id="Liu2012">[3] Liu, J.-C., Capitaine, N., Lambert, S. B., Malkin, Z., and Zhu, Z., “Systematic effect of the Galactic aberration on the ICRS realization and the Earth orientation parameters”, A&A, vol. 548, 2012. doi:10.1051/0004-6361/201219421.
+- <span id="Liu2012">[3] 刘佳成,刘牛.银河系光行差及其对天文参考架的影响[J].天文学报,2020,61(1):10.
