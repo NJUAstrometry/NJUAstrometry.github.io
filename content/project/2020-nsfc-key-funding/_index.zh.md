@@ -17,3 +17,5 @@ Gaia首期正式观测结果（DR1）已于2016年9月正式发布，提供了�
 ### 3、 Gaia天球参考架与ICRF的连接方法研究
 
 ### 4、 在Gaia参考架中研究地球岁差章动模型
+
+- [银河系光行差效应对地球自转参数解算影响](https://njuastrometry.github.io/zh/publication/aa-665-121/)
