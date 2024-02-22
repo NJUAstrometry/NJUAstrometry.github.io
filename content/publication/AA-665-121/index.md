@@ -1,5 +1,5 @@
 ---
-title: "Systematics of planetary ephemeris reference frames inferred from pulsar timing astrometry"
+title: "Effect of Galactic aberration on Earth orientation parameters: From the ICRF2 to the ICRF3"
 authors:
 - Jun Yao
 - Jia-Cheng Liu
