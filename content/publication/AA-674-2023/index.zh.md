@@ -1,11 +1,11 @@
 ---
 title: "Systematics of planetary ephemeris reference frames inferred from pulsar timing astrometry"
 authors:
-- Niu Liu
-- Zi Zhu
+- 刘牛
+- 朱紫
 - John Antoniadis
-- Jia-Cheng Liu
-- Hong Zhang
+- 刘佳成
+- 张鸿
 author_notes:
 - 
 - "corresponding author"
@@ -30,7 +30,7 @@ publication_short: "*A&A* 674, A187 (2023)"
 abstract: "This study aims to investigate the systematic errors in planetary ephemeris reference frames through pulsar timing observations. We used the published data sets from several pulsar timing arrays and performed timing analyses for each pulsar using different planetary ephemerides retrieved from the Jet Propulsion Laboratory's Development Ephemeris (DE), Ephemeris of Planets and the Moon (EPM), and INPOP (Intégration Numérique Planétaire de l'Observatoire de Paris). Then, we compared the timing solutions and modeled the differences in position and proper motion by vector spherical harmonics of the first degree. The timing solutions were also compared with those determined by very long baseline interferometry (VLBI) astrometry. The orientation offsets between the latest editions of the DE, EPM, and INPOP series do not exceed 0.4 milliarcseconds (mas), while the relative spins between these ephemerides are less than 5 microarcseconds per year. We do not detect significant glides in either position or proper motion between these ephemerides. The orientation of the pulsar timing frames deviates from that of the VLBI frame from zero by approximately 0.4 mas when considering the formal uncertainty and possible systematics. The orientation of current planetary ephemeris frames is as accurate as at least 0.4 mas, and the nonrotation is better than 5 microarcseconds per year."
 
 # Summary. An optional shortened abstract.
-summary: "测试一下"
+summary: ""
 
 tags:
 - "astrometry" 
