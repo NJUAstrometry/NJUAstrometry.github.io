@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD graduate
+role: Post-Doctoral
 
 # Organizations/Affiliations
 organizations:
