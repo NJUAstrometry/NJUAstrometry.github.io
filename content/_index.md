@@ -17,7 +17,7 @@ sections:
       text: |
         <br>
         
-        The **Astronomical Reference System and Astrometry** Research Group operates within the esteemed School of Astronomy and Space Science (formerly known as Department of Astronomy) at Nanjing University, which has a rich history dating back to its founding in 1952.
+        The **Astronomical Reference System and High Precision Astrometry** Research Group operates within the esteemed School of Astronomy and Space Science (formerly known as Department of Astronomy) at Nanjing University, which has a rich history dating back to its founding in 1952.
         Our research endeavors encompass a diverse range of fundamental astronomy topics, including the precise development and maintenance of astronomical reference systems, investigations into Earth's rotational dynamics, and the exploration of the Galactic dynamics and kinematics. 
         These areas align with our dedication to advancing the field of astrometry and contributing to our understanding of the universe.
   
