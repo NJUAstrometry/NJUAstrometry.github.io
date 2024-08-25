@@ -61,6 +61,6 @@ Further event details, including page elements such as image galleries, can be a
 On December 24, CCTV News' “One Lesson Together” invited experts from the School of Astronomy and Space Science of Nanjing University to lead the exploration of the mysteries of the universe. Among them, Yao Jun, a doctoral student in the group, led a live measurement of celestial distances using the principle of trigonometric parallax measurement.
 For related videos, please see [https://box.nju.edu.cn/f/ba0fe4dfba8741c1a839/](https://box.nju.edu.cn/f/ba0fe4dfba8741c1a839/), or scan the QR code below.
 
-{{< figure src=“fig1.png” caption=“” numbered=“false” >}}
+{{< figure src="fig1.png" caption="" numbered="false" >}}
 
 For the full story and video, see [NJU News](https://www.nju.edu.cn/info/1056/351271.htm).
