@@ -68,3 +68,5 @@ user_groups:
 --- 
 
 I'm interested in astronomical reference frames and calculating the temporal variations of extragalactic source positions. I enjoy programming and hope to further research in these fields in the future.
+
+我对天文参考系和河外源位置的时间变化特性很感兴趣。我喜欢编程，希望将来能在这些领域进一步开展研究。
