@@ -8,13 +8,13 @@ last_name: Nurul Huda
 
 # Username (this should match the folder name)
 authors:
-  - ibnu-nural-huda
+  - inhuda
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: 博士后研究员
+role: 博士后
 
 # Organizations/Affiliations
 organizations:
@@ -33,7 +33,7 @@ education:
       institution: 巴黎天文台
       year: 2019
     - course: 应用物理学硕士学位
-      institution: 巴黎第六大學
+      institution: 巴黎第六大学
       year: 2016
     - course: 天文学学士学位
       institution: 万隆理工学院
