@@ -32,9 +32,12 @@ interests:
 
 education:
   courses:
-    - course: 学士学位
+    - course: 天文学博士学位
       institution: 南京大学
-      year: 2023
+      year: 2020
+    - course: 天文学学士学位
+      institution: 南京大学
+      year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -65,7 +68,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 研究生
+  - 教师
 --- 
 
-我对天文参考系和天体测量 VLBI 感兴趣。作为我们小组的新生，我也愿意探索天体测量学和天体物理学的不同领域。
