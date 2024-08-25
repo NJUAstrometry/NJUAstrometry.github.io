@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Ibnu Nurul Huda 
+title: Ibnu Nurul Huda
 
 # Full Name (for SEO)
-first_name: Ibnu 
+first_name: Ibnu
 last_name: Nurul Huda
 
 # Username (this should match the folder name)
@@ -14,33 +14,29 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoctoral Researcher
+role: 博士后
 
 # Organizations/Affiliations
 organizations:
-  - name: Nanjing University
+  - name: 南京大学
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am interested in several topics notably Earth rotation, VLBI data analysis, Reference System, Earth tides, and Celestial Mechanics.
+bio: 
 
 interests:
-  - VLBI
-  - Geodynamics
-  - Earth Orientation Parameters
-  - Reference System
-  - Celestial Mechanics
+
 
 education:
   courses:
-    - course: PhD in Astronomy
-      institution: SYRTE / Observatoire de Paris
+    - course: 天文学博士
+      institution: 巴黎天文台
       year: 2019
-    - course: MS in Applied Physics
-      institution: Pierre and Marie Curie University
+    - course: 应用物理学硕士学位
+      institution: 巴黎第六大学
       year: 2016
-    - course: BSc in Astronomy
-      institution: Bandung Institute of Technology
+    - course: 天文学学士学位
+      institution: 万隆理工学院
       year: 2014
 
 # Social/Academic Networking
@@ -50,7 +46,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:ibnu.nurul.huda@nju.edu.cn'
+    link: 'ibnu.nurul.huda@nju.edu.cn'
   # - icon: google-scholar
   #   icon_pack: ai
   #   link: 
@@ -72,7 +68,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - 教师
 ---
 
-My main research interest includes VLBI data processing, Geodynamics, Earth rotation, and celestial mechanics.

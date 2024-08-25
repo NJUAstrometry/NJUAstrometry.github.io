@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Nan Jiang 
+title: 姜男
 
 # Full Name (for SEO)
-first_name: Nan
-last_name: Jiang
+first_name: 男
+last_name: 姜
 
 # Username (this should match the folder name)
 authors:
@@ -13,52 +13,20 @@ authors:
 # Is this the primary user of the site?
 superuser: false
 
-# Role/position
-role: 
-
-# Organizations/Affiliations
-organizations:
-  - name: 
-    url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 interests:
 
-work experience:
-  courses:
-  - course: 
-    institution: 
-
 education:
   courses:
-    - course: Master in Astronomy
-      institution: Nanjing University
+    - course: 天文学硕士学位
+      institution: 南京大学
       year: 2022
-    - course: BSc in Astronomy
-      institution: Nanjing University
+    - course: 天文学学士学位
+      institution: 南京大学
       year: 2019
-
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
-#social:
-#  - icon: envelope
-#    icon_pack: fas
-#    link: 'mailto:yu-ting.cheng@obspm.fr'
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: 
-  # - icon: github
-  #   icon_pack: fab
-  #   link: 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-#  - icon: cv
-#    icon_pack: ai
-#    link: files/cv-YutingCheng.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -69,6 +37,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Alumni
+  - 毕业生
 ---
 

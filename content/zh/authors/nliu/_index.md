@@ -11,7 +11,7 @@ authors:
   - nliu
 
 # Is this the primary user of the site?
-superuser: false
+superuser: true
 
 # Role/position
 role: 准聘助理教授
@@ -25,10 +25,10 @@ organizations:
 bio: 
 
 interests:
-  - 天球参考架
-  - 天体测量星表
-  - 河外源
+  - 天文参考系理论和方法
   - VLBI天体测量
+  - 空间天体测量
+  - 脉冲星天体测量
 
 education:
   courses:
@@ -46,18 +46,18 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:502023260011@smail.nju.edu.cn'
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: 
-  # - icon: github
-  #   icon_pack: fab
-  #   link: 
+    link: 'mailto:niu.liu@nju.edu.cn'
+  - icon: arxiv
+    icon_pack: ai
+    link: https://ui.adsabs.harvard.edu/user/libraries/EWTz-0tVSn6LqIz7ZgLMgg
+  - icon: orcid
+    icon_pack: fab
+    link: https://orcid.org/my-orcid?orcid=0000-0003-2778-002X
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: files/cv.pdf
+  - icon: cv
+    icon_pack: ai
+    link: files/cv-niuliu-zh.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -69,5 +69,6 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - 教师
---- 
+---
 
+主要研究兴趣包括天文参考系理论、VLBI和Gaia天球参考架的特性分析、河外源的多波段位置关系等。

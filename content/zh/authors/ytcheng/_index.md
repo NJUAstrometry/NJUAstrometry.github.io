@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Yuting Cheng 
+title: 程雨婷
 
 # Full Name (for SEO)
-first_name: Yuting 
-last_name: Cheng
+first_name: 雨婷
+last_name: 程
 
 # Username (this should match the folder name)
 authors:
@@ -14,31 +14,28 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Student
+role: 博士研究生
 
 # Organizations/Affiliations
 organizations:
-  - name: SYRTE / Observatoire de Paris
+  - name: 巴黎天文台
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include space geodesy, Earth rotation variations, GNSS data processing and polar motion modeling.
+bio: 
 
 interests:
-  - Space geodesy
-  - GNSS
-  - Earth Orientation Parameters
-  - Geodynamics
+
 
 education:
   courses:
-    - course: PhD candidate in Astronomy
-      institution: SYRTE / Observatoire de Paris
-    - course: MS in Astrometry and Celestial Mechanics
-      institution: Nanjing University
+    - course: 天文学博士研究生
+      institution: 巴黎天文台
+    - course: 天体测量与天体力学硕士学位
+      institution: 南京大学
       year: 2020
-    - course: BSc in Astronomy
-      institution: Nanjing University
+    - course: 天文学学士学位
+      institution: 南京大学
       year: 2017
 
 # Social/Academic Networking
@@ -48,7 +45,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:yu-ting.cheng@obspm.fr'
+    link: 'yu-ting.cheng@obspm.fr'
   # - icon: google-scholar
   #   icon_pack: ai
   #   link: 
@@ -70,7 +67,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Alumni
+  - 毕业生
 ---
 
-My main research interest includes GNSS modeling and data processing, space geodesy, Earth rotation variation estimation and modeling.

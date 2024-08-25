@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Cheng-Yu Ding 
+title: 丁成宇
 
 # Full Name (for SEO)
-first_name: Cheng-Yu
-last_name: Ding
+first_name: 成宇
+last_name: 丁
 
 # Username (this should match the folder name)
 authors:
@@ -22,17 +22,17 @@ organizations:
 bio: 
 
 interests:
-  - Space astrometry
-  - Galactic kinematics
-  - Parallax
+  - VLBI天体测量
+  - 银河系运动学
+  - 视差
 
 education:
   courses:
-    - course: PhD in Astronomy
-      institution: Nanjing University
+    - course: 天文学博士学位
+      institution: 南京大学
       year: 2020
-    - course: BSc in Astronomy
-      institution: Nanjing University
+    - course: 天文学学士学位
+      institution: 南京大学
       year: 2015
 
 # Social/Academic Networking
@@ -64,6 +64,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Alumni
+  - 毕业生
 ---
+
 
