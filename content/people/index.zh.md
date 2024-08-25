@@ -14,7 +14,7 @@ sections:
           - 学术带头人
           - 教师
           - 研究生
-          # - 行政人员
+          - 行政人员
           - 访问学者
           - 毕业生
       sort_by: Params.last_name
