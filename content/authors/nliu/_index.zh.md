@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 王圳伟
+title: 刘牛
 
 # Full Name (for SEO)
 first_name: 圳伟
@@ -8,7 +8,7 @@ last_name: 王
 
 # Username (this should match the folder name)
 authors:
-  - zwwang
+  - nliu
 
 # Is this the primary user of the site?
 superuser: false
