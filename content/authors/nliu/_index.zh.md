@@ -3,8 +3,8 @@
 title: 刘牛
 
 # Full Name (for SEO)
-first_name: 圳伟
-last_name: 王
+first_name: 牛
+last_name: 刘
 
 # Username (this should match the folder name)
 authors:
@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: 硕士研究生
+role: 准聘助理教授
 
 # Organizations/Affiliations
 organizations:
