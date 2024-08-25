@@ -1,48 +1,44 @@
 ---
 # Display name
-title: Ping-Jie Ding 
+title: Nan Jiang 
 
 # Full Name (for SEO)
-first_name: Ping-Jie
-last_name: Ding
+first_name: Nan
+last_name: Jiang
 
 # Username (this should match the folder name)
 authors:
-  - pjding
+  - njiang
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Post-Doctoral
+role: 
 
 # Organizations/Affiliations
 organizations:
-  - name: Purple Mountain Observatory, CAS
+  - name: 
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include data analysis, stellar kinematics, Galactic structure and Galactic dynamics.
+bio: 
 
 interests:
-  - data analysis
-  - stellar kinematics
-  - Galactic structure
-  - Galactic kinematics and dynamics
 
 work experience:
   courses:
-  - course: LAMOST Fellow
-    institution: NAOC
+  - course: 
+    institution: 
 
 education:
   courses:
-    - course: PhD in Astronomy
+    - course: Master in Astronomy
       institution: Nanjing University
-      year: 2018
+      year: 2022
     - course: BSc in Astronomy
       institution: Nanjing University
-      year: 2013
+      year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
