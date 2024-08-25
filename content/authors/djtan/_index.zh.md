@@ -13,7 +13,6 @@ authors:
 # Is this the primary user of the site?
 superuser: false
 
-
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
