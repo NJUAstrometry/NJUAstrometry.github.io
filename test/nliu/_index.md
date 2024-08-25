@@ -68,7 +68,6 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Researchers
-  # - Alumni
 ---
 
 My main research interest focuses on the astronomical reference system theory, including the overall property of the VLBI and Gaia celestial reference frame, position-frequency relation of extragalactic sources.

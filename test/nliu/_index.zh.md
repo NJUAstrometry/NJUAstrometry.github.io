@@ -1,20 +1,20 @@
 ---
 # Display name
-title: 王圳伟
+title: 刘牛
 
 # Full Name (for SEO)
-first_name: 圳伟
-last_name: 王
+first_name: Niu
+last_name: Liu
 
 # Username (this should match the folder name)
 authors:
-  - zwwang
+  - nliu
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: 硕士研究生
+role: 准聘助理教授
 
 # Organizations/Affiliations
 organizations:
@@ -22,19 +22,22 @@ organizations:
     url: 'https://www.nju.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include VLBI astrometry and space astrometry.
+bio: 研究领域包含空间天体测量和VLBI天体测量
 
 interests:
-  - 参考架
-  - 天体测量星表
-  - 河外源
+  - 天文参考系理论和方法
   - VLBI天体测量
+  - 空间天体测量
+  - 脉冲星天体测量
 
 education:
   courses:
-    - course: 学士学位
+    - course: 天文学博士学位
       institution: 南京大学
-      year: 2023
+      year: 2020
+    - course: 天文学学士学位
+      institution: 南京大学
+      year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -43,18 +46,18 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:502023260011@smail.nju.edu.cn'
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: 
-  # - icon: github
-  #   icon_pack: fab
-  #   link: 
+    link: 'mailto:niu.liu@nju.edu.cn'
+  - icon: arxiv
+    icon_pack: ai
+    link: https://ui.adsabs.harvard.edu/user/libraries/EWTz-0tVSn6LqIz7ZgLMgg
+  - icon: orcid
+    icon_pack: fab
+    link: https://orcid.org/my-orcid?orcid=0000-0003-2778-002X
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: files/cv.pdf
+  - icon: cv
+    icon_pack: ai
+    link: files/cv-niuliu-zh.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -65,7 +68,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 研究生
---- 
+  - 教师
+---
 
-I'm interested in astronomical reference frames and astrometric VLBI. As a new student in our group, I'm also willing to explore different fields in astrometry and astrophysics.
+主要研究兴趣包括天文参考系理论、VLBI和Gaia天球参考架的特性分析、河外源的多波段位置关系等。
