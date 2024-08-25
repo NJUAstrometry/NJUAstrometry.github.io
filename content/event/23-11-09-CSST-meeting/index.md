@@ -1,19 +1,18 @@
 ---
-title: 中国空间站工程巡天工程望远镜CSST天体测量科学课题推进讨论会
+title: China Space Station Telescope (CSST) Astrometry Scientific Project Promotion Seminar
 
-event: 中国空间站工程巡天工程望远镜CSST天体测量科学课题推进讨论会
+event: China Space Station Telescope (CSST) Astrometry Scientific Project Promotion Seminar
 event_url: 
 
-location: 南大国际会议中心
-# location: Nanjing University International Conference Center
-# address:
-#   street: 163 Xianlin Street
-#   city: Nanjing
-#   region: Jiangsu
-#   postcode: '210023'
-#   country: China 
+location: Nanjing University International Conference Center
+address:
+  street: 163 Xianlin Street
+  city: Nanjing
+  region: Jiangsu
+  postcode: '210023'
+  country: China 
 
-summary: CSST天体测量科学课题推进讨论会顺利召开
+summary: The CSST Astrometry Science Project Promotion Symposium was successfully held.
 abstract: ''
 
 # Talk start and end times.
@@ -32,7 +31,7 @@ tags: []
 featured: false
 
 image:
-  caption: '图片:余周毅'
+  caption: 'Image credit: Zhou-Yi Yu'
   focal_point: Right
 
 url_code: ''
@@ -63,4 +62,9 @@ projects:
 
 Further event details, including page elements such as image galleries, can be added to the body of this page. -->
 
-中国空间站工程巡天望远镜（China Space Station  Telescope，简称“CSST”），是中国空间站工程最重要的空间科学设施，是我国迄今为止规模最大、指标最先进的空间天文望远镜，也将是未来十年世界上最重要的空间天文观测仪器之一。为推进CSST天体测量科学课题的全面开展，召开“中国空间站工程巡天望远镜CSST天体测量科学课题推进研讨会”。会议内容主要包括：已结题的二类课题成果和最新进展；一类课题研究进展、课题成果；各课题对未来仿真数据要求等。
+China Space Station Telescope (CSST) is the most important space science facility for China's space station project, the largest and most advanced space astronomical telescope in China so far, and will also be one of the most important space astronomical observation instruments in the world in the next decade. 
+In order to promote the comprehensive development of CSST astrometry science projects, the "China Space Station Telescope (CSST) Astrometry Scientific Project Promotion Seminar" was held. 
+The content of the meeting mainly includes: 
+- the results and latest progress of the completed second-class projects; 
+- Research progress and results of a class of topics; 
+- and the requirements of each topic for future simulation data.
