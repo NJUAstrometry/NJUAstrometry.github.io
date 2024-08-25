@@ -68,4 +68,4 @@ user_groups:
   - 研究生
 ---
 
-My main research interest focuses on the alignment of astronomical reference frames, including the VLBI and Gaia celestial reference frame, as well as the ephemerides.
+我的主要研究兴趣集中在天文参考系上，包括 VLBI 和盖亚天球参考架，以及行星历表参考架。
