@@ -32,10 +32,10 @@ publication_types: ["article-journal"]
 publication: "*Astronomy and Astrophysics* 665, A121 (2022)"
 publication_short: "*A&A* 665, A121 (2022)"
 
-abstract: ""
+abstract: "We estimated the effect of Galactic aberration on Earth orientation parameters based on geodetic/astrometric very long baseline interferometry data."
 
 # Summary. An optional shortened abstract.
-summary: "We estimated the effect of Galactic aberration on Earth orientation parameters based on geodetic/astrometric very long baseline interferometry data."
+summary: ""
 
 tags:
 - "astrometry" 
