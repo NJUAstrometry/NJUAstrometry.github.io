@@ -25,7 +25,7 @@ organizations:
 bio: My research interests include VLBI astrometry and space astrometry.
 
 interests:
-  - 参考架
+  - 天球参考架
   - 天体测量星表
   - 河外源
   - VLBI天体测量
