@@ -68,4 +68,4 @@ user_groups:
   - 研究生
 --- 
 
-I'm interested in astronomical reference frames and astrometric VLBI. As a new student in our group, I'm also willing to explore different fields in astrometry and astrophysics.
+我对天文参考系和天体测量 VLBI 感兴趣。作为我们小组的新生，我也愿意探索天体测量学和天体物理学的不同领域。
