@@ -22,7 +22,7 @@ organizations:
     url: 'https://www.nju.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include theoretical Mechanics, space astrometry, and astronomical reference systems.
+bio: 
 
 interests:
   - Theoretical Mechanics
