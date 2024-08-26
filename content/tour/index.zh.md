@@ -28,7 +28,7 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: 全国高校中唯一的天体测量与天体力学重点学科
+      - title: 全国高校中唯一天体测量与天体力学重点学科
         content: ''
         align: right
         background:
