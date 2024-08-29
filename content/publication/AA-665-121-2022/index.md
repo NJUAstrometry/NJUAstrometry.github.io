@@ -6,7 +6,7 @@ authors:
 - Niu Liu
 - Zinovy Malkin
 - Zi Zhu
-- Ibnu Nural Huda
+- Ibnu Nurul Huda
 - Sebastien Lambert
 
 author_notes:
