@@ -1,11 +1,11 @@
 ---
 title: "Effect of Galactic aberration on Earth orientation parameters: From the ICRF2 to the ICRF3"
 authors:
-- 姚俊
-- 刘佳成
-- 刘牛
+- 姚 俊
+- 刘 佳成
+- 刘 牛
 - Zinovy Malkin
-- 朱紫
+- 朱 紫
 - Ibnu Nurul Huda
 - Sebastien Lambert
 
