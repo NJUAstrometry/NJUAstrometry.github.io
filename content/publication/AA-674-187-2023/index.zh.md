@@ -1,11 +1,11 @@
 ---
 title: "Systematics of planetary ephemeris reference frames inferred from pulsar timing astrometry"
 authors:
-- Niu Liu
-- Zi Zhu
+- 刘牛
+- 朱紫
 - John Antoniadis
-- Jia-Cheng Liu
-- Hong Zhang
+- 刘佳成
+- 张鸿
 author_notes:
 - 
 - "corresponding author"
