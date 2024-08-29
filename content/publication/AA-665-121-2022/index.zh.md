@@ -6,7 +6,7 @@ authors:
 - 刘牛
 - Zinovy Malkin
 - 朱紫
-- Ibnu Nural Huda
+- Ibnu Nurul Huda
 - Sebastien Lambert
 
 author_notes:
