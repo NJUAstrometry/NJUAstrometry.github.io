@@ -6,8 +6,8 @@ title: "Evaluate the ICRF3 Axes' Stability via Extragalactic Source Position Tim
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Niu Liu
-  - Lambert, Sébastien
-  - Arias Felicitas
+  - Sébastien Lambert
+  - Felicitas Arias
   - Jia-Cheng Liu
   - Zi Zhu
 

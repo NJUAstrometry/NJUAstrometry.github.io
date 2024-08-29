@@ -7,7 +7,7 @@ authors:
 - Zinovy Malkin
 - Zi Zhu
 - Ibnu Nurul Huda
-- Sebastien Lambert
+- Sébastien Lambert
 
 author_notes:
 - 
