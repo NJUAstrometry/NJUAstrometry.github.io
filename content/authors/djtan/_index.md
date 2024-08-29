@@ -36,8 +36,8 @@ education:
     - course: Master in Astronomy
       institution: Nanjing University
       year: 2022
-    - course: BSc in Astronomy
-      institution: Nanjing University
+    - course: BSc in Physics
+      institution: Sichuan University
       year: 2019
 
 # Social/Academic Networking
