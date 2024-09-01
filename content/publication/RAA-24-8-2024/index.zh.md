@@ -1,11 +1,11 @@
 ---
 title: "The Astrometric Performance of the China Space Station Telescope (CSST) Sky Survey in Extending the Gaia Celestial Reference Frame"
 authors:
-- 姚俊
-- 刘佳成
-- 刘牛
-- 朱紫
-- 王圳伟
+- Jun Yao
+- Jia-Cheng Liu
+- Niu Liu
+- Zi Zhu
+- Zhen-Wei Wang
 
 author_notes:
 - 
@@ -66,7 +66,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects: 
+  - 2020-nsfc-key-funding
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

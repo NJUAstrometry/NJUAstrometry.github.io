@@ -37,7 +37,7 @@ tags:
 - "ephemerides" 
 - "reference systems" 
 - "pulsars: general"
-featured: false
+featured: true
 
 # links:
 # - name: ""
