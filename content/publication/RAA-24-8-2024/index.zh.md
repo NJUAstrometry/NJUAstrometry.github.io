@@ -27,7 +27,7 @@ publishDate: "2024-07-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*《天文和天体物理学研究》*2024年第24卷第8篇"
+publication: "*《天文和天体物理学研究》* 2024年第24卷第8篇"
 publication_short: "*RAA* 24, 8 (2024)"
 
 abstract: 
