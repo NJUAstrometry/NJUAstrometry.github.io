@@ -5,7 +5,7 @@ authors:
 - Jia-Cheng Liu
 - Niu Liu
 - Zi Zhu
-- Zhen-wei Wang
+- Zhen-Wei Wang
 
 
 author_notes:
