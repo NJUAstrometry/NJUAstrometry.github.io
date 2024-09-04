@@ -30,7 +30,7 @@ publishDate: "2022-09-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*《天文与天体物理》* 2022年第665卷第A121页"
+publication: "*《天文与天体物理》* 2022年第665卷，编号A121"
 publication_short: "*A&A* 665, A121 (2022)"
 
 abstract: 
