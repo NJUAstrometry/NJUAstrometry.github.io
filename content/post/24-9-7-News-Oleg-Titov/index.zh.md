@@ -1,6 +1,6 @@
 ---
-title: Oleg Titov与将访问天文与空间科学学院
-date: 2024-09-5T13:45:56+08:00
+title: Oleg Titov将访问天文与空间科学学院
+date: 2024-09-05T13:45:56+08:00
 profile: false
 share: false
 ---
