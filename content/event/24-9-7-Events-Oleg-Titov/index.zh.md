@@ -58,8 +58,6 @@ Further event details, including page elements such as image galleries, can be a
 
 2024年9月6日上午，我校天文与空间科学学院迎来了甚长基线干涉测量（VLBI）学者Oleg Titov与舒逢春研究员的访问。Titov自2001年起一直在澳大利亚堪培拉的Geoscience Australia担任VLBI科学家，拥有丰富的VLBI数据处理经验。访问期间，Titov教授发表了一场题为“Future Improvements of the International Celestial Reference Frame" (国际天体参考架的未来发展)的学术讲座，分享了他如何利用VLBI数据处理技术来提高下一代国际天体参考架的精度。讲座结束后，Titov教授和他的学生，Angelina Osetrova，与我们的团队就VLBI技术在天文学领域的应用进行了深入的学术交流 。
 
-# {{< figure src="fig1.jpg" caption="" numbered="false" >}}
-
 在报告后，Titov教授与天体测量组一同游览了南京的著名景点玄武湖、明城墙及南京长江大桥。
 
 {{< figure src="heyin.jpg" caption="" numbered="false" >}}
