@@ -1,7 +1,7 @@
 ---
-title: VLBI Scientist Oleg Titov Visits Our School of Astronomy and Space Science, Nanjing University
+title: VLBI Scientist Oleg Titov Visits Our Group
 
-event: VLBI Scientist Oleg Titov Visits Our School of Astronomy and Space Science, Nanjing University
+event: VLBI Scientist Oleg Titov Visits Our Group
 event_url: 
 
 location: 
