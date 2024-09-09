@@ -6,7 +6,7 @@ event_url:
 
 location: 
 
-summary: 
+summary: We are deeply grateful for their visit.
 abstract: ''
 
 # Talk start and end times.
