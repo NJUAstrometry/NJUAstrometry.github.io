@@ -6,7 +6,7 @@ event_url:
 
 location: 
 
-summary: 
+summary: 并与课题组成员进行学术交流。
 abstract: ''
 
 # Talk start and end times.
