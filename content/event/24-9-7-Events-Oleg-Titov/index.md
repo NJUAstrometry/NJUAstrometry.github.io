@@ -16,7 +16,7 @@ date: '2024-09-06T08:00:00Z'
 all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2024-09-7T00:00:00Z'
+publishDate: '2024-09-07T00:00:00Z'
 
 authors: []
 tags: []
@@ -56,7 +56,7 @@ projects:
 
 Further event details, including page elements such as image galleries, can be added to the body of this page. -->
 
-On the morning of September 6, 2024, our university's School of Astronomy and Space Science was honored by a visit from the internationally recognized Very Long Baseline Interferometry (VLBI) expert, Oleg Titov. Titov has been serving as a VLBI scientist at Geoscience Australia in Canberra, Australia, since 2001. He has extensive experience in VLBI data processing, and is highly respected in his field. During his visit, Titov delivered an engaging academic lecture titled "Future Improvements of the International Celestial Reference Frame," sharing insights on how he utilizes VLBI data processing techniques to enhance the precision of the next generation of the International Celestial Reference Frame. Following the lecture, Dr. Titov and his student, Angelina, engaged in in-depth academic discussions with our team on the applications of VLBI technology in the field of astronomy.
+On the morning of September 6, 2024, our university's School of Astronomy and Space Science was honored by a visit from the internationally recognized Very Long Baseline Interferometry (VLBI) expert, Oleg Titov. Titov has been serving as a VLBI scientist at Geoscience Australia in Canberra, Australia, since 2001. He has extensive experience in VLBI data processing, and is highly respected in his field. During his visit, Titov delivered an engaging academic lecture titled "Future Improvements of the International Celestial Reference Frame," sharing insights on how he utilizes VLBI data processing techniques to enhance the precision of the next generation of the International Celestial Reference Frame. Following the lecture, Dr. Titov and his student, Angelina Osetrova, engaged in in-depth academic discussions with our team on the applications of VLBI technology in the field of astronomy.
 
 # {{< figure src="fig1.jpg" caption="" numbered="false" >}}
 
