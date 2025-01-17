@@ -1,5 +1,5 @@
 ---
-title: "The Astrometric Performance of the China Space Station Telescope (CSST) Sky Survey in Extending the Gaia Celestial Reference Frame"
+title: "中国空间站工程巡天望远镜（CSST）的天体测量精度估计"
 authors:
 - Jun Yao
 - Jia-Cheng Liu
@@ -87,8 +87,6 @@ Click the *Cite* button above to demo the feature to enable visitors to import p
 {{% callout note %}}
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}} -->
-
-# 中国空间站工程巡天望远镜（CSST）的天体测量精度估计
 
 中国空间站工程巡天望远镜（China Space Station Telescope, CSST）是中国载人航天的旗舰级项目，搭载包括多色成像和无缝光谱巡天模块、多通道成像仪、积分视场光谱仪、系外行星成像星冕仪以及高灵敏度太赫兹模块在内的多个观测设备。CSST的科学目标广泛，其观测能为宇宙学、星系科学、系外行星、天体测量等多个领域的前沿科学研究提供帮助。在天体测量领域上，CSST以其极高的观测精度和极暗的观测星等（g波段星等为25时精度约为10 mas）展现了在建立和维持天球参考架方面巨大潜力。由于CSST观测方式的限制，我们无法单独地使用其观测数据来建立类似国际天球参考架（ICRF）这样的参考架。因此CSST数据更适合作为现有参考架的延伸，尤其是对与其观测波段相近的Gaia天球参考架（Gaia-CRF3）的暗端延伸。Gaia-CRF3是基于Gaia卫星第三期数据（Gaia DR3）建立的河外参考架，包含了大约160万颗河外源的位置和自行[[1](#Gaia_CRF3)]。在2021年国际天文联合会（IAU）决议中，Gaia-CRF3被采纳为国际天球参考系（ICRS）在光学波段的实现，其中ICRS是天文学中目前最常用的研究天体的位置和运动的参考系统。此工作通过比较模拟得到的CSST河外源天测数据和Gaia-CRF3的观测数据数据，估计了CSST的天体测量的观测精度，以及以CSST数据建立CSST参考架（CSST-CRF）并作为Gaia-CRF3的延伸的可行性。以下为方便起见，将CSST模拟的河外源星表简称为CSST-CRF。
 
