@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: 联系我们
 date: 2022-10-24
 
 type: landing
@@ -7,25 +7,25 @@ type: landing
 sections:
   - block: contact
     content:
-      title: Contact
+      title: 联系我们
       text: |-
-        If you are intersted in our studies and would like to join us or develop a collaboration with us, please feel free to contact us.
+        如果您对我们的工作感兴趣，想找我们课题组合作或者加入我们课题组，欢迎随时联系我们。
       email: 
       phone: (025) 8968 6051
-      address:
-        street: 163 Xianlin Road
-        city: Nanjing
-        region: Jiangsu
-        postcode: '210023'
-        country: China
-        country_code: CN
+      # address: 江苏省南京市仙林大道163号，210023
+      #   street: 
+      #   city: 
+      #   region: 
+      #   postcode: '210023'
+      #   country: 中国
+      #   country_code: CN
       coordinates:
         longitude: '118.955022'
         latitude: '32.127510'
-      directions: Enter the Astronomy Building and take the stairs to Office 317 on Floor 3
+      directions: 江苏省南京市仙林大道163号天文楼317办公室，210023
       office_hours:
-        - 'Monday 09:00 to 12:00'
-        - 'Wednesday 08:00 to 12:00'
+        - '周一上午 09:00 至 12:00'
+        - '周三上午 08:00 to 12:00'
       # appointment_url: 'https://calendly.com'
       # contact_links:
       #  - icon: comments
