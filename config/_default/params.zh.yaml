@@ -10,12 +10,6 @@ appearance:
   theme_night: minimal
   font: native
   font_size: L
-# color:
-#   # Purple
-#   primary: "#3f51b5"
-#   link: "#3f51b5"
-#   link_hover: "#303f9f"
-#   background: "#ffffff"
 
 # SEO
 
@@ -70,7 +64,7 @@ locale:
 
 features:
   syntax_highlighter:
-    enable: true
+    enable: false
     extra_languages:
       - r
       - latex
