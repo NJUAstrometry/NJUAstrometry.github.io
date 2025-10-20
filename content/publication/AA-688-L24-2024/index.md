@@ -48,17 +48,13 @@ projects:
 slides: ""
 ---
 
-The **secular aberration drift** is a systematic apparent motion in celestial reference frames caused by the non-uniform movement of the Solar System barycenter (SSB) within the Galaxy.  
-While its component arising from **Galactocentric acceleration** has been incorporated in the construction of the third International Celestial Reference Frame (ICRF3), this study reveals an **additional drift term** produced by the change in the **line-of-sight direction** for stars with significant proper motion:contentReference[oaicite:0]{index=0}.
+The **secular aberration drift** is a systematic apparent motion in celestial reference frames caused by the non-uniform movement of the Solar System barycenter (SSB) within the Galaxy. While its component arising from **Galactocentric acceleration** has been incorporated in the construction of the third International Celestial Reference Frame (ICRF3), this study reveals an **additional drift term** produced by the change in the **line-of-sight direction** for stars with significant proper motion:contentReference[oaicite:0]{index=0}.
 
-Using **Gaia Data Release 3 (DR3)**, Liu *et al.* (2024) derived a complete analytical formula for the effect and computed its influence across more than 1.4 billion stars.  
-The new term introduces systematic corrections to observed proper motions:
+Using **Gaia Data Release 3 (DR3)**, Liu *et al.* (2024) derived a complete analytical formula for the effect and computed its influence across more than 1.4 billion stars. The new term introduces systematic corrections to observed proper motions:
 - decreases them for stars with Galactic longitudes between 0° and 180°,  
 - increases them for stars between 180° and 360°.
 
-For 84 high-proper-motion stars (e.g., **Barnard’s star**, **61 Cyg A/B**), the bias exceeds **1 mas yr⁻¹**;  
-for nearly **6 million stars**, it exceeds **0.02 mas yr⁻¹**, the order of Gaia’s formal uncertainty at G < 13.  
-Future Gaia releases—expected to improve precision by a factor ≥ 0.35—will make this correction even more essential.
+For 84 high-proper-motion stars (e.g., **Barnard’s star**, **61 Cyg A/B**), the bias exceeds **1 mas yr⁻¹**; for nearly **6 million stars**, it exceeds **0.02 mas yr⁻¹**, the order of Gaia’s formal uncertainty at G < 13. Future Gaia releases—expected to improve precision by a factor ≥ 0.35—will make this correction even more essential.
 
 This additional secular aberration term should therefore be modeled jointly with the classical acceleration-induced component to maintain **consistency between the stellar and extragalactic reference frames**, reinforcing the conceptual foundation of the **International Celestial Reference System (ICRS)**.
 
