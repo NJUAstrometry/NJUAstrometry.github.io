@@ -25,3 +25,8 @@ main:
   - name: Contact
     url: contact
     weight: 70
+
+  # Optional:
+  # - name: Data & Tools
+  #   url: resources
+  #   weight: 28

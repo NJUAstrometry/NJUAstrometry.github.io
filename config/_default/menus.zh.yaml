@@ -25,3 +25,7 @@ main:
   - name: 联系我们
     url: contact
     weight: 70
+  # 可选：
+  # - name: 数据与工具
+  #   url: resources
+  #   weight: 28
