@@ -64,7 +64,8 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 教师
+  # - 教师
+  - 学术带头人
 ---
 
 目前任职中国天文学会天体测量专业委员会副主任，《天文学报》编委。主要研究方向：天体测量基本理论、天文参考系、地球自转模型、VLBI和空间天体测量数据的应用等,在主要天文SCI期刊发表论文20余篇。

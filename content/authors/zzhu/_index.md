@@ -64,8 +64,8 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  # - Researchers
-  - Principal Investigators
+  - Researchers
+  # - Principal Investigators
 ---
 
 I have engaged in long-term research on astronomical reference frames and Galactic astronomy, leading multiple projects funded by the National Natural Science Foundation of China. My main research areas include astrometric methods, astronomical reference frames, and Galactic astronomy. I have published over 20 SCI papers.
