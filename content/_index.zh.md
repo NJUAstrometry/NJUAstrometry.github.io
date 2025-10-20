@@ -19,9 +19,7 @@ sections:
         <br>
         
         **南京大学天文参考系与高精度天体测量课题组**隶属于南京大学天文与空间科学学院（前身为天文学系），学院成立于1952年，拥有悠久的科研传统。  
-        <br><br>
         本课题组主要从事**天文参考系的建立与维持**、**地球自转与定向研究**、以及**银河系动力学与运动学**等方向的研究，致力于发展高精度天体测量技术，推动射电与光学参考架的精确连接。  
-        <br><br>
         我们通过地基 **VLBI** 和空间 **Gaia** 卫星等手段，探索从天体位置与运动角度理解宇宙的新途径。
   
   - block: collection
@@ -63,18 +61,18 @@ sections:
   #       padding: ['20px', '0', '20px', '0']
   #     css_class: fullscreen
 
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
+  # - block: collection
+    # content:
+    #   title: Latest Preprints
+    #   text: ""
+    #   count: 5
+    #   filters:
+    #     folders:
+    #       - publication
+    #     publication_type: 'article'
+    # design:
+    #   view: citation
+    #   columns: '1'
 
   - block: markdown
     content:
