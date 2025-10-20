@@ -13,7 +13,7 @@ sections:
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: crf.jpg
             filters:
               brightness: 0.7
           position: right
@@ -23,17 +23,17 @@ sections:
         align: left
         background:
           image:
-            filename: contact.jpg
+            filename: welcome.jpg
             filters:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+      - title: National key discipline of Astrometry
+        content: 'The only among universities in China!'
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: badge.jpg
             filters:
               brightness: 0.5
           position: center
