@@ -10,7 +10,6 @@ appearance:
   theme_night:
   font: native
   font_size: L
-color: purple
 
 # SEO
 
@@ -19,8 +18,8 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: ''
-    twitter: ''
+    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
+    twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -46,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Niu Liu. This work is licensed under {license}'
+    notice: '© {year} Me. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -60,7 +59,6 @@ locale:
   time_format: '3:04 PM'
   address_format: en-us
 
-
 # Site features
 
 features:
@@ -70,11 +68,11 @@ features:
       - r
       - latex
   math:
-    enable: true
+    enable: false
   privacy_pack:
-    enable: true
+    enable: false
   repository:
-    url: 'https://github.com/NJUAstrometry/NJUAstrometry.github.io'
+    url: 'https://github.com/<username>/<repository>'
     content_dir: content
     branch: main
   avatar:

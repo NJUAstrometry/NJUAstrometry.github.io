@@ -9,25 +9,25 @@ sections:
     content:
       title: Contact
       text: |-
-        If you are intersted in our studies and would like to join us or develop a collaboration with us, please feel free to contact us.
-      email: 
-      phone: (025) 8968 6051
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
+      email: test@example.org
+      phone: 888 888 88 88
       address:
-        street: 163 Xianlin Road
-        city: Nanjing
-        region: Jiangsu
-        postcode: '210023'
-        country: China
-        country_code: CN
+        street: 450 Serra Mall
+        city: Stanford
+        region: CA
+        postcode: '94305'
+        country: United States
+        country_code: US
       coordinates:
-        longitude: '118.955022'
-        latitude: '32.127510'
-      directions: Enter the Astronomy Building and take the stairs to Office 317 on Floor 3
+        latitude: '37.4275'
+        longitude: '-122.1697'
+      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
-        - 'Monday 09:00 to 12:00'
-        - 'Wednesday 08:00 to 12:00'
-      # appointment_url: 'https://calendly.com'
-      # contact_links:
+        - 'Monday 10:00 to 13:00'
+        - 'Wednesday 09:00 to 10:00'
+      appointment_url: 'https://calendly.com'
+      #contact_links:
       #  - icon: comments
       #    icon_pack: fas
       #    name: Discuss on Forum
@@ -38,10 +38,9 @@ sections:
     
       # Email form provider
       form:
-        # provider: netlify
-        provider: formspree
+        provider: netlify
         formspree:
-          id: xrgnerak
+          id:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
           captcha: false
@@ -57,7 +56,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: observatory.png
+          filename: contact.jpg
           filters:
             brightness: 1
           parallax: false
@@ -68,6 +67,3 @@ sections:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
 ---
-
-
-
