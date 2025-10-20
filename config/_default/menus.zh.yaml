@@ -1,8 +1,3 @@
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
-
 main:
   - name: 简介
     url: tour
@@ -18,10 +13,10 @@ main:
     weight: 40
   - name: 科研项目
     url: project
-    weight: 40
+    weight: 50
   - name: 研究成果
     url: publication
-    weight: 50
+    weight: 60
   - name: 联系我们
     url: contact
-    weight: 60
+    weight: 70

@@ -1,25 +1,20 @@
-# SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# 站点设置
 
-# Appearance
-
+# 外观
 appearance:
   theme_day: minimal
-  theme_night:
+  theme_night: dark
   font: native
   font_size: L
 color: purple
 
 # SEO
-
 marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: ''
+    org_name: 南京大学天体测量课题组
+    description: 专注于天文参考系与高精度天体测量研究的课题组网站。
     twitter: ''
   analytics:
     google_analytics: ''
@@ -30,42 +25,37 @@ marketing:
     google: ''
     baidu: ''
 
-# Site header
-
+# 页眉
 header:
   navbar:
     enable: true
     align: r
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: false
 
-# Site footer
-
+# 页脚
 footer:
   copyright:
-    notice: '© {year} 刘牛，遵循 {license}许可'
+    notice: '© {year} 刘牛，遵循 {license} 许可。'
     license:
       enable: true
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
 
-# Localization
-
+# 本地化
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '2006-01-02'
+  time_format: '15:04'
   address_format: zh-Hans
 
-
-# Site features
-
+# 站点功能
 features:
   syntax_highlighter:
-    enable: false
+    enable: true
     extra_languages:
       - r
       - latex
@@ -104,8 +94,7 @@ features:
     api_key: ''
     zoom: 15
 
-# Extensions
-
+# 扩展
 extensions:
   decap_cms:
     branch: main
@@ -113,8 +102,7 @@ extensions:
   academicons:
     enable: true
 
-# Citation style
-
+# 引用样式
 publications:
-  date_format: January 2006
+  date_format: '2006 年 1 月'
   citation_style: apa
