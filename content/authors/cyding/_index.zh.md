@@ -1,34 +1,30 @@
 ---
 # Display name
-title: 刘牛
+title: 丁成宇
 
 # Full Name (for SEO)
-first_name: Niu
-last_name: Liu
+first_name: 成宇
+last_name: 丁
 
 # Username (this should match the folder name)
 # authors:
-#   - nliu
-
-# Is this the primary user of the site?
-superuser: true
+#   - cyding
 
 # Role/position
-role: 准聘助理教授
+role: 
 
 # Organizations/Affiliations
 organizations:
-  - name: 南京大学
-    url: 'https://www.nju.edu.cn/'
+  - name: 
+    url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 interests:
-  - 天文参考系理论和方法
   - VLBI天体测量
-  - 空间天体测量
-  - 脉冲星天体测量
+  - 银河系运动学
+  - 视差
 
 education:
   courses:
@@ -46,16 +42,18 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:niu.liu@nju.edu.cn'
-  - icon: arxiv
-    icon_pack: ai
-    link: https://ui.adsabs.harvard.edu/user/libraries/EWTz-0tVSn6LqIz7ZgLMgg
-  - icon: orcid
-    icon_pack: fab
-    link: https://orcid.org/my-orcid?orcid=0000-0003-2778-002X
-  - icon: cv
-    icon_pack: ai
-    link: files/cv-niuliu-zh.pdf
+    link: 'mailto:scracheld@163.com'
+  # - icon: arxiv
+  #   icon_pack: ai
+  #   link: 
+  # - icon: orcid
+  #   icon_pack: fab
+  #   link: 
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -66,7 +64,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 教师
+  - 毕业生
 ---
 
-主要研究兴趣包括天文参考系理论、VLBI和Gaia天球参考架的特性分析、河外源的多波段位置关系等。
+

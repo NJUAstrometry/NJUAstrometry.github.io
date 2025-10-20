@@ -1,43 +1,43 @@
 ---
 # Display name
-title: 刘牛
+title: Ibnu Nurul Huda
 
 # Full Name (for SEO)
-first_name: Niu
-last_name: Liu
+first_name: Ibnu
+last_name: Nurul Huda
 
 # Username (this should match the folder name)
 # authors:
-#   - nliu
+#   - inhuda
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: 准聘助理教授
+role: 博士后
 
 # Organizations/Affiliations
 organizations:
   - name: 南京大学
-    url: 'https://www.nju.edu.cn/'
+    url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 interests:
-  - 天文参考系理论和方法
-  - VLBI天体测量
-  - 空间天体测量
-  - 脉冲星天体测量
+
 
 education:
   courses:
-    - course: 天文学博士学位
-      institution: 南京大学
-      year: 2020
+    - course: 天文学博士
+      institution: 巴黎天文台
+      year: 2019
+    - course: 应用物理学硕士学位
+      institution: 巴黎第六大学
+      year: 2016
     - course: 天文学学士学位
-      institution: 南京大学
-      year: 2015
+      institution: 万隆理工学院
+      year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -46,16 +46,18 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:niu.liu@nju.edu.cn'
-  - icon: arxiv
-    icon_pack: ai
-    link: https://ui.adsabs.harvard.edu/user/libraries/EWTz-0tVSn6LqIz7ZgLMgg
-  - icon: orcid
-    icon_pack: fab
-    link: https://orcid.org/my-orcid?orcid=0000-0003-2778-002X
+    link: 'ibnu.nurul.huda@nju.edu.cn'
+  # - icon: google-scholar
+  #   icon_pack: ai
+  #   link: 
+  # - icon: github
+  #   icon_pack: fab
+  #   link: 
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: files/cv-niuliu-zh.pdf
+    link: files/cv-IbnuNurulHuda.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -69,4 +71,3 @@ user_groups:
   - 教师
 ---
 
-主要研究兴趣包括天文参考系理论、VLBI和Gaia天球参考架的特性分析、河外源的多波段位置关系等。
