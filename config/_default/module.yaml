@@ -1,8 +1,8 @@
-# HUGO MODULES
 imports:
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
-    # version: "v5.13.0"   # <- optionally pin for reproducible builds
+    # Pin a recent tag for reproducible builds (example tag shown):
+    version: "v5.13.0"
 
 proxy: https://goproxy.cn
