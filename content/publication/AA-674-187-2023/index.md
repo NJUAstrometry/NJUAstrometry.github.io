@@ -46,7 +46,7 @@ url_pdf: 'https://www.aanda.org/articles/aa/pdf/2023/06/aa45808-22.pdf'
 url_code: 'https://git.nju.edu.cn/neo/pulsar-ephem-crf'
 url_dataset: 'https://git.nju.edu.cn/neo/pulsar-ephem-crf'
 url_project: 'https://njuastrometry.github.io/en/project/'
-url_ads: "https://ui.adsabs.harvard.edu/abs/2023A&A...674A.187L""
+url_ads: 'https://ui.adsabs.harvard.edu/abs/2023A&A...674A.187L'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
