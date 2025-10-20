@@ -1,5 +1,5 @@
 ---
-title: Oleg Titov与舒逢春将访问课题组
+title: Oleg Titov与舒逢春教授将访问课题组
 date: 2024-09-05T13:45:56+08:00
 profile: false
 share: false
