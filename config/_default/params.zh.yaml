@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: minimal
-  theme_night:
+  theme_night: minimal
   font: native
   font_size: L
 color: purple
@@ -37,7 +37,7 @@ header:
     enable: true
     align: r
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: false
@@ -46,7 +46,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Niu Liu. This work is licensed under {license}'
+    notice: '© {year} 刘牛，遵循 {license}许可'
     license:
       enable: true
       allow_derivatives: false
@@ -58,17 +58,18 @@ footer:
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
-  address_format: en-us
+  address_format: zh-Hans
 
 
 # Site features
 
 features:
   syntax_highlighter:
-    enable: false
+    enable: true
     extra_languages:
       - r
       - latex
+      - python
   math:
     enable: true
   privacy_pack:
