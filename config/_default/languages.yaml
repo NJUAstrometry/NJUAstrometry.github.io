@@ -1,14 +1,19 @@
 # Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://docs.hugoblox.com/reference/language/
 
+# Default language
 en:
   languageCode: en-us
   languageName: English
-  contentDir: content/en
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  # contentDir: content/en
 
+# Uncomment the lines below to configure your website in a second language.
 zh:
-  languageCode: zh-Hans
-  languageName: 中文
-  contentDir: content/zh
-  title: 南大天体测量课题组
-  params:
-    description: 南京大学天文参考系与高精度天体测量课题组网站。
+ languageCode: zh-Hans
+#  contentDir: content/zh
+ title: 南大天体测量课题组
+ languageName: 中文
+ params:
+   description: 
