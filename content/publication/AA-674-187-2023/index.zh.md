@@ -44,10 +44,6 @@ image:
   focal_point: "center"
   preview_only: false
 
-links:
-  - name: "ADS"
-    url: "https://ui.adsabs.harvard.edu/abs/2023A&A...674A.187L"
-
 projects: 
   - 2020-nsfc-key-funding
 slides: ""
