@@ -10,7 +10,12 @@ appearance:
   theme_night: minimal
   font: native
   font_size: L
-color: purple
+color:
+  # Leave empty to use theme defaults, or set your palette:
+  # primary: "#3f51b5"
+  # link: "#3f51b5"
+  # link_hover: "#303f9f"
+  # background: "#ffffff"
 
 # SEO
 
@@ -18,8 +23,8 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'Nanjing University Astrometry Group'
+    org_name: 'Nanjing University Astrometry Group'
+    description: ''
     twitter: ''
   analytics:
     google_analytics: ''
@@ -30,6 +35,7 @@ marketing:
     google: ''
     baidu: ''
 
+
 # Site header
 
 header:
@@ -37,7 +43,7 @@ header:
     enable: true
     align: r
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: false
@@ -60,18 +66,20 @@ locale:
   time_format: '3:04 PM'
   address_format: en-us
 
+
 # Site features
 
 features:
   syntax_highlighter:
-    enable: false
+    enable: true
     extra_languages:
       - r
       - latex
+      - python
   math:
-    enable: false
+    enable: true
   privacy_pack:
-    enable: false
+    enable: true
   repository:
     url: 'https://github.com/NJUAstrometry/NJUAstrometry.github.io'
     content_dir: content
@@ -92,7 +100,7 @@ features:
       category: ''
       category_id: ''
   search:
-    provider: 
+    provider: wowchemy
     algolia:
       app_id: ''
       api_key: ''
