@@ -10,7 +10,12 @@ appearance:
   theme_night: minimal
   font: native
   font_size: L
-color: 'purple'
+color:
+  # Purple
+  primary: "#3f51b5"
+  link: "#3f51b5"
+  link_hover: "#303f9f"
+  background: "#ffffff"
 
 # SEO
 
