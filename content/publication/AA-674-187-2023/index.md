@@ -30,7 +30,7 @@ publication_short: "*A&A* 674, A187 (2023)"
 abstract: "We have shown that the orientation of current planetary ephemeris frames is as accurate as at least 0.4 mas, and the nonrotation is better than 5 microarcseconds per year."
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "We determined that current planetary ephemeris reference frames are aligned within 0.4 mas and non-rotating to better than 5 μas/yr."
 
 tags:
 - "astrometry" 
@@ -45,18 +45,16 @@ featured: true
 url_pdf: 'https://www.aanda.org/articles/aa/pdf/2023/06/aa45808-22.pdf'
 url_code: 'https://git.nju.edu.cn/neo/pulsar-ephem-crf'
 url_dataset: 'https://git.nju.edu.cn/neo/pulsar-ephem-crf'
-url_poster: ''
 url_project: 'https://njuastrometry.github.io/en/project/'
-url_slides: ''
-url_source: ''
-url_video: ''
+url_ads: "https://ui.adsabs.harvard.edu/abs/2023A&A...674A.187L""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: ''
-  focal_point: ""
+  caption: "Image credit: A&A / NJU Astrometry Group"
+  focal_point: "Center"
   preview_only: false
+
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -73,6 +71,7 @@ projects:
 #   Otherwise, set `slides: ""`.
 # slides: example
 slides: ""
+
 
 # {{% callout note %}}
 # Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
