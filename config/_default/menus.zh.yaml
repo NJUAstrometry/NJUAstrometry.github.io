@@ -15,11 +15,11 @@ main:
     url: people
     weight: 30
 
-  - name: 活动
+  - name: 学术活动
     url: event
     weight: 40
 
-  - name: 研究成果
+  - name: 论文发表
     url: publication
     weight: 50
 
