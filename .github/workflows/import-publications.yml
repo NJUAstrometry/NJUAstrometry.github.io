@@ -1,57 +1,60 @@
-# Hugo Blox GitHub Action to convert Bibtex publications to Markdown-based webpages
-name: Import Publications From Bibtex
+name: Import Publications From BibTeX
 
-# Require permission to create a PR
 permissions:
   contents: write
   pull-requests: write
 
-# Run workflow when a `.bib` file is added or updated in the `data/` folder
 on:
   push:
-    branches: ['main']
-    paths: ['publications.bib']
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches: [ main ]
+    paths:
+      - 'data/publications.bib'   # <- put your .bib here (recommended by Hugo Blox)
   workflow_dispatch:
 
 jobs:
-  hugoblox:
+  import:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout the repo
-        uses: actions/checkout@v3
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v4
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-      - name: Install dependencies
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: 'requirements.txt'
+
+      - name: Install CLI
         run: |
+          echo "academic==0.10.0" > requirements.txt
           python -m pip install --upgrade pip
-          pip install academic==0.10.0
-      - name: Run Academic (Bibtex To Markdown Converter)
-        # Check `.bib` file exists for case when action runs on `.bib` deletion
-        # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
-        if: ${{ hashFiles('publications.bib') != '' }}
-        run: academic import publications.bib content/publication/ --compact
+          pip install -r requirements.txt
+
+      - name: Convert BibTeX → Markdown
+        # Only run if the .bib exists (handles deletes/renames gracefully)
+        if: ${{ hashFiles('data/publications.bib') != '' }}
+        run: |
+          academic import data/publications.bib content/publication/ --compact
+
       - name: Create Pull Request
-        # Set ID for `Check outputs` stage
         id: cpr
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: 'content: import publications from Bibtex'
-          title: Hugo Blox Builder - Import latest publications
+          commit-message: 'content: import publications from BibTeX'
+          title: 'Import latest publications (BibTeX → Markdown)'
           body: |
-            Import the latest publications from `publications.bib` to `content/publication/`.
-            将最新的出版物从`publications.bib`导入到`content/publication/`。
-            [View Documentation](https://github.com/GetRD/academic-file-converter)
+            Import the latest publications from `data/publications.bib` to `content/publication/`.
+            将最新的出版物从 `data/publications.bib` 导入到 `content/publication/`。
+            Docs: https://docs.hugoblox.com/reference/content-types/
           base: main
           labels: automated-pr, content
           branch: hugoblox-import-publications
           delete-branch: true
-      - name: Check outputs
+
+      - name: PR info
         if: ${{ steps.cpr.outputs.pull-request-number }}
         run: |
-          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
-          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
+          echo "PR #${{ steps.cpr.outputs.pull-request-number }}"
+          echo "URL: ${{ steps.cpr.outputs.pull-request-url }}"
