@@ -1,5 +1,5 @@
 ---
-title: "恒星自行中的长期光行差漂移效应——由视线方向变化引起的附加项"
+title: "Secular aberration drift in stellar proper motions — An additional term due to the change in line-of-sight direction"
 authors:
   - Niu Liu
   - Zi Zhu
@@ -39,6 +39,10 @@ url_code: "https://git.nju.edu.cn/astrometry/sad_on_pm"
 url_doi: "https://doi.org/10.1051/0004-6361/202451053"
 url_ads: "https://ui.adsabs.harvard.edu/abs/2024A&A...688L..24L/abstract"
 
+links:
+  - name: ADS
+    url: "https://ui.adsabs.harvard.edu/abs/2024A&A...688L..24L/abstract"
+
 image:
   caption: "由视线方向变化引起的附加长期光行差漂移分布（Liu et al. 2024, *A&A* 688, L24）。"
   focal_point: "center"
@@ -49,7 +53,7 @@ projects:
 slides: ""
 ---
 
-**长期光行差漂移（secular aberration drift）**是由太阳系质心在银河系中的加速度引起的一种系统性视运动，
+**长期光行差漂移** (**secular aberration drift**）是由太阳系质心在银河系中的加速度引起的一种系统性视运动，
 在建立高精度天球参考架（如 ICRF）时必须加以修正。
 
 本文（Liu, Zhu & Liu 2024, *A&A* 688, L24）提出了该效应的一个**新的附加分量**：

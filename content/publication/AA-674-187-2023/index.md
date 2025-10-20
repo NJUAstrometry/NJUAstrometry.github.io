@@ -55,6 +55,10 @@ image:
   focal_point: "Center"
   preview_only: false
 
+links:
+  - name: ADS
+    url: "https://ui.adsabs.harvard.edu/abs/2024A%26A...688L..24L/abstract"
+
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
