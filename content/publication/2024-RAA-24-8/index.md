@@ -28,7 +28,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*Research in Astronomy and Astrophysics*, Volume 24, Number 8 (2024)"
-publication_short: "*RAA*, 24, 8 (2022)"
+publication_short: "*RAA*, 24, 8 (2024)"
 
 abstract: ""
 
