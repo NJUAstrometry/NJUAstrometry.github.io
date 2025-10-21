@@ -35,7 +35,7 @@ url_doi: "https://doi.org/10.1051/0004-6361/202451053"
 url_ads: "https://ui.adsabs.harvard.edu/abs/2024A&A...688L..24L/abstract"
 
 image:
-  caption: "Distribution of the additional proper motion due to secular aberration drift (Liu et al. 2024, *A&A* 688, L24)."
+  caption: "Distribution of the additional proper motion due to secular aberration drift (Liu et al. 2024, *A&A* 688, L24)"
   focal_point: "center"
   preview_only: false
 

@@ -11,7 +11,7 @@ authors:
 
 author_notes:
 - 
-- "corresponding author"
+- "通讯作者"
 - 
 - 
 - 

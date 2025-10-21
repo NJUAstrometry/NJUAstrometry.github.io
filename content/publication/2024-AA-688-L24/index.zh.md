@@ -6,7 +6,7 @@ authors:
   - Jia-Cheng Liu
 author_notes:
   - 
-  - "corresponding author"
+  - "通讯作者"
   - 
 date: "2024-07-26T00:00:00Z"
 publishDate: "2024-10-01T00:00:00Z"
@@ -44,7 +44,7 @@ links:
     url: "https://ui.adsabs.harvard.edu/abs/2024A&A...688L..24L/abstract"
 
 image:
-  caption: "由视线方向变化引起的附加长期光行差漂移分布（Liu et al. 2024, *A&A* 688, L24）。"
+  caption: "由视线方向变化引起的附加长期光行差漂移分布（Liu et al. 2024, *A&A* 688, L24）"
   focal_point: "center"
   preview_only: false
 
