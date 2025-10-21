@@ -27,7 +27,6 @@ tags: ["astrometry", "ephemerides", "reference systems", "Gaia", "asteroids"]
 featured: true
 url_pdf: "https://ui.adsabs.harvard.edu/link_gateway/2025A%26A...701A..15Y/PUB_PDF"
 url_doi: "https://doi.org/10.1051/0004-6361/202452534"
-url_ads: "https://ui.adsabs.harvard.edu/abs/2025A&A...701A..15Y"
 # Optional external links
 # url_project: ""
 # url_dataset: ""
@@ -36,9 +35,9 @@ url_ads: "https://ui.adsabs.harvard.edu/abs/2025A&A...701A..15Y"
 #   caption: "Orientation offsets (~10 mas) from asteroid AL residual fits."
 #   focal_point: "center"
 #   preview_only: false
-# links:
-#   - name: ADS
-#     url: ""
+links:
+  - name: ADS
+    url: "https://ui.adsabs.harvard.edu/abs/2025A&A...701A..15Y"
 # projects: ["nju-ephemerides-alignment"]
 # slides: ""
 ---

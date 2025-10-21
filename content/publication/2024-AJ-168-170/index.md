@@ -40,16 +40,15 @@ featured: true
 
 url_pdf: "https://scixplorer.org/link_gateway/2024AJ....168..170L/PUB_PDF"
 url_doi: "https://doi.org/10.3847/1538-3881/ad6dd5"
-url_ads: "https://scixplorer.org/abs/2024AJ....168..170L/abstract"
 
 # image:
 #   caption: "Residual frame rotation between AllWISE and Gaia DR3 (< 5 mas)."
 #   focal_point: "center"
 #   preview_only: false
 
-# links:
-#   - name: ADS
-#     url: "https://scixplorer.org/abs/2024AJ....168..170L/abstract"
+links:
+  - name: ADS
+    url: "https://scixplorer.org/abs/2024AJ....168..170L/abstract"
 
 # projects: ["infrared-reference-frame"]
 # slides: ""

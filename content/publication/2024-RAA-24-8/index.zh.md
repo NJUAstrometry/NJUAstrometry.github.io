@@ -54,6 +54,10 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
+links:
+  - name: ADS
+    url: "https://ui.adsabs.harvard.edu/abs/2024RAA....24h5011Y"
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
