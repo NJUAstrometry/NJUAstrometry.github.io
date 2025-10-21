@@ -36,10 +36,6 @@ summary: "分析 Gaia-CRF2 中类星体的天体测量质量指标，结果表�
 tags: ["天体测量学", "Gaia", "参考架", "类星体", "数据质量"]
 featured: false
 
-resources:
-  - src: "paper.pdf"
-    name: "paper"
-
 url_pdf: "https://www.aanda.org/articles/aa/pdf/2020/03/aa37416-19.pdf"
 url_doi: "https://doi.org/10.1051/0004-6361/201937416"
 url_ads: "https://ui.adsabs.harvard.edu/abs/2020A&A...635A.113D/abstract"

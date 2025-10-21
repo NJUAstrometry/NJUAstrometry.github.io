@@ -39,10 +39,6 @@ summary: "Quality analysis of Gaia-CRF2 quasar astrometry using visibility perio
 tags: ["astrometry", "Gaia", "reference frame", "quasars", "data quality"]
 featured: false
 
-resources:
-  - src: "paper.pdf"
-    name: "paper"
-
 url_pdf: "https://www.aanda.org/articles/aa/pdf/2020/03/aa37416-19.pdf"
 url_doi: "https://doi.org/10.1051/0004-6361/201937416"
 url_ads: "https://ui.adsabs.harvard.edu/abs/2020A&A...635A.113D/abstract"

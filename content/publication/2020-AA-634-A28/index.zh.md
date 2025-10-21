@@ -33,10 +33,6 @@ summary: "ICRF3 与 Gaia DR2 对比显示：S/X 框架与 Gaia 一致性达 30 �
 tags: ["天体测量学", "VLBI", "ICRF", "Gaia", "参考系"]
 featured: false
 
-resources:
-  - src: "paper.pdf"
-    name: "paper"
-
 url_pdf: "https://www.aanda.org/articles/aa/pdf/2020/02/aa36996-19.pdf"
 url_doi: "https://doi.org/10.1051/0004-6361/201936996"
 url_ads: "https://ui.adsabs.harvard.edu/abs/2020A&A...634A..28L/abstract"
