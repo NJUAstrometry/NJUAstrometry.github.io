@@ -42,14 +42,10 @@ links:
   - name: ADS
     url: "https://ui.adsabs.harvard.edu/abs/2025A&A...701A..15Y"
 
-# image:
-#   caption: "通过小行星残差拟合得到的 Gaia-CRF3 与 行星历表 DE440 之间的定向偏差（约 10 mas）。"
-#   focal_point: "center"
-#   preview_only: false
-
-# links:
-#   - name: ADS
-#     url: "https://ui.adsabs.harvard.edu/abs/2025A&A...701A..15Y"
+image:
+  caption: "通过小行星残差拟合得到的 Gaia-CRF3 与 行星历表 DE440 之间的定向偏差（约 10 mas）。"
+  focal_point: "center"
+  preview_only: false
 
 # projects: ["nju-ephemerides-alignment"]
 # slides: ""

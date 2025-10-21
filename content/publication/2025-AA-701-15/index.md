@@ -31,13 +31,14 @@ url_doi: "https://doi.org/10.1051/0004-6361/202452534"
 # url_project: ""
 # url_dataset: ""
 # url_code: ""
-# image:
-#   caption: "Orientation offsets (~10 mas) from asteroid AL residual fits."
-#   focal_point: "center"
-#   preview_only: false
+image:
+  caption: "Orientation offsets (~10 mas) from asteroid AL residual fits."
+  focal_point: "center"
+  preview_only: false
 links:
   - name: ADS
     url: "https://ui.adsabs.harvard.edu/abs/2025A&A...701A..15Y"
+    
 # projects: ["nju-ephemerides-alignment"]
 # slides: ""
 ---

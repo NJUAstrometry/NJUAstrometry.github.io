@@ -61,8 +61,8 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: ''
-  focal_point: ""
+  caption: "China Space Station Telescope (Yao et al. 2024, *RAA* 24, 8)"
+  focal_point: "center"
   preview_only: false
 
 # Associated Projects (optional).
