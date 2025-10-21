@@ -39,8 +39,13 @@ resources:
 
 # External links
 url_doi: "https://doi.org/10.1051/0004-6361/202243614"
-url_ads: "https://ui.adsabs.harvard.edu/abs/2023A%26A...670A.173L/abstract"
 url_project: "https://njuastrometry.github.io/en/project/"
+url_pdf: 'https://ui.adsabs.harvard.edu/link_gateway/2023A%26A...670A.173L/PUB_PDF'
+
+links:
+  - name: ADS
+    url: "https://ui.adsabs.harvard.edu/abs/2023A%26A...670A.173L/abstract"
+
 
 image:
   caption: "Orientation offsets of DE frames referred to the VLBI celestial frame. Image credit: A&A / NJU Astrometry Group"
