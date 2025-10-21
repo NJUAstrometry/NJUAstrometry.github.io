@@ -81,6 +81,11 @@ projects:
 # slides: example
 slides: ""
 
+image:
+  caption: '银河系光行差效应对地球自转参数解算影响 (Yao et al. 2022, *A&A* 665, A121)'
+  focal_point: "center"
+  preview_only: false
+
 # Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
 ---
 

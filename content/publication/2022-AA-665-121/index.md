@@ -44,7 +44,6 @@ tags:
 - "pulsars: general"
 featured: false
 
-
 # links:
 # - name: ""
 #   url: ""
@@ -60,8 +59,8 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: ''
-  focal_point: ""
+  caption: 'Effect of Galactic aberration on Earth orientation parameters (Yao et al. 2022, *A&A* 665, A121)'
+  focal_point: "center"
   preview_only: false
 
 # Associated Projects (optional).
