@@ -51,7 +51,7 @@ url_ads: 'https://ui.adsabs.harvard.edu/abs/2023A&A...674A.187L'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: "Image credit: A&A / NJU Astrometry Group"
+  caption: "Release of planetary ephemerides. Image credit: A&A / NJU Astrometry Group"
   focal_point: "Center"
   preview_only: false
 

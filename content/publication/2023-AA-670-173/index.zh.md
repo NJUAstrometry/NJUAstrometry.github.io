@@ -40,7 +40,7 @@ url_project: 'https://njuastrometry.github.io/en/project/'
 url_ads: 'https://ui.adsabs.harvard.edu/abs/2023A&A...674A.187L'
 
 image:
-  caption: 'Credit: A&A / NJU Astrometry Group'
+  caption: "Release of planetary ephemerides. Image credit: A&A / NJU Astrometry Group"
   focal_point: "center"
   preview_only: false
 
