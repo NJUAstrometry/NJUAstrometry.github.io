@@ -1,59 +1,54 @@
 ---
-title: "Systematics of planetary ephemeris reference frames inferred from pulsar timing astrometry"
+title: "基于计时、Gaia 与射电干涉测量的脉冲星位置比较：动力学与运动学参考架的对比"
 authors:
-  - Niu Liu
-  - Zi Zhu
-  - John Antoniadis
-  - Jia-Cheng Liu
-  - Hong Zhang
+- Niu Liu
+- Zi Zhu
+- John Antoniadis
+- Jia-Cheng Liu
+- Hao Zhang
+- Nan Jiang
+
 author_notes:
-  - 
-  - "通讯作者"
-  - "通讯作者"
-  - 
-  - 
-date: "2023-06-01T00:00:00Z"
-publishDate: "2023-06-01T00:00:00Z"
-doi: "10.1051/0004-6361/202245808"
+- 
+- "通讯作者"
+- "通讯作者"
+- 
+- 
+- 
+
+date: "2023-02-01T00:00:00Z"
+publishDate: "2023-02-01T00:00:00Z"
+doi: "10.1051/0004-6361/202243614"
+
 publication_types: ["article-journal"]
 
-publication: "*《天文与天体物理》(Astronomy & Astrophysics)* 2023年第674卷，编号A187"
-publication_short: "*A&A* 674, A187 (2023)"
+publication: "*《天文与天体物理》(Astronomy & Astrophysics)* 670, A173 (2023)"
+publication_short: "*A&A* 670, A173 (2023)"
 
-abstract: >
-  通过脉冲星计时观测，研究了行星历表参考架的系统误差。
-  利用美国喷气推进实验室（JPL）的DE系列、俄罗斯EPM系列和法国INPOP系列行星历表，
-  通过不同历表的计时解之间的差异来估计它们的参考架轴指向差异与非惯性旋转。
-  结果表明，不同历表之间的方向差异不超过0.4毫角秒（mas），
-  相对旋转小于每年5微角秒（μas/yr）。
-  当前行星历表参考架的定向精度优于0.4 mas，非惯性旋转优于5 μas/yr。
+abstract: "本文利用脉冲星由计时、VLBI 与 Gaia 独立测得的位置，在亚毫角秒精度上评估行星历书所代表的动力学参考架与 Gaia/VLBI 所实现的运动学参考架之间的定向一致性。"
 
-summary: "基于脉冲星计时观测比较行星历表参考架，结果显示其定向精度优于0.4毫角秒，非惯性旋转优于5微角秒每年。"
+summary: ""
 
-tags: ["astrometry", "ephemerides", "reference systems", "pulsars: general"]
-featured: true
+tags: ["astrometry", "reference systems", "pulsars: general", "Gaia", "VLBI"]
+featured: false
 
-url_pdf: 'https://www.aanda.org/articles/aa/pdf/2023/06/aa45808-22.pdf'
-url_code: 'https://git.nju.edu.cn/neo/pulsar-ephem-crf'
-url_dataset: 'https://git.nju.edu.cn/neo/pulsar-ephem-crf'
-url_project: 'https://njuastrometry.github.io/en/project/'
-url_ads: 'https://ui.adsabs.harvard.edu/abs/2023A&A...674A.187L'
+resources:
+  - src: "paper.pdf"
+    name: "paper"
+
+url_doi: "https://doi.org/10.1051/0004-6361/202243614"
+url_ads: "https://ui.adsabs.harvard.edu/abs/2023A%26A...670A.173L/abstract"
+url_project: "https://njuastrometry.github.io/zh/project/"
 
 image:
-  caption: "Release of planetary ephemerides. Image credit: A&A / NJU Astrometry Group"
+  caption: "Orientation offsets of DE frames referred to the VLBI celestial frame. Image credit: A&A / NJU Astrometry Group"
   focal_point: "center"
   preview_only: false
 
-links:
-  - name: ADS
-    url: "https://ui.adsabs.harvard.edu/abs/2024A%26A...688L..24L/abstract"
-
-projects: 
+projects:
   - 2020-nsfc-key-funding
+
 slides: ""
 ---
 
-本研究通过脉冲星计时观测分析了行星历表参考架的系统误差。
-利用多个脉冲星计时阵列的公开数据，分别采用 JPL 的 DE 系列、EPM 系列和巴黎天文台的 INPOP 系列行星历表，对脉冲星的计时解进行比较，并用一阶矢量球谐函数对位置与自行差异建模。
-结果表明，不同历表之间的方向偏差不超过 0.4 毫角秒，非惯性旋转优于 5 微角秒每年。
-这表明目前行星历表参考架的定向与 VLBI 参考架基本一致，符合程度约为 0.4 毫角秒水平。
+脉冲星能够同时连接**动力学参考架**（基于行星历书）与**运动学参考架**（Gaia/VLBI）。通过比较计时、VLBI 与 Gaia 的脉冲星位置，研究给出两类参考架的定向差异估计，并讨论由样本组成（毫秒脉冲星 vs 非毫秒脉冲星）与黄道纬度筛选带来的系统效应。
