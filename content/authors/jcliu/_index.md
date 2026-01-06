@@ -7,8 +7,8 @@ first_name: Jia-Cheng
 last_name: Liu
 
 # Username (this should match the folder name)
-authors:
-  - jcliu
+# authors:
+#   - jcliu
 
 # Is this the primary user of the site?
 superuser: false
@@ -64,7 +64,8 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  # - Researchers
+  - Principal Investigators
 ---
 
 I am now professor and supervisor of doctor students at School of Astronomy and Space Science, Nanjing University. I am also one of the deputy director of the astrometry commission, Chinese Astronomical Society. I visited SYTRE at Paris observatory as a joint PhD student from 2011.9 to 2012.9, and received PhD degree in astronomy in 2012. I received the “Excellent PhD Thesis of Nanjing University award” in 2013. In 2017, I was a visiting scholar at the Mullard Space Science Laboratory (UCL, London). My research interest include fundamental theories for astrometry, astronomical reference frames, Earth’s rotation models, and application of VLBI and Gaia data et al. I have published more than 20 scientific papers in major SCI journals for astronomy.

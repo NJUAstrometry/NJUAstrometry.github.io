@@ -7,8 +7,8 @@ first_name: Dong-Jie
 last_name: Tan
 
 # Username (this should match the folder name)
-authors:
-  - djtan
+# authors:
+#   - djtan
 
 # Is this the primary user of the site?
 superuser: false
@@ -36,8 +36,8 @@ education:
     - course: Master in Astronomy
       institution: Nanjing University
       year: 2022
-    - course: BSc in Astronomy
-      institution: Nanjing University
+    - course: BSc in Physics
+      institution: Sichuan University
       year: 2019
 
 # Social/Academic Networking

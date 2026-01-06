@@ -3,12 +3,12 @@
 title: 姚俊
 
 # Full Name (for SEO)
-first_name: 俊 
+first_name: 俊
 last_name: 姚
 
 # Username (this should match the folder name)
-authors:
-  - jyao
+# authors:
+#   - jyao
 
 # Is this the primary user of the site?
 superuser: false

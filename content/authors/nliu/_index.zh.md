@@ -3,12 +3,12 @@
 title: 刘牛
 
 # Full Name (for SEO)
-first_name: 牛
-last_name: 刘
+first_name: Niu
+last_name: Liu
 
 # Username (this should match the folder name)
-authors:
-  - nliu
+# authors:
+#   - nliu
 
 # Is this the primary user of the site?
 superuser: true

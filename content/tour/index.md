@@ -23,7 +23,7 @@ sections:
         align: left
         background:
           image:
-            filename: welcome.jpg
+            filename: activity.jpg
             filters:
               brightness: 0.7
           position: center

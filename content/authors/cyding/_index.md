@@ -7,8 +7,8 @@ first_name: Cheng-Yu
 last_name: Ding
 
 # Username (this should match the folder name)
-authors:
-  - cyding
+# authors:
+#   - cyding
 
 # Role/position
 role: 

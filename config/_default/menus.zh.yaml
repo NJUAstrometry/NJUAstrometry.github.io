@@ -18,10 +18,14 @@ main:
     weight: 40
   - name: 科研项目
     url: project
-    weight: 40
-  - name: 研究成果
-    url: publication
     weight: 50
+  - name: 论文发表
+    url: publication
+    weight: 60
   - name: 联系我们
     url: contact
-    weight: 60
+    weight: 70
+  # 可选：
+  # - name: 数据与工具
+  #   url: resources
+  #   weight: 28

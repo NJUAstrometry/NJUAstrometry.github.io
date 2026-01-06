@@ -7,8 +7,8 @@ first_name: 紫
 last_name: 朱
 
 # Username (this should match the folder name)
-authors:
-  - zzhu
+# authors:
+#   - zzhu
 
 # Is this the primary user of the site?
 superuser: false
@@ -67,8 +67,8 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  # - 教师
-  - 学术带头人
+  - 教师
+  # - 学术带头人
 ---
 
 长期从事天文参考系研究和银河系天文学研究工作。

@@ -10,7 +10,6 @@ appearance:
   theme_night:
   font: native
   font_size: L
-color: purple
 
 # SEO
 
@@ -60,7 +59,6 @@ locale:
   time_format: '3:04 PM'
   address_format: en-us
 
-
 # Site features
 
 features:
@@ -70,9 +68,9 @@ features:
       - r
       - latex
   math:
-    enable: true
+    enable: false
   privacy_pack:
-    enable: true
+    enable: false
   repository:
     url: 'https://github.com/NJUAstrometry/NJUAstrometry.github.io'
     content_dir: content
@@ -93,7 +91,7 @@ features:
       category: ''
       category_id: ''
   search:
-    provider: wowchemy
+    provider: 
     algolia:
       app_id: ''
       api_key: ''
