@@ -1,12 +1,12 @@
 ---
 title: "Effect of Galactic aberration on Earth orientation parameters: From the ICRF2 to the ICRF3"
 authors:
-- Jun Yao
-- Jia-Cheng Liu
-- Niu Liu
+- jyao
+- jcliu
+- nliu
 - Zinovy Malkin
-- Zi Zhu
-- Ibnu Nurul Huda
+- zzhu
+- inhuda
 - Sébastien Lambert
 
 author_notes:
@@ -30,21 +30,19 @@ publishDate: "2022-09-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*《天文与天体物理》* 2022年第665卷，编号A121"
+  publication: "*《天文与天体物理》* 2022年第665卷，编号A121"
 publication_short: "*A&A* 665, A121 (2022)"
 
-abstract: 
+abstract: >
+  本文利用约40年的 VLBI 观测数据，研究从 ICRF2 到 ICRF3 的参考架更新，
+  以及银河系光行差建模对地球定向参数解算的影响。
+  通过比较不同处理方案与观测网，分析相关影响及其与射电源和台站分布的关系。
 
-# Summary. An optional shortened abstract.
-summary: "We estimated the effect of Galactic aberration on Earth orientation parameters based on geodetic/astrometric very long baseline interferometry data."
+summary: "评估 ICRF 更新及银河系光行差建模对 VLBI 地球定向参数解算的影响。"
 
-tags:
-- "astrometry" 
-- "ephemerides" 
-- "reference systems" 
-- "pulsars: general"
+tags: ["天体测量学", "VLBI", "参考系", "银河系光行差", "地球定向参数"]
+
 featured: false
-
 
 # links:
 # - name: ""
@@ -60,10 +58,6 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: ''
-  focal_point: ""
-  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -99,7 +93,7 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 
 # 银河系光行差效应对地球自转参数解算影响
 
-天球参考架和地球参考架是天文中最常使用的两类参考架。其中，天球参考架主要依靠天体（过去主要是恒星，而现在主要是河外源）的位置来建立，与空间固连，适合描述天体在天空中的位置和运动；而地球参考架与地球固连，更适合描述望远镜等在地球上物体的地理经纬度、水平高度等。对于许多的天文观测和研究，我们需要同时用到天球参考架和地球参考架，而这时就需要用到两个参考架之间的转换。考虑地球参考架是与地球固连的，若能了解地球在天球参考架中的运动，便能得到地球参考架和天球参考架之间的转换。而地球自转参数（Earth Orientation Parameters，EOP）是一组描述地球在空间中运动的参数，其与岁差章动模型一起能描述地球自转轴在任意时刻时在空间中的指向。地球自转参数一共包含五个参数，分别为描述极移的两个参数($x_p$,$y_p$)、反映地球自转速率变化的参数dUT1以及岁差章动模型修正量($dX$,$dY$)。
+天球参考架和地球参考架是天文中最常使用的两类参考架。其中，天球参考架主要依靠天体（过去主要是恒星，而现在主要是河外源）的位置来建立，与空间固连，适合描述天体在天空中的位置和运动；而地球参考架与地球固连，更适合描述望远镜等在地球上物体的地理经纬度、水平高度等。对于许多的天文观测和研究，我们需要同时用到天球参考架和地球参考架，而这时就需要用到两个参考架之间的转换。考虑地球参考架是与地球固连的，若能了解地球在天球参考架中的运动，便能得到地球参考架和天球参考架之间的转换。而地球自转参数（Earth Orientation Parameters，EOP）是一组描述地球在空间中运动的参数，其与岁差章动模型一起能描述地球自转轴在任意时刻在空间中的指向。地球自转参数一共包含五个参数，分别为描述极移的两个参数($x_p$,$y_p$)、反映地球自转速率变化的参数dUT1以及岁差章动模型修正量($dX$,$dY$)。
 
 因为地球自转运动较为复杂，因此对地球自转参数需要持续监测。目前，地球自转参数的测量方法主要有甚长基线干涉测量（Very Long Baseline Interferometry， VLBI）、全球卫星导航系统（Global Navigation Satellite System, GNSS）和激光测月（Lunar Laser Ranging, LLR）三种，其中VLBI是唯一可以同时测量所有5个地球自转参数的技术。VLBI是一个由分布在全球各地的射电望远镜所组成的一个巨大干涉阵网络，观测目标为天空中的射电信号，这些射电信号主要为类星体以及一些致密的河外射电源。由于地面的射电望远镜与地球固连，能反映地球参考架，而观测的河外源位置能反映天球参考架，因此VLBI技术能测量地球自转参数。
 
@@ -111,7 +105,7 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 
 {{< figure src="aa665-121-Fig2.png" caption="银河系光行差引起的ICRF2中源的理论自行（Liu et al. 2012 [[3](#Liu2012)]）" numbered="true" >}}
 
-考虑到EOP是连接天球参考架和地球参考架的参数，所使用的天球参考架的转变势必会对其造成一定影响。在本工作中，我们研究了ICRF2到ICRF3的转变，特别是银河系光行差建模对于VLBI解算地球自转参数的影响的大小。我们使用了从1980年到2020年40年间的VLBI观测数据，解算了考虑与不考虑银河系光行差的地球自转参数的变化。通过比较，我们发现了银河系光行差的建模与否会使得dY上有一个约${\rm 0.3~\mu as~yr^{-1}}$的速率差异，在40年的观测时间尺度上，这一差异会累计超过10个微角秒，这在目前高精度的岁差章动模型下是不可忽略的。此外，我们还发现，40年中银河系光行差效应对地球自转参数的影响并不完全一致，具体的影响随着观测目标源的分布以及参与观测的射电望远镜的分布发生改变变。而一个在全天球中更加均匀目标源的分布和一个地理上更加均匀的望远镜分布会有效的减少银河系光行差的建模对解算带来的影响。
+考虑到EOP是连接天球参考架和地球参考架的参数，所使用的天球参考架的转变势必会对其造成一定影响。在本工作中，我们研究了ICRF2到ICRF3的转变，特别是银河系光行差建模对于VLBI解算地球自转参数的影响的大小。我们使用了从1980年到2020年40年间的VLBI观测数据，解算了考虑与不考虑银河系光行差的地球自转参数的变化。通过比较，我们发现了银河系光行差的建模与否会使得dY上有一个约${\rm 0.3~\mu as~yr^{-1}}$的速率差异，在40年的观测时间尺度上，这一差异会累计超过10个微角秒，这在目前高精度的岁差章动模型下是不可忽略的。此外，我们还发现，40年中银河系光行差效应对地球自转参数的影响并不完全一致，具体的影响随着观测目标源的分布以及参与观测的射电望远镜的分布发生改变。而一个在全天球中更加均匀目标源的分布和一个地理上更加均匀的望远镜分布会有效的减少银河系光行差的建模对解算带来的影响。
 
 {{< figure src="aa665-121-Fig3.png" caption="银河系光行差对地球自转参数解算的影响" numbered="true" >}}
 
