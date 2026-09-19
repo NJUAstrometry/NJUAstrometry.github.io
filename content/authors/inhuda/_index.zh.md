@@ -67,7 +67,8 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+# 中文档案
 user_groups:
-  - 教师
+  - 博士后
 ---
 
