@@ -31,7 +31,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:502023260011@smail.nju.edu.cn'
+    link: 'mailto:xiaxuanzhang@smail.nju.edu.cn'
 
 highlight_name: false
 

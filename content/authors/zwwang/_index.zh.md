@@ -1,28 +1,20 @@
 ---
-# Display name
+# 姓名
 title: 王圳伟
-
-# Full Name (for SEO)
 first_name: 圳伟
 last_name: 王
 
-# Username (this should match the folder name)
-# authors:
-#   - zwwang
-
-# Is this the primary user of the site?
 superuser: false
 
-# Role/position
+# 身份与单位
 role: 博士研究生
 
-# Organizations/Affiliations
 organizations:
   - name: 南京大学
     url: 'https://www.nju.edu.cn/'
 
-# Short bio (displayed in user profile at end of posts)
-bio: 
+# 简介
+bio: 主要研究兴趣包括天球参考架、天体测量星表、河外源和VLBI天体测量。
 
 interests:
   - 天球参考架
@@ -32,40 +24,20 @@ interests:
 
 education:
   courses:
-    - course: 学士学位
+    - course: 天文学学士学位
       institution: 南京大学
       year: 2023
 
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+# 联系方式
 social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:502023260011@smail.nju.edu.cn'
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: 
-  # - icon: github
-  #   icon_pack: fab
-  #   link: 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: files/cv.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
-
-# Highlight the author in author lists? (true/false)
 highlight_name: false
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - 研究生
---- 
+---
 
-我对天文参考系和天体测量 VLBI 感兴趣。作为我们小组的新生，我也愿意探索天体测量学和天体物理学的不同领域。
+我对天球参考架和VLBI天体测量感兴趣，也希望探索天体测量学和天体物理学的其他研究领域。
