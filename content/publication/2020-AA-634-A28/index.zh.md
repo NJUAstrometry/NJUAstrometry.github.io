@@ -1,10 +1,10 @@
 ---
 title: "基于 VLBI 和 Gaia DR2 的天体测量系统误差与精度比较"
 authors:
-  - Niu Liu
+  - nliu
   - Sébastien B. Lambert
-  - Zi Zhu
-  - Jia-Cheng Liu
+  - zzhu
+  - jcliu
 author_notes:
   - 
   - "通讯作者"

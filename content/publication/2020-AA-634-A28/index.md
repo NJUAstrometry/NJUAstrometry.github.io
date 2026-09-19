@@ -1,10 +1,10 @@
 ---
 title: "Systematics and accuracy of VLBI astrometry: A comparison with Gaia Data Release 2"
 authors:
-  - Niu Liu
+  - nliu
   - Sébastien B. Lambert
-  - Zi Zhu
-  - Jia-Cheng Liu
+  - zzhu
+  - jcliu
 author_notes:
   - 
   - "corresponding author"
