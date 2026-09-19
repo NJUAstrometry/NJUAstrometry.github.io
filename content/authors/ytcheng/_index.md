@@ -70,7 +70,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Alumni
+  - Former Members
 ---
 
 My main research interest includes GNSS modeling and data processing, space geodesy, Earth rotation variation estimation and modeling.
