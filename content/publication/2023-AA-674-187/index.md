@@ -1,10 +1,10 @@
 ---
 title: "Systematics of planetary ephemeris reference frames inferred from pulsar timing astrometry"
 authors:
-- Niu Liu
-- Zi Zhu
+- nliu
+- zzhu
 - John Antoniadis
-- Jia-Cheng Liu
+- jcliu
 - Hong Zhang
 author_notes:
 - 
@@ -24,7 +24,7 @@ publishDate: "2023-06-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Astronomy and Astrophysics* 674, A187 (2023)"
+publication: "*Astronomy & Astrophysics* 674, A187 (2023)"
 publication_short: "*A&A* 674, A187 (2023)"
 
 abstract: "We have shown that the orientation of current planetary ephemeris frames is as accurate as at least 0.4 mas, and the nonrotation is better than 5 microarcseconds per year."
@@ -52,12 +52,12 @@ url_ads: 'https://ui.adsabs.harvard.edu/abs/2023A&A...674A.187L'
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: "Image credit: A&A / NJU Astrometry Group"
-  focal_point: "Center"
+  focal_point: "center"
   preview_only: false
 
 links:
   - name: ADS
-    url: "https://ui.adsabs.harvard.edu/abs/2024A%26A...688L..24L/abstract"
+    url: "https://ui.adsabs.harvard.edu/abs/2023A%26A...674A.187L/abstract"
 
 
 # Associated Projects (optional).

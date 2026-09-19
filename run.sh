@@ -6,29 +6,24 @@
 # Created Time: Sat 19 Sep 2026 09:07:13 PM CST
 #########################################################################
 
+# 关联组内作者，并修正 ADS 按钮
 sed -i -E \
   -e 's/^([[:space:]]*)- Niu Liu[[:space:]]*$/\1- nliu/' \
   -e 's/^([[:space:]]*)- Zi Zhu[[:space:]]*$/\1- zzhu/' \
   -e 's/^([[:space:]]*)- Jia-Cheng Liu[[:space:]]*$/\1- jcliu/' \
-  -e 's/^([[:space:]]*)- Nan Jiang[[:space:]]*$/\1- njiang/' \
-  content/publication/2023-AA-670-173/index.md \
-  content/publication/2023-AA-670-173/index.zh.md
+  -e 's|2024A%26A\.\.\.688L\.\.24L|2023A%26A...674A.187L|g' \
+  content/publication/2023-AA-674-187/index.md \
+  content/publication/2023-AA-674-187/index.zh.md
 
-sed -i 's/^- Hao Zhang$/- Hong Zhang/' \
-  content/publication/2023-AA-670-173/index.md
-
+# 英文期刊名与图片配置
 sed -i \
-  -e 's/^- Hao Zhang$/- 张鸿/' \
-  -e 's/^title:.*$/title: "Comparison of dynamical and kinematic reference frames via pulsar positions from timing, Gaia, and interferometric astrometry"/' \
-  -e 's/^publication:.*$/publication: "*《天文与天体物理》* 2023年第670卷，编号A173"/' \
-  -e 's/行星历书/行星历表/g' \
-  content/publication/2023-AA-670-173/index.zh.md
+  -e 's/Astronomy and Astrophysics/Astronomy \& Astrophysics/g' \
+  -e 's/focal_point: "Center"/focal_point: "center"/' \
+  content/publication/2023-AA-674-187/index.md
 
-# 删除不存在的本地 PDF 声明，保留外部 PDF 链接
-sed -i '/^resources:$/{
-N
-N
-/^resources:\n  - src: "paper.pdf"\n    name: "paper"$/d
-}' \
-  content/publication/2023-AA-670-173/index.md \
-  content/publication/2023-AA-670-173/index.zh.md
+# 张鸿已无个人主页，中文直接显示姓名
+# 修正中文项目按钮的语言
+sed -i \
+  -e 's/  - Hong Zhang/  - 张鸿/' \
+  -e 's|https://njuastrometry.github.io/en/project/|https://njuastrometry.github.io/zh/project/|' \
+  content/publication/2023-AA-674-187/index.zh.md
