@@ -1,78 +1,58 @@
 ---
-# Display name
+# Name
 title: Nabila Sofia Eryan Putri
-
-# Full Name (for SEO)
-first_name: Nabila 
+first_name: Nabila Sofia Eryan
 last_name: Putri
 
-# Username (this should match the folder name)
-# authors:
-#   - inhuda
-
-# Is this the primary user of the site?
 superuser: false
 
-# Role/position
+# Position and affiliation
 role: Postdoctoral Researcher
 
-# Organizations/Affiliations
 organizations:
   - name: Nanjing University
-    url: ''
+    url: 'https://www.nju.edu.cn/'
 
-# Short bio (displayed in user profile at end of posts)
-bio: I am interested in several topics notably Earth rotation, VLBI data analysis, Reference System, Earth tides, and Celestial Mechanics.
+# Short biography
+bio: My research focuses on tropospheric delay modelling, GNSS meteorology, and atmospheric water vapour monitoring.
 
 interests:
-  - VLBI
-  - Geodynamics
-  - Earth Orientation Parameters
-  - Reference System
-  - Celestial Mechanics
+  - Tropospheric delay modelling
+  - GNSS meteorology
+  - Atmospheric water vapour monitoring
+  - Tropospheric tomography
+  - GNSS applications to hydrometeorological hazards
 
 education:
   courses:
-    - course: PhD in Astronomy
-      institution: SYRTE / Observatoire de Paris
-      year: 2019
-    - course: MS in Applied Physics
-      institution: Pierre and Marie Curie University
-      year: 2016
-    - course: BSc in Astronomy
-      institution: Bandung Institute of Technology
+    - course: Dr. techn. in Geodesy and Geoinformation
+      institution: TU Wien
+      year: 2021
+    - course: MSc in Geodesy and Geomatics Engineering
+      institution: Institut Teknologi Bandung
       year: 2014
+    - course: BSc in Geodesy and Geomatics Engineering
+      institution: Institut Teknologi Bandung
+      year: 2013
 
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+# Contact and academic profiles
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:ibnu.nurul.huda@nju.edu.cn'
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: 
-  # - icon: github
-  #   icon_pack: fab
-  #   link: 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: files/cv-IbnuNurulHuda.pdf
+    link: 'mailto:nabila.sofia@itb.ac.id'
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+  - icon: orcid
+    icon_pack: fab
+    link: 'https://orcid.org/0000-0002-2873-0203'
 
-# Highlight the author in author lists? (true/false)
 highlight_name: false
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Postdoctoral Researchers
 ---
 
-My main research interest includes VLBI data processing, Geodynamics, Earth rotation, and celestial mechanics.
+I am a postdoctoral researcher at Nanjing University. My research focuses on tropospheric delay modelling and the use of GNSS observations to study atmospheric water vapour and hydrometeorological hazards.
+
+I received my doctoral degree in Geodesy and Geoinformation from TU Wien in 2021, under the supervision of Johannes Böhm. My doctoral research investigated tropospheric delay models for GNSS in Indonesia. I obtained my master's and bachelor's degrees in Geodesy and Geomatics Engineering from Institut Teknologi Bandung (ITB) in 2014 and 2013, respectively.
+
+My experience at ITB includes research and teaching in geodesy, with a lecturer appointment beginning in 2022. I have led projects on GNSS-based rainfall prediction and three-dimensional tropospheric modelling, including water vapour tomography for studying extreme rainfall.
