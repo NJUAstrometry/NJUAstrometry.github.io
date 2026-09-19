@@ -49,7 +49,7 @@ links:
     url: "https://ui.adsabs.harvard.edu/abs/2024A%26A...688L..24L/abstract"
 
 projects: 
-  - 2020-nsfc-key-funding
+  - 2020-nsfc-key-program
 slides: ""
 ---
 

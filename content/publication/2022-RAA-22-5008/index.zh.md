@@ -48,7 +48,7 @@ image:
   preview_only: false
 
 projects:
-  - 2020-nsfc-key-funding
+  - 2020-nsfc-key-program
 
 slides: ""
 ---

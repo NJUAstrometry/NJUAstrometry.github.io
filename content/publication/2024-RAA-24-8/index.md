@@ -71,7 +71,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: 
-  - 2020-nsfc-key-funding
+  - 2020-nsfc-key-program
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
