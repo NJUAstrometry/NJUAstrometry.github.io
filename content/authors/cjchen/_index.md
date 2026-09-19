@@ -1,6 +1,6 @@
 ---
 # Name
-title: Chen Chaojin
+title: Chaojin Chen
 first_name: Chaojin
 last_name: Chen
 

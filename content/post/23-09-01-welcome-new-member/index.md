@@ -1,12 +1,13 @@
 ---
-title: A new master graduate student joined our group.
+title: Welcome Zhen-Wei Wang to the Group
 date: 2023-09-01T12:34:56+08:00
 profile: false
+share: false
 ---
 
-A warm welcome to Zhen-Wei Wang.
+A warm welcome to Zhen-Wei Wang, who joins our group as a master's student.
 
 <!--more-->
 
-After obtaining his becholar degree, Zhen-Wei joined our team as a master graduate student to continue his study at NJU.
-He will work with us during 2023-2026 on the construction and analyses of the near-infrared celestial reference frame.
+Zhen-Wei obtained his bachelor's degree from the School of Astronomy and Space Science at Nanjing University. 
+He joins our group for his master's studies, planned for 2023–2026, with a research focus on the construction and analysis of infrared celestial reference frames.
