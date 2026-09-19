@@ -1,20 +1,21 @@
 ---
 title: "Comparison of the Gaia-CRF3 and planetary ephemerides via asteroid observations"
 authors:
-  - Jun Yao
-  - Jia-Cheng Liu
+  - jyao
+  - jcliu
   - Xi Liu
-  - Niu Liu
-  - Zi Zhu
+  - nliu
+  - zzhu
   - Xi-Yu Hou
-  - Ibnu Nurul Huda
+  - inhuda
 author_notes:
-  - 
+  - ""
   - "corresponding author"
-  - 
-  - 
-  - 
-  - 
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
 date: "2025-07-14"
 doi: "10.1051/0004-6361/202452534"
 publication_types: ["article-journal"]

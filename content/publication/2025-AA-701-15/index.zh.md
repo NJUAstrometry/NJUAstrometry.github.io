@@ -1,26 +1,27 @@
 ---
 title: "Comparison of the Gaia-CRF3 and planetary ephemerides via asteroid observations"
 authors:
-  - Jun Yao
-  - Jia-Cheng Liu
+  - jyao
+  - jcliu
   - Xi Liu
-  - Niu Liu
-  - Zi Zhu
+  - nliu
+  - zzhu
   - Xi-Yu Hou
-  - Ibnu Nurul Huda
+  - inhuda
 author_notes:
-  - 
+  - ""
   - "通讯作者"
-  - 
-  - 
-  - 
-  - 
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
 date: "2025-07-14"
 doi: "10.1051/0004-6361/202452534"
 
 publication_types: ["article-journal"]
 
-publication: "*《天文与天体物理》(Astronomy & Astrophysics)*, 第701卷, A15 (2025)"
+publication: "*《天文与天体物理》(Astronomy & Astrophysics)* 2025年第701卷，编号A15"
 publication_short: "*A&A* 701, A15 (2025)"
 
 abstract: >
@@ -59,5 +60,5 @@ image:
 - 说明 Gaia 小行星天体测量可有效加强动力学与运动学参考架的精确联结。  
 
 *结论：*  
-Gaia 小行星数据显著提升了行星历表与 ICRF 之间的联结精度；
+Gaia 小行星数据显著提升了行星历表与 Gaia-CRF3 之间的连接精度；
 较大的定向偏差主要来自历史光学观测的系统性误差。
