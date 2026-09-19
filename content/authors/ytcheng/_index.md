@@ -1,39 +1,28 @@
 ---
-# Display name
-title: Yuting Cheng 
-
-# Full Name (for SEO)
-first_name: Yuting 
+title: Yuting Cheng
+first_name: Yuting
 last_name: Cheng
 
-# Username (this should match the folder name)
-# authors:
-#   - ytcheng
-
-# Is this the primary user of the site?
 superuser: false
 
-# Role/position
-role: PhD Student
+role: Master's Graduate (2020)
 
-# Organizations/Affiliations
 organizations:
-  - name: SYRTE / Observatoire de Paris
-    url: ''
+  - name: Royal Observatory of Belgium
+    url: 'https://www.astro.oma.be/'
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include space geodesy, Earth rotation variations, GNSS data processing and polar motion modeling.
+bio: My research interests include space geodesy, Earth rotation variations, GNSS data processing, and polar motion modeling.
 
 interests:
   - Space geodesy
   - GNSS
-  - Earth Orientation Parameters
+  - Earth orientation parameters
   - Geodynamics
 
 education:
   courses:
-    - course: PhD candidate in Astronomy
-      institution: SYRTE / Observatoire de Paris
+    - course: PhD
+      institution: Observatoire de Paris
     - course: MS in Astrometry and Celestial Mechanics
       institution: Nanjing University
       year: 2020
@@ -41,36 +30,20 @@ education:
       institution: Nanjing University
       year: 2017
 
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:yu-ting.cheng@obspm.fr'
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: 
-  # - icon: github
-  #   icon_pack: fab
-  #   link: 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: files/cv-YutingCheng.pdf
+    link: /files/cv-YutingCheng.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
-
-# Highlight the author in author lists? (true/false)
 highlight_name: false
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Former Members
 ---
 
-My main research interest includes GNSS modeling and data processing, space geodesy, Earth rotation variation estimation and modeling.
+I obtained my master's degree in Astrometry and Celestial Mechanics from Nanjing University in 2020 and subsequently completed my doctoral studies at the Paris Observatory. I am currently a postdoctoral researcher at the Royal Observatory of Belgium, working on ESA's GENESIS project.
+
+My research interests include GNSS modeling and data processing, space geodesy, and the estimation and modeling of Earth rotation variations.

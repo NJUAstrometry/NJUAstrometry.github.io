@@ -1,35 +1,27 @@
 ---
-# Display name
 title: 程雨婷
-
-# Full Name (for SEO)
 first_name: 雨婷
 last_name: 程
 
-# Username (this should match the folder name)
-# authors:
-#   - ytcheng
-
-# Is this the primary user of the site?
 superuser: false
 
-# Role/position
-role: 博士研究生
+role: 硕士毕业生（2020届）
 
-# Organizations/Affiliations
 organizations:
-  - name: 巴黎天文台
-    url: ''
+  - name: 比利时皇家天文台
+    url: 'https://www.astro.oma.be/'
 
-# Short bio (displayed in user profile at end of posts)
-bio: 
+bio: 主要研究兴趣包括空间大地测量、地球自转变化、GNSS数据处理与极移建模。
 
 interests:
-
+  - 空间大地测量
+  - 全球导航卫星系统（GNSS）
+  - 地球定向参数
+  - 地球动力学
 
 education:
   courses:
-    - course: 天文学博士研究生
+    - course: 博士学位
       institution: 巴黎天文台
     - course: 天体测量与天体力学硕士学位
       institution: 南京大学
@@ -38,35 +30,20 @@ education:
       institution: 南京大学
       year: 2017
 
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'yu-ting.cheng@obspm.fr'
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: 
-  # - icon: github
-  #   icon_pack: fab
-  #   link: 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+    link: 'mailto:yu-ting.cheng@obspm.fr'
   - icon: cv
     icon_pack: ai
-    link: files/cv-YutingCheng.pdf
+    link: /files/cv-YutingCheng.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
-
-# Highlight the author in author lists? (true/false)
 highlight_name: false
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - 历届成员
 ---
 
+2020年获南京大学天体测量与天体力学硕士学位，随后赴巴黎天文台攻读并获得博士学位。现为比利时皇家天文台博士后，参与欧洲空间局（ESA）的GENESIS项目。
+
+主要研究兴趣包括GNSS建模与数据处理、空间大地测量，以及地球自转变化的估计与建模。
