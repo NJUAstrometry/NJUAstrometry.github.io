@@ -1,10 +1,10 @@
 ---
 title: "Gaia-CRF2 中类星体天体测量参数的深入分析"
 authors:
-  - Cheng-Yu Ding
-  - Zi Zhu
-  - Jia-Cheng Liu
-  - Niu Liu
+  - cyding
+  - zzhu
+  - jcliu
+  - nliu
 author_notes:
   - 
   - "通讯作者"

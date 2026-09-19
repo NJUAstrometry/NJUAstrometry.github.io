@@ -1,10 +1,10 @@
 ---
 title: "Revisiting astrometric parameters of quasars in Gaia-CRF2"
 authors:
-  - Cheng-Yu Ding
-  - Zi Zhu
-  - Jia-Cheng Liu
-  - Niu Liu
+  - cyding
+  - zzhu
+  - jcliu
+  - nliu
 author_notes:
   - 
   - "corresponding author"
