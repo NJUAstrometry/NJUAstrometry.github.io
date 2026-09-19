@@ -1,28 +1,20 @@
 ---
-# Display name
-title: Zi Zhu 
-
-# Full name (for SEO)
+# Name
+title: Zi Zhu
 first_name: Zi
 last_name: Zhu
 
-# Username (this should match the folder name)
-# authors:
-#   - zzhu
-
-# Is this the primary user of the site?
 superuser: false
 
-# Role/position
+# Position and affiliation
 role: Professor
 
-# Organizations/Affiliations
 organizations:
   - name: Nanjing University
     url: 'https://www.nju.edu.cn/'
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include astrometric methods, astronomical reference frames, and Galactic astronomy.
+# Short biography
+bio: My research focuses on astrometric methods, astronomical reference systems, and Galactic astronomy.
 
 interests:
   - Astrometric methods
@@ -31,41 +23,30 @@ interests:
 
 education:
   courses:
-    - course: PhD in Astronomy 
-      institution: Chinese Academy of Sciences
+    - course: PhD in Astronomy
+      institution: Shaanxi Astronomical Observatory, Chinese Academy of Sciences
       year: 1994
-    - course: BSc in Astronomy 
-      institution: University of Science and Technology of China 
+    - course: Master's degree
+      institution: Shaanxi Astronomical Observatory, Chinese Academy of Sciences
+      year: 1987
+    - course: BSc in Astronomy
+      institution: University of Science and Technology of China
       year: 1982
 
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+# Contact
 social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:zhuzi@nju.edu.cn'
-  # - icon: google-scholar
-    # icon_pack: ai
-    # link: 
-  # - icon: github
-    # icon_pack: fab
-    # link: 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # - icon: cv
-    # icon_pack: ai
-    # link: files/cv.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+highlight_name: false
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Researchers
-  # - Principal Investigators
 ---
 
-I have engaged in long-term research on astronomical reference frames and Galactic astronomy, leading multiple projects funded by the National Natural Science Foundation of China. My main research areas include astrometric methods, astronomical reference frames, and Galactic astronomy. I have published over 20 SCI papers.
+I am a professor and PhD supervisor at Nanjing University, where I joined the Department of Astronomy in 2002. My research focuses on astrometric methods, astronomical reference systems, and Galactic astronomy.
+
+I have made multiple research visits to the University of Bonn Observatory in Germany and the National Astronomical Observatory of Japan, collaborating on space astrometry, astronomical reference systems, and Galactic astronomy.
+
+I serve on the organizing committee of the International Astronomical Union's astrometry commission and as a reviewer for China's national science and technology awards. I have led multiple projects funded by the National Natural Science Foundation of China and published more than 20 papers in SCI-indexed journals.
