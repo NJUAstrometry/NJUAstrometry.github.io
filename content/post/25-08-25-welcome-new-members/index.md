@@ -11,4 +11,4 @@ A warm welcome to Huafeng Yu, [Lin Xu]({{< relref "/authors/lxu" >}}), and [Chao
 
 Huafeng obtained his bachelor's degree from the School of Astronomy and Space Science at Nanjing University. He joins our group to pursue a PhD directly after his undergraduate studies. His planned research focuses on very long baseline interferometry (VLBI) data processing.
 
-Lin and Chaojin join our group as master's students. Their planned research focuses on models of Earth's precession.
+Lin obtained her bachelor's degree from Taiyuan University of Technology, and Chaojin obtained his bachelor's degree from Sun Yat-sen University. They join our group as master's students. Their planned research focuses on models of Earth's precession.
