@@ -1,8 +1,8 @@
 ---
 title: "The Galactic Aberration and Its Impact on Astronomical Reference Frames"
 authors:
-  - Jia-Cheng Liu
-  - Niu Liu
+  - jcliu
+  - nliu
 author_notes:
   - "corresponding author"
   - 
@@ -33,7 +33,7 @@ featured: false
 # External links
 url_pdf: ""
 url_doi: "https://doi.org/10.1016/j.chinastron.2020.05.001"
-url_ads: "https://ui.adsabs.harvard.edu/abs/2020AcASn..61...10L/abstract"
+url_ads: "https://ui.adsabs.harvard.edu/abs/2020ChA&A..44..131L/abstract"
 url_project: "https://njuastrometry.github.io/en/project/"
 
 image:
@@ -53,7 +53,7 @@ the field drives a slow global spin of the realized reference frame depending on
 and introduces small but accumulating systematics in **EOP** (e.g., \(\sim 1~\mu\mathrm{as~yr^{-1}}\) in precession rates).
 In the **ICRF3–Gaia** era, modeling GA—together with frame-rotation terms—is essential for a rigid radio–optical link.
 Key formulas include the VSH description of the dipolar field and closed-form expressions for GA-induced
-proper motions and frame rotation. :contentReference[oaicite:0]{index=0}
+proper motions and frame rotation.
 
 > **Citation:**  
 > Liu, J.-C., & Liu, N. (2020). *The Galactic Aberration and Its Impact on Astronomical Reference Frames.*  

@@ -7,13 +7,10 @@
 #########################################################################
 
 sed -i \
-  -e 's/^  - Cheng-Yu Ding[[:space:]]*$/  - cyding/' \
-  -e 's/^  - Zi Zhu[[:space:]]*$/  - zzhu/' \
   -e 's/^  - Jia-Cheng Liu[[:space:]]*$/  - jcliu/' \
   -e 's/^  - Niu Liu[[:space:]]*$/  - nliu/' \
-  content/publication/2020-AA-635-A113/index.md \
-  content/publication/2020-AA-635-A113/index.zh.md
+  -e 's/2020AcASn\.\.61\.\.\.10L/2020ChA\&A..44..131L/g' \
+  -e 's/ :contentReference\[oaicite:0\]{index=0}//g' \
+  content/publication/2020-CAA-44-131/index.md \
+  content/publication/2020-CAA-44-131/index.zh.md
 
-cat content/publication/2020-CAA-44-131/index.md
-cat content/publication/2020-CAA-44-131/index.zh.md
-cat content/publication/2020-CAA-44-131/cite.bib

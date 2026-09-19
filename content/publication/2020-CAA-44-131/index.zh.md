@@ -1,8 +1,8 @@
 ---
 title: "银河系光行差及其对天文学参考架的影响"
 authors:
-  - Jia-Cheng Liu
-  - Niu Liu
+  - jcliu
+  - nliu
 author_notes:
   - "通讯作者"
   - 
@@ -30,7 +30,7 @@ tags: ["天体测量学", "自行", "类星体", "参考系", "银河系光行�
 featured: false
 
 url_doi: "https://doi.org/10.1016/j.chinastron.2020.05.001"
-url_ads: "https://ui.adsabs.harvard.edu/abs/2020AcASn..61...10L/abstract"
+url_ads: "https://ui.adsabs.harvard.edu/abs/2020ChA&A..44..131L/abstract"
 url_project: "https://njuastrometry.github.io/zh/project/"
 
 image:
