@@ -5,7 +5,7 @@ profile: false
 share: false
 ---
 
-A warm welcome to Zhen-Wei Wang, who joins our group as a master's student.
+A warm welcome to [Zhen-Wei Wang]({{< relref "/authors/zwwang" >}}), who joins our group as a master's student.
 
 <!--more-->
 

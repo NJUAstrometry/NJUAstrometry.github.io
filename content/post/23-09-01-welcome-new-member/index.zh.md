@@ -5,7 +5,7 @@ profile: false
 share: false
 ---
 
-欢迎王圳伟同学加入课题组攻读硕士学位。
+欢迎[王圳伟]({{< relref "/authors/zwwang" >}})同学加入课题组攻读硕士学位。
 
 <!--more-->
 
