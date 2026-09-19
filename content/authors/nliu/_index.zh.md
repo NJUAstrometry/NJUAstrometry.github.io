@@ -47,7 +47,7 @@ social:
 
   - icon: cv
     icon_pack: ai
-    link: files/cv-niuliu-zh.pdf
+    link: /files/cv-niuliu.pdf
 
 highlight_name: false
 
