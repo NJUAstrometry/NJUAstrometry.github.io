@@ -1,71 +1,57 @@
 ---
-# Display name
+# 姓名
 title: 刘佳成
-
-# Full name (for SEO)
 first_name: 佳成
 last_name: 刘
 
-# Username (this should match the folder name)
-# authors:
-#   - jcliu
-
-# Is this the primary user of the site?
 superuser: false
 
-# Role/position
+# 职务与单位
 role: 教授
 
-# Organizations/Affiliations
 organizations:
   - name: 南京大学
     url: 'https://www.nju.edu.cn/'
 
-# Short bio (displayed in user profile at end of posts)
-bio: 
+# 简介
+bio: 主要研究兴趣包括理论力学、空间天体测量和天文参考系。
 
 interests:
-  - Theoretical Mechanics
-  - Space astrometry
-  - Astronomical reference systems
+  - 理论力学
+  - 空间天体测量
+  - 天文参考系
 
 education:
   courses:
     - course: 天文学博士学位
       institution: 南京大学
       year: 2012
-    - course: 天文学学士学位 
+    - course: 天文学学士学位
       institution: 南京大学
       year: 2008
 
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+# 联系方式与学术主页
 social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:jcliu@nju.edu.cn'
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: 
+
   - icon: orcid
     icon_pack: fab
-    link: https://orcid.org/0000-0002-6637-9258
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+    link: 'https://orcid.org/0000-0002-6637-9258'
+
   - icon: cv
     icon_pack: ai
-    link: files/cv-jcliu.pdf
+    link: /files/cv-jcliu.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+highlight_name: false
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  # - 教师
   - 学术带头人
 ---
 
-目前任职中国天文学会天体测量专业委员会副主任，《天文学报》编委。主要研究方向：天体测量基本理论、天文参考系、地球自转模型、VLBI和空间天体测量数据的应用等,在主要天文SCI期刊发表论文20余篇。
+南京大学天文与空间科学学院教授、博士生导师，现任中国天文学会天体测量专业委员会副主任、《天文学报》编委。
+
+2011年9月至2012年9月，在巴黎天文台 SYRTE 参加博士生联合培养。2012年获南京大学天文学博士学位，2013年获南京大学优秀博士学位论文奖。2017年赴英国伦敦大学学院穆拉德空间科学实验室访问研究。
+
+主要研究方向包括天体测量基本理论、天文参考系、地球自转模型，以及 VLBI 和 Gaia 数据的应用。在主要天文 SCI 期刊发表论文20余篇。

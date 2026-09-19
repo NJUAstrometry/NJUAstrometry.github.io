@@ -1,36 +1,36 @@
 ---
-# 姓名
-title: 刘佳成
-first_name: 佳成
-last_name: 刘
+# Name
+title: Jia-Cheng Liu
+first_name: Jia-Cheng
+last_name: Liu
 
 superuser: false
 
-# 职务与单位
-role: 教授
+# Position and affiliation
+role: Professor
 
 organizations:
-  - name: 南京大学
+  - name: Nanjing University
     url: 'https://www.nju.edu.cn/'
 
-# 简介
-bio: 主要研究兴趣包括理论力学、空间天体测量和天文参考系。
+# Short biography
+bio: My research interests include theoretical mechanics, space astrometry, and astronomical reference systems.
 
 interests:
-  - 理论力学
-  - 空间天体测量
-  - 天文参考系
+  - Theoretical mechanics
+  - Space astrometry
+  - Astronomical reference systems
 
 education:
   courses:
-    - course: 天文学博士学位
-      institution: 南京大学
+    - course: PhD in Astronomy
+      institution: Nanjing University
       year: 2012
-    - course: 天文学学士学位
-      institution: 南京大学
+    - course: BSc in Astronomy
+      institution: Nanjing University
       year: 2008
 
-# 联系方式与学术主页
+# Contact and academic profiles
 social:
   - icon: envelope
     icon_pack: fas
@@ -47,11 +47,11 @@ social:
 highlight_name: false
 
 user_groups:
-  - 学术带头人
+  - Principal Investigators
 ---
 
-南京大学天文与空间科学学院教授、博士生导师，现任中国天文学会天体测量专业委员会副主任、《天文学报》编委。
+I am a professor and PhD supervisor at the School of Astronomy and Space Science, Nanjing University. I also serve as a deputy director of the Astrometry Commission of the Chinese Astronomical Society and as a member of the editorial board of *Acta Astronomica Sinica*.
 
-2011年9月至2012年9月，在巴黎天文台 SYRTE 参加博士生联合培养。2012年获南京大学天文学博士学位，2013年获南京大学优秀博士学位论文奖。2017年赴英国伦敦大学学院穆拉德空间科学实验室访问研究。
+From September 2011 to September 2012, I participated in a joint PhD training programme at SYRTE, Paris Observatory. I received my PhD in Astronomy from Nanjing University in 2012 and the university's Excellent Doctoral Dissertation Award in 2013. In 2017, I was a visiting scholar at the Mullard Space Science Laboratory, University College London.
 
-主要研究方向包括天体测量基本理论、天文参考系、地球自转模型，以及 VLBI 和 Gaia 数据的应用。在主要天文 SCI 期刊发表论文20余篇。
+My research focuses on the theoretical foundations of astrometry, astronomical reference frames, Earth rotation models, and applications of VLBI and Gaia data. I have published more than 20 papers in major SCI-indexed astronomy journals.
