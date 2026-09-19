@@ -1,25 +1,27 @@
 ---
-# Display name
+# 姓名
 title: 丁平婕
-
-# Full Name (for SEO)
 first_name: 平婕
 last_name: 丁
 
-# Username (this should match the folder name)
-# authors:
-#   - pjding
-
-# Is this the primary user of the site?
 superuser: false
 
-# Role/position
-role: 博士后
+# 与课题组的关系
+role: 博士毕业生（2018届）
 
-# Short bio (displayed in user profile at end of posts)
-bio: 
+# 2025年论文所列单位
+organizations:
+  - name: 中国科学院紫金山天文台
+    url: 'https://www.pmo.cas.cn/'
+
+# 简介
+bio: 主要研究兴趣包括数据分析、恒星运动学、银河系结构与动力学。
 
 interests:
+  - 数据分析
+  - 恒星运动学
+  - 银河系结构
+  - 银河系运动学与动力学
 
 education:
   courses:
@@ -30,15 +32,12 @@ education:
       institution: 南京大学
       year: 2013
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
-
-# Highlight the author in author lists? (true/false)
 highlight_name: false
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - 历届成员
 ---
 
+在本课题组完成博士阶段研究，2018年获南京大学天文学博士学位。主要研究兴趣包括数据分析、恒星运动学、银河系结构与动力学。
+
+曾任中国科学院国家天文台LAMOST特聘青年研究员。
