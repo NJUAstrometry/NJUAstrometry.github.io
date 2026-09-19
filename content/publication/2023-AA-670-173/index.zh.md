@@ -1,12 +1,12 @@
 ---
-title: "基于计时、Gaia 与射电干涉测量的脉冲星位置比较：动力学与运动学参考架的对比"
+title: "Comparison of dynamical and kinematic reference frames via pulsar positions from timing, Gaia, and interferometric astrometry"
 authors:
-- Niu Liu
-- Zi Zhu
+- nliu
+- zzhu
 - John Antoniadis
-- Jia-Cheng Liu
-- Hao Zhang
-- Nan Jiang
+- jcliu
+- 张鸿
+- njiang
 
 author_notes:
 - 
@@ -22,19 +22,16 @@ doi: "10.1051/0004-6361/202243614"
 
 publication_types: ["article-journal"]
 
-publication: "*《天文与天体物理》(Astronomy & Astrophysics)* 670, A173 (2023)"
+publication: "*《天文与天体物理》* 2023年第670卷，编号A173"
 publication_short: "*A&A* 670, A173 (2023)"
 
-abstract: "本文利用脉冲星由计时、VLBI 与 Gaia 独立测得的位置，在亚毫角秒精度上评估行星历书所代表的动力学参考架与 Gaia/VLBI 所实现的运动学参考架之间的定向一致性。"
+abstract: "本文利用脉冲星由计时、VLBI 与 Gaia 独立测得的位置，在亚毫角秒精度上评估行星历表所代表的动力学参考架与 Gaia/VLBI 所实现的运动学参考架之间的定向一致性。"
 
 summary: ""
 
-tags: ["astrometry", "reference systems", "pulsars: general", "Gaia", "VLBI"]
+tags: ["天体测量学", "参考系", "脉冲星", "Gaia", "VLBI"]
 featured: false
 
-resources:
-  - src: "paper.pdf"
-    name: "paper"
 
 url_doi: "https://doi.org/10.1051/0004-6361/202243614"
 url_project: "https://njuastrometry.github.io/zh/project/"
@@ -56,4 +53,4 @@ projects:
 slides: ""
 ---
 
-脉冲星能够同时连接**动力学参考架**（基于行星历书）与**运动学参考架**（Gaia/VLBI）。通过比较计时、VLBI 与 Gaia 的脉冲星位置，研究给出两类参考架的定向差异估计，并讨论由样本组成（毫秒脉冲星 vs 非毫秒脉冲星）与黄道纬度筛选带来的系统效应。
+脉冲星能够同时连接**动力学参考架**（基于行星历表）与**运动学参考架**（Gaia/VLBI）。通过比较计时、VLBI 与 Gaia 的脉冲星位置，研究给出两类参考架的定向差异估计，并讨论由样本组成（毫秒脉冲星 vs 非毫秒脉冲星）与黄道纬度筛选带来的系统效应。

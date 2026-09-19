@@ -1,12 +1,12 @@
 ---
 title: "Comparison of dynamical and kinematic reference frames via pulsar positions from timing, Gaia, and interferometric astrometry"
 authors:
-- Niu Liu
-- Zi Zhu
+- nliu
+- zzhu
 - John Antoniadis
-- Jia-Cheng Liu
-- Hao Zhang
-- Nan Jiang
+- jcliu
+- Hong Zhang
+- njiang
 
 author_notes:
 - 
@@ -33,9 +33,6 @@ tags: ["astrometry", "reference systems", "pulsars: general", "Gaia", "VLBI"]
 featured: false
 
 # Prefer local PDF in bundle
-resources:
-  - src: "paper.pdf"
-    name: "paper"
 
 # External links
 url_doi: "https://doi.org/10.1051/0004-6361/202243614"
