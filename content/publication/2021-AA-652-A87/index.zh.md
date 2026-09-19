@@ -8,7 +8,7 @@ authors:
   - zzhu
   - jcliu
   - njiang
-  - Xiao-Sheng Wan
+  - 万晓生
   - cyding
 
 author_notes:

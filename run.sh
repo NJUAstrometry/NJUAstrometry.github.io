@@ -6,33 +6,97 @@
 # Created Time: Sat 19 Sep 2026 09:07:13 PM CST
 #########################################################################
 
+cat > content/publication/2022-IVSGM-Liu/index.md <<'EOF'
+---
+title: "Evaluate the ICRF3 Axes' Stability via Extragagalactic Source Position Time Series"
 
-# 作者关联：兼容列表项前有无缩进
-sed -i -E \
-  -e 's/^([[:space:]]*)- Jun Yao[[:space:]]*$/\1- jyao/' \
-  -e 's/^([[:space:]]*)- Jia-Cheng Liu[[:space:]]*$/\1- jcliu/' \
-  -e 's/^([[:space:]]*)- Niu Liu[[:space:]]*$/\1- nliu/' \
-  -e 's/^([[:space:]]*)- Zi Zhu[[:space:]]*$/\1- zzhu/' \
-  -e 's/^([[:space:]]*)- Ibnu Nurul Huda[[:space:]]*$/\1- inhuda/' \
-  content/publication/2022-AA-665-121/index.md \
-  content/publication/2022-AA-665-121/index.zh.md
+authors:
+  - nliu
+  - Sébastien Lambert
+  - Felicitas Arias
+  - jcliu
+  - zzhu
 
-# 统一封面文件名
-if [ -f content/publication/2022-AA-665-121/Featured.png ]; then
-  mv -n content/publication/2022-AA-665-121/Featured.png \
-    content/publication/2022-AA-665-121/featured.png
-fi
+date: "2023-01-01T00:00:00Z"
+doi: "10.48550/arXiv.2206.15038"
 
-# 删除中文页面中第一处空的 image 配置
-sed -i '/^image:$/{
-N
-N
-N
-/^image:\n  caption: '\'''\''\n  focal_point: ""\n  preview_only: false$/d
-}' content/publication/2022-AA-665-121/index.zh.md
+publication_types: ["paper-conference"]
 
-# 修正文案中的重复字
-sed -i \
-  -e 's/发生改变变/发生改变/g' \
-  -e 's/任意时刻时/任意时刻/g' \
-  content/publication/2022-AA-665-121/index.zh.md
+publication: "In *International VLBI Service for Geodesy and Astrometry 2022 General Meeting Proceedings*, pp. 298–302 (2023)"
+publication_short: "*IVS GM 2022 Proceedings*, 298–302 (2023)"
+
+abstract: >
+  We present an updated assessment of the ICRF3 axis stability in terms of
+  linear drift and scatter, using extragalactic source position time series
+  derived from archival VLBI observations. The axes remain stable at the
+  10–20 μas level, with no degradation after the adoption of ICRF3 when
+  observations from new networks are included. We also assess the robustness
+  of the commonly used four-step solution for deriving source position time series.
+
+summary: "An updated assessment of ICRF3 axis stability and the robustness of the four-step solution for source position time series."
+
+tags: ["reference systems", "astrometry", "VLBI", "ICRF", "celestial frame stability"]
+featured: true
+
+url_pdf: "https://ui.adsabs.harvard.edu/link_gateway/2023ivs..conf..298L/EPRINT_PDF"
+url_code: "https://git.nju.edu.cn/neo/icrf3-axis-stability-2022"
+url_dataset: "https://git.nju.edu.cn/neo/icrf3-axis-stability-2022"
+
+image:
+  caption: ""
+  focal_point: "center"
+  preview_only: false
+
+projects:
+  - 2020-nsfc-key-program
+---
+EOF
+
+cat > content/publication/2022-IVSGM-Liu/index.zh.md <<'EOF'
+---
+title: "Evaluate the ICRF3 Axes' Stability via Extragalactic Source Position Time Series"
+
+authors:
+  - nliu
+  - Sébastien Lambert
+  - Felicitas Arias
+  - jcliu
+  - zzhu
+
+date: "2023-01-01T00:00:00Z"
+doi: "10.48550/arXiv.2206.15038"
+
+publication_types: ["paper-conference"]
+
+publication: "载于 *IVS 2022年全体会议论文集*，第298–302页（2023年）"
+publication_short: "*IVS GM 2022 Proceedings*, 298–302 (2023)"
+
+abstract: >
+  本文利用历史 VLBI 观测资料构建的河外射电源位置时间序列，
+  从线性漂移和离散度两方面更新评估了 ICRF3 的轴稳定性。
+  结果表明，参考架各轴稳定在 10–20 μas 水平；
+  在纳入新观测网的数据后，ICRF3 被采纳以来的轴稳定性未出现下降。
+  此外，本文检验了构建源位置时间序列时常用的四步解算方法的稳健性。
+
+summary: "更新评估 ICRF3 的轴稳定性，并检验源位置时间序列四步解算方法的稳健性。"
+
+tags: ["参考系", "天体测量学", "VLBI", "ICRF", "天球参考架稳定性"]
+featured: true
+
+url_pdf: "https://ui.adsabs.harvard.edu/link_gateway/2023ivs..conf..298L/EPRINT_PDF"
+url_code: "https://git.nju.edu.cn/neo/icrf3-axis-stability-2022"
+url_dataset: "https://git.nju.edu.cn/neo/icrf3-axis-stability-2022"
+
+image:
+  caption: ""
+  focal_point: "center"
+  preview_only: false
+
+projects:
+  - 2020-nsfc-key-program
+---
+EOF
+
+# 确保英文题名中的 Extragalactic 拼写正确
+sed -i 's/Extragagalactic/Extragalactic/' \
+  content/publication/2022-IVSGM-Liu/index.md
