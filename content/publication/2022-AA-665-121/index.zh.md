@@ -30,10 +30,10 @@ publishDate: "2022-09-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-  publication: "*《天文与天体物理》* 2022年第665卷，编号A121"
+publication: "*《天文与天体物理》* 2022年第665卷，编号A121"
 publication_short: "*A&A* 665, A121 (2022)"
 
-abstract: >
+abstract: 
   本文利用约40年的 VLBI 观测数据，研究从 ICRF2 到 ICRF3 的参考架更新，
   以及银河系光行差建模对地球定向参数解算的影响。
   通过比较不同处理方案与观测网，分析相关影响及其与射电源和台站分布的关系。
