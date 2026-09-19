@@ -1,54 +1,80 @@
-# Configuration of Hugo
-# Guide: https://docs.hugoblox.com/tutorial/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# Hugo configuration
 
-title: NJU Astrometry Group # Website name
-baseURL: 'https://njuastrometry.github.io/' # Website URL
+title: NJU Astrometry Group
+baseURL: 'https://njuastrometry.github.io/'
 
-############################
-## LANGUAGE
-############################
+# Languages
 
 defaultContentLanguage: en
-hasCJKLanguage: true
 defaultContentLanguageInSubdir: true
+hasCJKLanguage: true
 removePathAccents: true
 
-############################
-## ADVANCED
-############################
+# General settings
 
 enableGitInfo: false
 summaryLength: 30
+
 pagination:
   pagerSize: 10
+
 enableEmoji: true
 enableRobotsTXT: true
-footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+footnotereturnlinkcontents: '<sup>^</sup>'
+
+ignoreFiles:
+  - '\.ipynb$'
+  - '(^|/)\.ipynb_checkpoints(/|$)'
+  - '\.Rmd$'
+  - '\.Rmarkdown$'
+  - '(^|/)_cache(/|$)'
+
+# URL structure and redirects
+
 permalinks:
   authors: '/author/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
-# disableAliases: true
+
 disableAliases: false
+
+# Output formats
+
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  home: [HTML, RSS, JSON, WebAppManifest]
   section: [HTML, RSS]
+
+# Image processing
+
 imaging:
   resampleFilter: lanczos
   quality: 75
   anchor: smart
-timeout: 600000
+
+timeout: '600s'
+
+# Taxonomies
+
 taxonomies:
   tag: tags
   category: categories
   publication_type: publication_types
   author: authors
+
+# Inherit theme configuration
+
 markup:
   _merge: deep
+
+security:
+  _merge: deep
+
+sitemap:
+  _merge: deep
+
+# Related content
+
 related:
   threshold: 80
   includeNewer: true
@@ -58,7 +84,3 @@ related:
       weight: 100
     - name: categories
       weight: 70
-security:
-  _merge: deep
-sitemap:
-  _merge: deep

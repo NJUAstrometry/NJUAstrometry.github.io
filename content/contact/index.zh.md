@@ -25,7 +25,7 @@ sections:
       directions: 江苏省南京市仙林大道163号天文楼317办公室，210023
       office_hours:
         - '周一上午 09:00 至 12:00'
-        - '周三上午 08:00 to 12:00'
+        - '周三上午 08:00 至 12:00'
       # appointment_url: 'https://calendly.com'
       # contact_links:
       #  - icon: comments
@@ -42,9 +42,6 @@ sections:
         provider: formspree
         formspree:
           id: xrgnerak
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
     design:
       columns: '1'
 

@@ -42,9 +42,6 @@ sections:
         provider: formspree
         formspree:
           id: xrgnerak
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
     design:
       columns: '1'
 
