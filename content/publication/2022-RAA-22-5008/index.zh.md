@@ -1,10 +1,10 @@
 ---
-title: "光轴稳定性对系外行星探测的影响评估"
+title: "Evaluating the Impact of Optical Axis Stability on Exoplanet Detection"
 authors:
-  - Dong-Jie Tan
-  - Jia-Cheng Liu
-  - Zi Zhu
-  - Niu Liu
+  - djtan
+  - jcliu
+  - zzhu
+  - nliu
 author_notes:
   - 
   - "通讯作者"
@@ -28,14 +28,11 @@ abstract: >
   同时给出了相应的误差容限，并讨论了 CCD 畸变与焦距变化对测量的影响。
   本研究为高精度天体测量望远镜（如 CHES）的光学设计提供了定量指导。
 
-summary: "评估光轴稳定性对微角秒级角距离测量的影响，结果表明其偏移应控制在 68 mas 以内，以保证系外行星探测的高精度。"
+summary: "通过理论分析与数值模拟评估光轴稳定性的影响：在本文研究条件下，角距离测量误差限制为 1 μas 时，光轴偏移上限约为 68 mas。"
 
 tags: ["天体测量学", "光学系统", "系外行星探测", "CHES", "高角分辨率"]
 featured: false
 
-resources:
-  - src: "paper.pdf"
-    name: "paper"
 
 url_pdf: "https://iopscience.iop.org/article/10.1088/1674-4527/ac3df1/pdf"
 url_doi: "https://doi.org/10.1088/1674-4527/ac3df1"

@@ -1,10 +1,10 @@
 ---
 title: "Evaluating the Impact of Optical Axis Stability on Exoplanet Detection"
 authors:
-  - Dong-Jie Tan
-  - Jia-Cheng Liu
-  - Zi Zhu
-  - Niu Liu
+  - djtan
+  - jcliu
+  - zzhu
+  - nliu
 author_notes:
   - 
   - "corresponding author"
@@ -34,9 +34,6 @@ summary: "We evaluated how optical-axis stability affects microarcsecond-level a
 tags: ["astrometry", "optical systems", "exoplanet detection", "CHES", "high angular resolution"]
 featured: false
 
-resources:
-  - src: "paper.pdf"
-    name: "paper"
 
 url_pdf: "https://iopscience.iop.org/article/10.1088/1674-4527/ac3df1/pdf"
 url_doi: "https://doi.org/10.1088/1674-4527/ac3df1"
