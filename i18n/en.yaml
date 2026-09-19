@@ -99,7 +99,7 @@
 # About widget
 
 - id: interests
-  translation: Interests
+  translation: Research interests
 
 - id: education
   translation: Education

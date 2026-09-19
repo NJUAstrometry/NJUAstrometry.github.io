@@ -7,16 +7,16 @@
   translation: 目录
 
 - id: on_this_page
-  translation: 在本页
+  translation: 本页内容
 
 - id: back_to_top
-  translation: 回到顶部
+  translation: 返回顶部
 
 - id: home
-  translation: Home
+  translation: 首页
 
 - id: close
-  translation: Close
+  translation: 关闭
 
 - id: languages
   translation: 语言
@@ -24,10 +24,10 @@
 # General
 
 - id: related
-  translation: 相关
+  translation: 相关内容
 
 - id: minute_read
-  translation: 分钟阅读时长
+  translation: 分钟阅读
 
 - id: previous
   translation: 上一页
@@ -36,7 +36,7 @@
   translation: 下一页
 
 - id: figure
-  translation: '图%d:'
+  translation: '图 %d：'
 
 - id: edit_page
   translation: 编辑本页
@@ -44,7 +44,7 @@
 # Themes
 
 - id: theme_selector
-  translation: Display preferences
+  translation: 显示设置
 
 - id: theme_light
   translation: 浅色
@@ -67,7 +67,7 @@
   translation: 引用
 
 - id: btn_slides
-  translation: 演示文稿
+  translation: 幻灯片
 
 - id: btn_video
   translation: 视频
@@ -91,7 +91,7 @@
   translation: 复制
 
 - id: btn_copied
-  translation: Copied
+  translation: 已复制
 
 - id: btn_download
   translation: 下载
@@ -99,13 +99,13 @@
 # About widget
 
 - id: interests
-  translation: 兴趣爱好
+  translation: 研究方向
 
 - id: education
   translation: 教育经历
 
 - id: user_profile_latest
-  translation: 最新
+  translation: 最新内容
 
 # Accomplishments widget
 
@@ -114,28 +114,28 @@
 
 # Experience widget
 
-- id: work_experience
+- id: experience
   translation: 工作经历
 
 - id: present
-  translation: 现在
+  translation: 至今
 
 # Pages widget
 
 - id: read_more
-  translation: 阅读文章
+  translation: 阅读更多
 
 - id: more_pages
   translation: 查看全部
 
 - id: more_posts
-  translation: 查看全部文章
+  translation: 查看全部动态
 
 - id: more_talks
-  translation: 查看全部演讲
+  translation: 查看全部活动
 
 - id: more_publications
-  translation: 查看全部出版物
+  translation: 查看全部学术成果
 
 # Contact widget
 
@@ -143,13 +143,13 @@
   translation: 姓名
 
 - id: contact_email
-  translation: 邮箱
+  translation: 电子邮箱
 
 - id: contact_message
-  translation: 信息
+  translation: 留言
 
 - id: contact_attachment
-  translation: Attach file
+  translation: 添加附件
 
 - id: contact_send
   translation: 发送
@@ -163,28 +163,28 @@
   translation: 摘要
 
 - id: publication
-  translation: 出版物
+  translation: 刊物或出版物
 
 - id: publication_type
-  translation: 类型
+  translation: 成果类型
 
 - id: date
   translation: 日期
 
 - id: last_updated
-  translation: 最近更新于
+  translation: 最后更新于
 
 - id: event
-  translation: 事件
+  translation: 学术活动
 
 - id: location
-  translation: 位置
+  translation: 地点
 
-- id: paper-conference
-  translation: 会议文章
+- id: pub_paper_conference
+  translation: 会议论文
 
 - id: pub_article_journal
-  translation: 期刊文章
+  translation: 期刊论文
 
 - id: pub_article
   translation: 预印本
@@ -193,13 +193,13 @@
   translation: 报告
 
 - id: pub_book
-  translation: 书籍
+  translation: 著作
 
 - id: pub_chapter
-  translation: 章节
+  translation: 书籍章节
 
 - id: pub_thesis
-  translation: 论文
+  translation: 学位论文
 
 - id: pub_patent
   translation: 专利
@@ -209,25 +209,25 @@
 - id: open_project_site
   translation: 访问项目网站
 
-# Content types for default archive page titles and search results
+# Content types for archive titles and search results
 
 - id: posts
-  translation: 文章
+  translation: 新闻动态
 
 - id: publications
-  translation: 出版物
+  translation: 学术成果
 
 - id: talks
-  translation: 演讲
+  translation: 学术活动
 
 - id: projects
-  translation: 项目
+  translation: 科研项目
 
 - id: slides
-  translation: Slides
+  translation: 幻灯片
 
 - id: authors
-  translation: Authors
+  translation: 作者
 
 # Search
 
@@ -235,32 +235,32 @@
   translation: 搜索
 
 - id: search_placeholder
-  translation: 搜索...
+  translation: 搜索……
 
 - id: search_results
-  translation: 搜索结果
+  translation: 条搜索结果
 
 - id: search_no_results
-  translation: 没有找到结果
+  translation: 未找到相关结果
 
 - id: search_common_queries
-  translation: 经常搜寻
+  translation: 常用搜索
 
 # Error 404
 
 - id: page_not_found
-  translation: 找不到页面
+  translation: 页面未找到
 
 - id: 404_recommendations
-  translation: 也许你在找？
+  translation: 您可能正在寻找以下内容：
 
 # Cookie consent
 
 - id: cookie_message
-  translation: 本网站使用cookies来确保您在本网站上获得最佳体验。
+  translation: 本网站使用 Cookie，以改善您的浏览体验。
 
 - id: cookie_dismiss
-  translation: 知道了!
+  translation: 知道了
 
 - id: cookie_learn
   translation: 了解更多
@@ -268,4 +268,18 @@
 # Published with
 
 - id: published_with
-  translation: 由{hugoblox}支持发布——免费{repo_link}开源{/repo_link}网站，为创作者赋能。
+  translation: '使用 {hugoblox} 构建——免费的{repo_link}开源{/repo_link}网站构建工具。'
+
+# Feedback widget
+
+- id: feedback_widget_title
+  translation: 反馈
+
+- id: feedback_widget_question
+  translation: 本页内容对您有帮助吗？
+
+- id: feedback_widget_answer_positive
+  translation: 有帮助
+
+- id: feedback_widget_answer_negative
+  translation: 没有帮助
