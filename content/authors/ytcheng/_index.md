@@ -36,7 +36,7 @@ social:
     link: 'mailto:yu-ting.cheng@obspm.fr'
   - icon: cv
     icon_pack: ai
-    link: /files/cv-YutingCheng.pdf
+    link: https://njuastrometry.github.io/files/cv-YutingCheng.pdf
 
 highlight_name: false
 

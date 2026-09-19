@@ -42,7 +42,7 @@ social:
 
   - icon: cv
     icon_pack: ai
-    link: /files/cv-jcliu.pdf
+    link: https://njuastrometry.github.io/files/cv-jcliu.pdf
 
 highlight_name: false
 

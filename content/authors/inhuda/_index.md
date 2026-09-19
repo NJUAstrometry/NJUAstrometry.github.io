@@ -44,7 +44,7 @@ social:
 
   - icon: cv
     icon_pack: ai
-    link: /files/cv-IbnuNurulHuda.pdf
+    link: https://njuastrometry.github.io/files/cv-IbnuNurulHuda.pdf
 
 highlight_name: false
 
