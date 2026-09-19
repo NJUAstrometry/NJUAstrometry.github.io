@@ -1,5 +1,5 @@
 ---
-title: "基于 VLBI 和 Gaia DR2 的天体测量系统误差与精度比较"
+title: "Systematics and accuracy of VLBI astrometry: A comparison with Gaia Data Release 2"
 authors:
   - nliu
   - Sébastien B. Lambert

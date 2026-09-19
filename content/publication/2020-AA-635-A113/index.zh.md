@@ -1,5 +1,5 @@
 ---
-title: "Gaia-CRF2 中类星体天体测量参数的深入分析"
+title: "Revisiting astrometric parameters of quasars in Gaia-CRF2"
 authors:
   - cyding
   - zzhu

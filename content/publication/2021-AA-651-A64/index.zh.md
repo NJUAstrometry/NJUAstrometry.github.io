@@ -1,5 +1,5 @@
 ---
-title: "基于多频 VLBI、Gaia EDR3 与 MOJAVE 的 AGN 射电–光学偏移与喷流方向一致性研究"
+title: "Parsec-scale alignments of radio–optical offsets with jets in AGNs from multifrequency geodetic VLBI, Gaia EDR3, and the MOJAVE program"
 authors:
   - Sébastien Lambert
   - nliu
