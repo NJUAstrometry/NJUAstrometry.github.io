@@ -48,9 +48,9 @@ slides: ""
 ---
 
 **Galactic aberration (GA)** is the apparent proper-motion field caused by the Solar System
-Barycenter’s acceleration toward the Galactic center. With amplitude \(g \approx 5~\mu\mathrm{as~yr^{-1}}\),
+Barycenter’s acceleration toward the Galactic center. With amplitude $g \approx 5~\mu\mathrm{as~yr^{-1}}$,
 the field drives a slow global spin of the realized reference frame depending on source distribution,
-and introduces small but accumulating systematics in **EOP** (e.g., \(\sim 1~\mu\mathrm{as~yr^{-1}}\) in precession rates).
+and introduces small but accumulating systematics in **EOP** (e.g., $\sim 1~\mu\mathrm{as~yr^{-1}}$ in precession rates).
 In the **ICRF3–Gaia** era, modeling GA—together with frame-rotation terms—is essential for a rigid radio–optical link.
 Key formulas include the VSH description of the dipolar field and closed-form expressions for GA-induced
 proper motions and frame rotation.

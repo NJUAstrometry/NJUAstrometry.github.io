@@ -1,5 +1,5 @@
 ---
-title: "银河系光行差及其对天文学参考架的影响"
+title: "银河系光行差及其对天文参考架的影响"
 authors:
   - jcliu
   - nliu
@@ -12,8 +12,8 @@ doi: "10.1016/j.chinastron.2020.05.001"
 
 publication_types: ["article-journal"]
 
-publication: "*《中国天文学与天体物理学》(Chinese Astronomy and Astrophysics)* 44, 131–145 (2020)"
-publication_short: "*Chin. Astron. Astrophys.* 44, 131–145 (2020)"
+publication: "*《天文学报》* 2020年第61卷第1期"
+publication_short: "*《天文学报》* 第61卷第1期 (2020)"
 
 abstract: >
   银河系光行差（又称为长期光行差漂移）源自太阳系质心绕银河系中心的向心加速度，
@@ -47,7 +47,7 @@ slides: ""
 **银河系光行差（Galactic Aberration, GA）** 是由太阳系质心绕银河系中心运动的向心加速度所引起的视运动效应。其视运动幅度约为 \( g \approx 5~\mu\mathrm{as~yr^{-1}} \)，会造成天球参考架的缓慢自旋和区域性畸变，并对 **地球定向参数（EOP）** 的岁差速率产生约 \(1~\mu\mathrm{as~yr^{-1}}\) 的影响。在 ICRF3 与 Gaia 参考架连接的高精度天体测量时代，必须对 GA 效应进行显式建模，以保持参考架的刚性与非旋转特性。本文给出了基于矢量球谐函数（VSH）的偶极场描述，并推导了光行差引起的视运动与参考架旋转之间的定量关系。
 
 > **参考文献：**  
-> Liu, J.-C., & Liu, N. (2020).  
-> *The Galactic Aberration and Its Impact on Astronomical Reference Frames.*  
-> *Chinese Astronomy and Astrophysics,* 44, 131–145.  
-> [https://doi.org/10.1016/j.chinastron.2020.05.001](https://doi.org/10.1016/j.chinastron.2020.05.001)
+> 刘佳成，刘牛
+> *银河系光行差及其对天文参考架的影响*  
+> *《天文学报》* 2020年第61卷第1期.  
+> [https://doi.org/doi: 10.15940/j.cnki.0001-5245.2020.01.010](https://pmo.cas.cn/xscbw/twxb/xbll/2020_61/2020_61_1/202001/P020200119613926468807.pdf)
