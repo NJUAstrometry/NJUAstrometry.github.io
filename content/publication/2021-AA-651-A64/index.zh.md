@@ -2,13 +2,13 @@
 title: "基于多频 VLBI、Gaia EDR3 与 MOJAVE 的 AGN 射电–光学偏移与喷流方向一致性研究"
 authors:
   - Sébastien Lambert
-  - Niu Liu
+  - nliu
   - E. F. Arias
   - C. Barache
   - J. Souchay
   - F. Taris
-  - Jia-Cheng Liu
-  - Zi Zhu
+  - jcliu
+  - zzhu
 author_notes:
   - "通讯作者"
   - 
@@ -30,7 +30,7 @@ publication_short: "*A&A* 651, A64 (2021)"
 abstract: >
   本文结合多频 VLBI（X、K、Ka 波段）、Gaia EDR3 光学位置与 MOJAVE 射电喷流观测，
   研究了 194 个活动星系核（AGN）在射电与光学波段下的发射中心位置偏移与喷流方向的关系。
-  结果表明，大多数源的射电–光学位置偏移方向与其毫秒尺度喷流方向一致，
+  结果表明，大多数源的射电–光学位置偏移方向与其秒差距尺度喷流方向一致，
   且光学质心通常位于射电核心下游位置。
   K、Ka 波段质心相对于 X 波段呈上游偏移，符合核心–喷流模型的预期。
   部分光学质心与稳定的高偏振射电分量重合，说明光学辐射具有同步辐射起源。
@@ -42,9 +42,6 @@ summary: "多频 VLBI 与 Gaia EDR3 联合分析表明，AGN 射电–光学偏�
 tags: ["天体测量学", "参考系", "活动星系核", "VLBI", "Gaia"]
 featured: false
 
-resources:
-  - src: "paper.pdf"
-    name: "paper"
 
 url_pdf: "https://www.aanda.org/articles/aa/pdf/2021/07/aa40652-21.pdf"
 url_doi: "https://doi.org/10.1051/0004-6361/202140652"

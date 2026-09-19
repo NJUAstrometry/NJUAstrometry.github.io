@@ -2,13 +2,13 @@
 title: "Parsec-scale alignments of radio–optical offsets with jets in AGNs from multifrequency geodetic VLBI, Gaia EDR3, and the MOJAVE program"
 authors:
   - Sébastien Lambert
-  - Niu Liu
+  - nliu
   - E. F. Arias
   - C. Barache
   - J. Souchay
   - F. Taris
-  - Jia-Cheng Liu
-  - Zi Zhu
+  - jcliu
+  - zzhu
 author_notes:
   - "corresponding author"
   - 
@@ -42,7 +42,7 @@ abstract: >
   These results confirm that multiwavelength astrometry can independently trace jet
   directions and that the ICRF3 X-band frame is stable and reliable.
 
-summary: "Alignment of multiwavelength VLBI–Gaia positions with parsec-scale jets; optical centroids are downstream and polarized, consistent with a core–jet scenario."
+summary: "Multiwavelength VLBI–Gaia astrometry reveals alignments between radio–optical offsets and parsec-scale AGN jets, consistent with a core–jet scenario."
 
 tags: ["astrometry", "reference systems", "AGN jets", "VLBI", "Gaia"]
 featured: false
@@ -73,7 +73,7 @@ Such geometry supports a **simple core–jet model**.
 In some cases, optical centroids coincide with stationary polarized radio features,
 indicating **synchrotron-dominated optical emission**.
 The results highlight that **astrometric offsets themselves can trace jet orientation**
-without imaging, strengthening the radio–optical tie of the ICRS. :contentReference[oaicite:1]{index=1}
+without imaging, strengthening the radio–optical tie of the ICRS.
 
 > **Citation:**  
 > Lambert, S., Liu, N., Arias, E. F., Barache, C., Souchay, J., Taris, F., Liu, J.-C., & Zhu, Z. (2021).  
