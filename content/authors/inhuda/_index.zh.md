@@ -1,35 +1,32 @@
 ---
-# Display name
+# 姓名
 title: Ibnu Nurul Huda
-
-# Full Name (for SEO)
 first_name: Ibnu
 last_name: Nurul Huda
 
-# Username (this should match the folder name)
-# authors:
-#   - inhuda
-
-# Is this the primary user of the site?
 superuser: false
 
-# Role/position
-role: 博士后
+# 在组期间身份
+role: 原博士后
 
-# Organizations/Affiliations
+# 在组期间所属单位
 organizations:
   - name: 南京大学
-    url: ''
+    url: 'https://www.nju.edu.cn/'
 
-# Short bio (displayed in user profile at end of posts)
-bio: 
+# 简介
+bio: 主要研究兴趣包括地球自转、VLBI数据分析、参考系、地球潮汐和天体力学。
 
 interests:
-
+  - VLBI
+  - 地球动力学
+  - 地球定向参数
+  - 参考系
+  - 天体力学
 
 education:
   courses:
-    - course: 天文学博士
+    - course: 天文学博士学位
       institution: 巴黎天文台
       year: 2019
     - course: 应用物理学硕士学位
@@ -39,36 +36,20 @@ education:
       institution: 万隆理工学院
       year: 2014
 
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+# 联系方式与简历
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'ibnu.nurul.huda@nju.edu.cn'
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: 
-  # - icon: github
-  #   icon_pack: fab
-  #   link: 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+    link: 'mailto:ibnu.nurul.huda@nju.edu.cn'
+
   - icon: cv
     icon_pack: ai
-    link: files/cv-IbnuNurulHuda.pdf
+    link: /files/cv-IbnuNurulHuda.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
-
-# Highlight the author in author lists? (true/false)
 highlight_name: false
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-# 中文档案
 user_groups:
-  - 博士后
+  - 历届成员
 ---
 
+曾在本课题组从事博士后研究，现已出站。主要研究兴趣包括VLBI数据处理、地球动力学、地球自转和天体力学。
