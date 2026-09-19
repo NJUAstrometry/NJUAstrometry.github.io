@@ -5,7 +5,7 @@ profile: false
 share: false
 ---
 
-Congratulations to [Jun Yao]({{< relref "/authors/jyao" >}}) on reaching the dissertation defense stage of his PhD!
+Congratulations to [Jun Yao]({{< relref "/authors/jyao" >}}) on earning his PhD!
 
 <!--more-->
 
@@ -15,4 +15,4 @@ Congratulations to [Jun Yao]({{< relref "/authors/jyao" >}}) on reaching the dis
 
 The dissertation investigates the systematic effects of Galactic aberration on Earth orientation parameter estimation, computes high-precision semi-analytical expressions for practical precession-nutation parameters, achieves a sub-milliarcsecond tie between ephemeris and optical reference frames through joint orbit determination using Gaia asteroid data, and assesses the potential of the China Space Station Telescope (CSST) to extend multiwavelength reference frames.
 
-Congratulations to Jun on this milestone!
+Congratulations, Dr. Yao!
