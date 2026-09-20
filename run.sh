@@ -1,44 +1,9 @@
-python3 - <<'PY'
-from pathlib import Path
+cat >> content/project/2026-nsfc-key-program/_index.md <<'EOF'
 
-headers = {
-    "index": """---
-title: "High-precision core-shift measurements for a large sample of ICRF3 sources and systematics of multi-waveband reference frames"
-date: "2025-01-01"
+{{< figure src="schematic.png" caption="Schematic illustration of the self-consistent precession-nutation model." numbered="false" >}}
+EOF
 
-authors:
-  - nliu
-author_notes:
-  - "Principal investigator"
+cat >> content/project/2026-nsfc-key-program/_index.zh.md <<'EOF'
 
-share: false
-""",
-    "index.zh": """---
-title: "大样本ICRF3源核移高精度测量及多波段参考架探讨"
-date: "2025-01-01"
-
-share: false
-""",
-}
-
-folder = Path("content/project/2025-nsfc-general-program")
-
-for name, header in headers.items():
-    path = folder / f"_{name}.md"
-    text = path.read_bytes()
-    lines = text.splitlines(keepends=True)
-
-    if not lines or lines[0].strip() != b"---":
-        raise SystemExit(f"未找到 YAML 头部：{path}")
-
-    end = next(
-        (i for i in range(1, len(lines)) if lines[i].strip() == b"---"),
-        None,
-    )
-    if end is None:
-        raise SystemExit(f"未找到 YAML 结束标记：{path}")
-
-    body = b"".join(lines[end + 1:])
-    path.write_bytes(header.encode("utf-8") + b"---\n" + body)
-    print(f"已更新头部：{path}")
-PY
+{{< figure src="schematic.png" caption="自洽地球岁差—章动模型示意图。" numbered="false" >}}
+EOF

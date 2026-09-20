@@ -2,6 +2,11 @@
 title: "大样本ICRF3源核移高精度测量及多波段参考架探讨"
 date: "2025-01-01"
 
+authors:
+  - nliu
+author_notes:
+  - "项目参与人"
+
 share: false
 ---
 
