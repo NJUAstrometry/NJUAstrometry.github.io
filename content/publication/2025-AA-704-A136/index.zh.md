@@ -22,7 +22,7 @@ author_notes:
   - ''
 
 date: '2025-12-01'
-publication_types: ['2']
+publication_types: ["article-journal"]
 publication: '*Astronomy & Astrophysics*, **704**, A136'
 publication_short: '*A&A*, **704**, A136'
 doi: '10.1051/0004-6361/202556271'

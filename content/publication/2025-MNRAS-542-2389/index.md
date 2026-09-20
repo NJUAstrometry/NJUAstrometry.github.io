@@ -16,7 +16,7 @@ author_notes:
   - ''
 
 date: '2025-08-23'
-publication_types: ['2']
+publication_types: ["article-journal"]
 publication: '*Monthly Notices of the Royal Astronomical Society*, **542**, 2389–2403'
 publication_short: '*MNRAS*, **542**, 2389–2403'
 doi: '10.1093/mnras/staf1398'
