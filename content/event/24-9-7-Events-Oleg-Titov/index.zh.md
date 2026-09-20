@@ -1,65 +1,39 @@
 ---
-title: Oleg Titov博士与舒逢春研究员访问课题组
+title: "Oleg Titov博士与舒逢春研究员访问课题组"
 
-event: Oleg Titov博士与舒逢春研究员访问课题组
-event_url: 
+event: "VLBI与天球参考架学术访问及交流"
+location: "南京大学"
 
-location: 
+summary: "Oleg Titov博士与舒逢春研究员访问课题组，开展学术交流，访问期间安排了国际天球参考架改进与OCCAM软件使用报告。"
+abstract: ""
 
-summary: 并与课题组成员进行学术交流。
-abstract: ''
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-09-06T08:00:00Z'
-# date_end: '2023-12-25T18:00:00Z'
+date: "2024-09-06T00:00:00+08:00"
+date_end: "2024-09-07T23:59:00+08:00"
 all_day: true
-
-# Schedule page publish date (NOT talk date).
-publishDate: '2024-09-07T00:00:00Z'
+publishDate: "2024-09-07T00:00:00Z"
 
 authors: []
-tags: []
-
-# Is this a featured talk? (true/false)
+tags: ["学术来访", "学术报告", "VLBI", "参考系", "ICRF"]
 featured: false
 
 image:
-  caption: ''
-  focal_point: Right
+  caption: ""
+  focal_point: "Right"
 
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides:
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects:
+slides: ""
+projects: []
 ---
 
-<!-- Slides can be added in a few ways:
+**2024年9月6日**，澳大利亚地球科学局（Geoscience Australia）的 **Oleg Titov博士**与**舒逢春研究员**访问南京大学课题组。
 
-- **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
+Titov博士作了题为 **“Future Improvements of the International Celestial Reference Frame”（国际天球参考架的未来改进）**的学术报告，介绍如何通过VLBI数据分析提高下一代国际天球参考架（ICRF）的精度。
 
-Further event details, including page elements such as image galleries, can be added to the body of this page. -->
+报告结束后，Titov博士及其学生 **Angelina Osetrova** 与课题组成员就VLBI在天文学中的应用进行了学术交流。
 
-2024年9月6日上午，甚长基线干涉测量（VLBI）学者Oleg Titov与舒逢春研究员访问课题组。Titov自2001年起一直在澳大利亚堪培拉的Geoscience Australia担任VLBI科学家，拥有丰富的VLBI数据处理经验。访问期间，Titov教授发表了一场题为“Future Improvements of the International Celestial Reference Frame" (国际天体参考架的未来发展)的学术讲座，分享了他如何利用VLBI数据处理技术来提高下一代国际天体参考架的精度。讲座结束后，Titov教授和他的学生，Angelina Osetrova，与我们的团队就VLBI技术在天文学领域的应用进行了深入的学术交流 。
+{{< figure src="fig1.jpg" caption="" numbered="false" >}}
 
-在报告后，Titov教授与课题组一同游览了南京的著名景点玄武湖、明城墙及南京长江大桥。
+**9月7日**，Angelina Osetrova作了关于 **OCCAM软件**的报告，介绍该软件在VLBI数据处理中的使用方法。
+
+访问期间，Titov博士还与课题组成员一同游览了玄武湖、南京明城墙及南京长江大桥。
 
 {{< figure src="heyin.jpg" caption="" numbered="false" >}}
-
-次日，Angelina Osetrova报告分享了如何使用VLBI数据处理软件，OCCAM。
