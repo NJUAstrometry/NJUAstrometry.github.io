@@ -17,148 +17,170 @@ sed -i -E \
   content/publication/2026-Universe-12-197/index.md \
   content/publication/2026-Universe-12-197/index.zh.md
 
+mkdir -p content/publication/2026-ApJ-1003-54
 
-mkdir -p content/publication/2026-RAA-26-055005
-
-cat > content/publication/2026-RAA-26-055005/index.md <<'EOF'
+cat > content/publication/2026-ApJ-1003-54/index.md <<'EOF'
 ---
-title: "Contribution of APSG VLBI Program in Monitoring Radio Telescope Motion Across Asia-Pacific Region"
+title: "Detections of Nearly Bias-free Core Shifts with 5–30 μas Precisions at 8–43 GHz in BL Lacertae"
 
 authors:
-  - inhuda
-  - jcliu
   - nliu
-  - F. Shu
-  - jyao
-  - T. Hidayat
-  - zwwang
-  - nabila
+  - Jun Yang
+  - Xiaopeng Cheng
+  - Ai-Ling Zeng
+  - Wen Chen
+  - Xiao-Long Yang
+  - Xiaoyu Hong
+  - xxzhang
+  - jcliu
+  - zzhu
 
-date: "2026-02-27"
-doi: "10.1088/1674-4527/ae400c"
+date: "2026-05-14"
+doi: "10.3847/1538-4357/ae63b4"
 
 publication_types: ["article-journal"]
-publication: "*Research in Astronomy and Astrophysics* 26:055005 (2026)"
-publication_short: "*RAA* 26:055005 (2026)"
+publication: "*The Astrophysical Journal*, 1003, 54 (2026)"
+publication_short: "*ApJ* 1003, 54 (2026)"
 
 abstract: >
-  We assess the contribution of the Asia-Pacific Space Geodynamics (APSG)
-  VLBI program to station-motion estimation and regional crustal-deformation
-  monitoring. Using 54 APSG sessions involving 22 stations between 1997 and
-  2024, we examine station coordinate time series, baseline-length variations,
-  and global station-velocity solutions. APSG-derived time series are
-  consistent with those from other VLBI sessions, with median formal
-  uncertainties approximately 15% smaller. Including APSG sessions in the
-  global velocity solution reduces formal uncertainties at several stations
-  by up to 25%. The estimated velocities agree with ITRF2020, while
-  differences from the MORVEL geological plate-motion model at some stations
-  indicate sensitivity to regional deformation. APSG strengthens the
-  geodetic VLBI network through direct East Asia–Australia baselines and
-  increased participation of regional stations.
+  We measure frequency-dependent core shifts in BL Lacertae using VLBA
+  observations at 8.4, 12.4, 15.2, 23.6, and 43.2 GHz. Inverse phase
+  referencing to the nearby steep-spectrum source NVSS J220340+420839,
+  separated by only 13.3 arcmin, provides nearly bias-free two-dimensional
+  measurements with precisions of 5–30 μas and detections exceeding
+  3σ significance. The displacement between 8.4 and 43.2 GHz reaches
+  approximately 250 μas. A power-law fit gives a core-shift index
+  of 1.18, with lower and upper uncertainties of 0.34 and 0.59,
+  respectively. This result is consistent with the canonical value of
+  unity expected under equipartition between particle and magnetic
+  energy densities, while allowing modest departures during the
+  observed flaring state.
 
-summary: "APSG VLBI observations strengthen the Asia-Pacific geodetic network and improve station-motion estimates, reducing velocity formal uncertainties at several stations by up to 25%."
+summary: "Inverse phase-referencing VLBI astrometry measures nearly bias-free core shifts in BL Lacertae with 5–30 μas precision, providing constraints on opacity and physical conditions in the inner jet."
 
-tags: ["astrometry", "reference systems", "geodetic VLBI", "station motion", "crustal deformation", "APSG"]
+tags: ["astrometry", "VLBI", "core shift", "BL Lacertae", "relativistic jets", "magnetic fields"]
 featured: true
 
-url_pdf: "https://iopscience.iop.org/article/10.1088/1674-4527/ae400c/pdf"
-url_doi: "https://doi.org/10.1088/1674-4527/ae400c"
+url_pdf: "https://iopscience.iop.org/article/10.3847/1538-4357/ae63b4/pdf"
+url_doi: "https://doi.org/10.3847/1538-4357/ae63b4"
+url_code: "https://git.nju.edu.cn/astrometry/bllac_core_shift"
 
 links:
-  - name: Publisher
-    url: "https://www.raa-journal.org/issues/all/2026/v26n5/202603/t20260331_828597.html"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2604.20095"
+  - name: Zenodo
+    url: "https://doi.org/10.5281/zenodo.19691949"
 
 image:
-  caption: ""
+  caption: >
+    Core-shift measurements of BL Lacertae.
+    (a) Two-dimensional core shifts at 8.4, 12.4, 15.2, and 23.6 GHz
+    relative to 43.2 GHz; the dashed line shows the best-fit model,
+    and the gray region represents 1000 randomly sampled MCMC realizations.
+    (b) VLBA image at 43 GHz.
+    (c) Core displacements projected along a position angle of 197°;
+    the red dashed line shows the best-fit model, with its 1σ confidence
+    interval in gray.
+    (d) Surrounding calibrator field: black squares mark six RFC sources,
+    and the blue circle identifies the reference calibrator used here.
   focal_point: "center"
   preview_only: false
 ---
 
-**Background and approach**
+**Observations and method**
 
-The Asia-Pacific Space Geodynamics (APSG) program uses space-geodetic observations to investigate plate motion and crustal deformation in the Asia-Pacific region. Its VLBI campaigns provide direct measurements of station positions and inter-station baselines, complementing the global geodetic VLBI network.
+The apparent radio core of an active galactic nucleus can shift with observing frequency because of opacity in the inner jet. Measuring this displacement provides a way to investigate the jet origin and its physical conditions.
 
-We analyse 54 APSG sessions conducted between October 1997 and September 2024, involving 22 stations. The study compares session-wise station coordinates and baseline lengths with those derived from other VLBI observations, evaluates the effect of including APSG sessions in global station-velocity solutions, and compares the estimated velocities with ITRF2020 and the MORVEL geological plate-motion model.
+We observed BL Lacertae with the VLBA on 27 July 2024 at **8.4, 12.4, 15.2, 23.6, and 43.2 GHz**. The nearby source **NVSS J220340+420839**, only **13.3 arcmin** away, provides a compact, steep-spectrum reference. Its measured spectral index of $-1.27\pm0.02$ supports its use as an optically thin reference source.
+
+Using inverse phase referencing, calibration solutions derived from bright BL Lacertae are transferred to the weaker reference source. The differential positions then yield two-dimensional core shifts relative to the 43.2 GHz core, under the assumption that the reference-source position is frequency independent.
 
 **Main results**
 
-- APSG station coordinate time series and baseline-length variations are consistent with those from other VLBI sessions. Station-coordinate formal uncertainties are generally about **15% smaller**.
-- APSG improves network geometry by providing **East Asia–Australia baselines** and increasing the participation of several regional stations.
-- Including APSG sessions in global station-velocity estimation reduces formal uncertainties at several stations by **up to 25%**.
-- APSG-derived velocities agree with **ITRF2020**, particularly in the horizontal components. Differences from **MORVEL** at some stations point to regional deformation that is not fully represented by a geological plate-motion model.
-- The limited number and cadence of APSG sessions constrain the detection of seasonal signals. Vertical velocity differences between solutions are also larger than horizontal differences.
+- Nearly bias-free two-dimensional core shifts are detected with **5–30 μas precision** and **greater than 3σ significance**.
+- The core displacement between **8.4 and 43.2 GHz** reaches approximately **250 μas**.
+- The frequency dependence follows $r\propto\nu^{-1/k_r}$, with a fitted index of $k_r=1.18^{+0.59}_{-0.34}$.
+- The fitted index is consistent within uncertainties with $k_r=1$, as expected for a canonical jet in equipartition between particle and magnetic energy densities. The uncertainties also allow modest departures from this condition during the flaring state.
 
-The results demonstrate the value of sustained regional VLBI observations for monitoring station motion and supporting terrestrial reference frames. The quoted uncertainty reductions concern formal uncertainties rather than an independently established improvement in absolute accuracy.
+The close reference source reduces differential calibration errors and enables an independent measurement of the core shift, particularly between 23.6 and 43.2 GHz. These observations provide new constraints on the innermost jet of BL Lacertae and demonstrate the potential of nearby steep-spectrum calibrators for high-precision multifrequency VLBI astrometry.
 EOF
 
-cat > content/publication/2026-RAA-26-055005/index.zh.md <<'EOF'
+cat > content/publication/2026-ApJ-1003-54/index.zh.md <<'EOF'
 ---
-title: "Contribution of APSG VLBI Program in Monitoring Radio Telescope Motion Across Asia-Pacific Region"
+title: "Detections of Nearly Bias-free Core Shifts with 5–30 μas Precisions at 8–43 GHz in BL Lacertae"
 
 authors:
-  - inhuda
-  - jcliu
   - nliu
-  - F. Shu
-  - jyao
-  - T. Hidayat
-  - zwwang
-  - nabila
+  - Jun Yang
+  - Xiaopeng Cheng
+  - Ai-Ling Zeng
+  - Wen Chen
+  - Xiao-Long Yang
+  - Xiaoyu Hong
+  - xxzhang
+  - jcliu
+  - zzhu
 
-date: "2026-02-27"
-doi: "10.1088/1674-4527/ae400c"
+date: "2026-05-14"
+doi: "10.3847/1538-4357/ae63b4"
 
 publication_types: ["article-journal"]
-publication: "*《天文学研究与天体物理学》(Research in Astronomy and Astrophysics)* 26:055005 (2026)"
-publication_short: "*RAA* 26:055005 (2026)"
+publication: "*《天体物理学报》(The Astrophysical Journal)* 2026年第1003卷，编号54"
+publication_short: "*ApJ* 1003, 54 (2026)"
 
 abstract: >
-  本文评估亚太空间地球动力学（APSG）VLBI计划对测站运动估计和区域地壳形变监测的贡献。
-  利用1997至2024年间涉及22个测站的54期APSG观测，分析测站坐标时间序列、
-  基线长度变化和测站速度整体解。APSG观测得到的时间序列与其他VLBI观测结果一致，
-  形式不确定度中位数约减小15%。在测站速度整体解中加入APSG观测后，
-  部分测站的速度形式不确定度最多减小25%。
-  估计速度与ITRF2020相符，而部分测站相对于MORVEL地质板块运动模型的差异，
-  体现了区域形变监测的价值。APSG通过提供东亚与澳大利亚之间的直接基线观测，
-  并增加区域测站的观测参与，增强了测地VLBI网。
+  本文利用8.4、12.4、15.2、23.6和43.2 GHz的VLBA观测，
+  测量BL Lacertae射电核心位置随频率的变化。
+  以角距离仅为13.3角分的邻近陡谱源NVSS J220340+420839为参考，
+  通过反向相位参考技术，获得精度为5–30 μas、显著性超过3σ的近乎无偏二维核移测量。
+  8.4与43.2 GHz之间的核移约为250 μas。
+  幂律拟合得到的核移指数为1.18，下、上不确定度分别为0.34和0.59。
+  该结果在不确定度范围内与粒子和磁场能量密度均分条件下的典型值1一致，
+  同时也允许源在本次观测的耀发状态下存在适度偏离。
 
-summary: "APSG观测增强了亚太测地VLBI网并改善测站运动估计，使部分测站的速度形式不确定度最多减小25%。"
+summary: "利用反向相位参考VLBI技术，以5–30 μas精度测得BL Lacertae的近乎无偏核移，为内喷流的不透明性及物理条件提供约束。"
 
-tags: ["天体测量学", "参考系", "测地VLBI", "测站运动", "地壳形变", "APSG"]
+tags: ["天体测量学", "VLBI", "核移", "BL Lacertae", "相对论性喷流", "磁场"]
 featured: true
 
-url_pdf: "https://iopscience.iop.org/article/10.1088/1674-4527/ae400c/pdf"
-url_doi: "https://doi.org/10.1088/1674-4527/ae400c"
+url_pdf: "https://iopscience.iop.org/article/10.3847/1538-4357/ae63b4/pdf"
+url_doi: "https://doi.org/10.3847/1538-4357/ae63b4"
+url_code: "https://git.nju.edu.cn/astrometry/bllac_core_shift"
 
 links:
-  - name: 期刊页面
-    url: "https://www.raa-journal.org/issues/all/2026/v26n5/202603/t20260331_828597.html"
+  - name: arXiv
+    url: "https://arxiv.org/abs/2604.20095"
+  - name: Zenodo
+    url: "https://doi.org/10.5281/zenodo.19691949"
 
 image:
-  caption: ""
+  caption: >
+    BL Lacertae的核移测量。
+    （a）8.4、12.4、15.2和23.6 GHz相对于43.2 GHz的二维核移；
+    虚线为最佳拟合模型，灰色区域表示从MCMC中随机抽取的1000组模型实现的分布。
+    （b）43 GHz的VLBA图像。
+    （c）沿位置角197°方向投影的核心位移；
+    红色虚线为最佳拟合模型，灰色区域为其1σ置信区间。
+    （d）邻近校准源的分布：黑色方框标出六个RFC源，
+    蓝色圆圈标出本研究采用的参考校准源。
   focal_point: "center"
   preview_only: false
 ---
 
-**研究背景与方法**
+**观测与方法**
 
-亚太空间地球动力学（APSG）计划利用空间大地测量技术，研究亚太地区的板块运动和地壳形变。其中，VLBI观测能够直接测定测站位置及站间基线，为全球测地VLBI网提供区域性补充。
+活动星系核的射电核心位置会因内喷流的不透明性而随观测频率变化，这一现象称为核移。高精度核移测量能够为喷流起源及其物理条件提供约束。
 
-本文分析了1997年10月至2024年9月期间的54期APSG观测，共涉及22个测站。研究将逐期解算得到的测站坐标和基线长度与其他VLBI观测结果进行比较，评估加入APSG观测对测站速度整体解的影响，并将估计速度与ITRF2020及MORVEL地质板块运动模型进行对照。
+研究利用2024年7月27日的VLBA观测，在 **8.4、12.4、15.2、23.6和43.2 GHz** 五个频率上测量BL Lacertae。参考源 **NVSS J220340+420839** 与目标的角距离仅为 **13.3角分**，具有致密、陡谱的特征。测得的谱指数为 $-1.27\pm0.02$，支持将其作为光学薄参考源。
+
+通过反向相位参考技术，将从明亮目标BL Lacertae得到的定标解传递至较弱的参考源。在假设参考源位置不随频率变化的条件下，利用差分位置确定各频率相对于43.2 GHz核心的二维核移。
 
 **主要结果**
 
-- APSG观测得到的测站坐标时间序列和基线长度变化与其他VLBI观测结果一致，测站坐标的形式不确定度总体上约小 **15%**。
-- APSG通过提供**东亚与澳大利亚之间的基线观测**，并增加部分区域测站的观测参与，改善了观测网几何构型。
-- 在测站速度整体估计中加入APSG观测后，部分测站的速度形式不确定度**最多减小25%**。
-- APSG速度解与 **ITRF2020** 相符，尤其在水平分量上表现出较好的一致性。部分测站与 **MORVEL** 的差异反映了地质板块运动模型未充分描述的区域形变。
-- APSG观测数量和频次有限，对季节性信号的探测能力仍受限制；不同解之间的垂向速度差异也大于水平分量。
+- 获得了精度为 **5–30 μas**、显著性**超过3σ**的近乎无偏二维核移测量。
+- **8.4与43.2 GHz**之间的核心位置偏移约为 **250 μas**。
+- 核心位置随频率的变化符合 $r\propto\nu^{-1/k_r}$，拟合得到核移指数 $k_r=1.18^{+0.59}_{-0.34}$。
+- 该指数在不确定度范围内与粒子和磁场能量密度均分条件下的典型值 $k_r=1$ 一致，同时允许耀发期间存在适度偏离。
 
-研究表明，持续开展区域VLBI观测有助于监测测站运动，并为地球参考架提供支持。上述不确定度改善均指形式不确定度的减小，不应直接等同于绝对准确度的同比提升。
+邻近参考源减小了差分定标误差，使研究能够独立测量BL Lacertae的核移，尤其是23.6与43.2 GHz之间的位移。这些结果为BL Lacertae最内侧喷流的物理条件提供了新约束，也展示了利用邻近陡谱校准源开展高精度多频VLBI天体测量的潜力。
 EOF
-
-sed -i 's|^  caption: ""$|  caption: "Spatial distribution of VLBI stations participating in APSG sessions across tectonic plates. Panel (b) shows an enlarged view of part of panel (a). Station names are shown in red, and tectonic plate labels in yellow."|' \
-  content/publication/2026-RAA-26-055005/index.md
-
-sed -i 's|^  caption: ""$|  caption: "参与APSG观测的VLBI测站在各构造板块上的空间分布。（b）为（a）的局部放大图。红色标注为测站名称，黄色标注为构造板块。"|' \
-  content/publication/2026-RAA-26-055005/index.zh.md
