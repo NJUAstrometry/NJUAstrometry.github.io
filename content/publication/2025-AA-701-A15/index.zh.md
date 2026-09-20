@@ -3,10 +3,10 @@ title: "Comparison of the Gaia-CRF3 and planetary ephemerides via asteroid obser
 authors:
   - jyao
   - jcliu
-  - Xi Liu
+  - 刘鑫
   - nliu
   - zzhu
-  - Xi-Yu Hou
+  - 侯锡云
   - inhuda
 author_notes:
   - ""
