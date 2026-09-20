@@ -5,7 +5,7 @@ authors:
   - inhuda
   - jcliu
   - nliu
-  - F. Shu
+  - 舒逢春
   - jyao
   - T. Hidayat
   - zwwang
