@@ -6,14 +6,16 @@
 # Created Time: Sat 19 Sep 2026 09:07:13 PM CST
 #########################################################################
 
-# 检查差异中的空白错误
-git diff --check
 
-# 查找引用残留、旧项目标识及本地 PDF 占位
-rg -n \
-  'contentReference|oaicite|2020-nsfc-key-funding|paper\.pdf' \
-  content/publication -g '*.md'
+sed -i -E \
+  -e 's/^  - (Zhiyun Zhang|Zhi-Yun Zhang)[[:space:]]*$/  - zyzhang/' \
+  -e 's/^  - (Dading Zhang|Da-Ding Zhang)[[:space:]]*$/  - ddzhang/' \
+  -e 's/^  - (Xiaxuan Zhang|Xia-Xuan Zhang)[[:space:]]*$/  - xxzhang/' \
+  -e 's/^  - (Huafeng Yu|Hua-Feng Yu)[[:space:]]*$/  - hfyu/' \
+  content/publication/2026-AA-708-A83/index.md \
+  content/publication/2026-AA-708-A83/index.zh.md \
+  content/publication/2026-Universe-12-197/index.md \
+  content/publication/2026-Universe-12-197/index.zh.md
 
-# 汇总中英文题名和期刊信息
-rg -n '^(title|publication|publication_short):' \
-  content/publication -g 'index*.md'
+
+  

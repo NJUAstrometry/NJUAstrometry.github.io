@@ -2,17 +2,17 @@
 title: "Astrometric properties of reference frame sources as a function of redshift"
 
 authors:
-  - Zhiyun Zhang
+  - zyzhang
   - nliu
-  - Xiaxuan Zhang
+  - xxzhang
   - inhuda
-  - Sufen Guo
+  - 郭素芬
   - zzhu
   - jcliu
   - jyao
   - zwwang
-  - Huafeng Yu
-  - Dading Zhang
+  - hfyu
+  - ddzhang
 
 author_notes:
   - ""
@@ -47,6 +47,10 @@ summary: "基于 RFC 与 Gaia 数据，揭示光学天体测量性质及射电�
 
 tags: ["天体测量学", "参考系", "星表", "红移", "Gaia", "VLBI"]
 featured: true
+image:
+  caption: "射电—光学位置偏移的绝对量（左）及误差归一化量（右）随红移的变化。"
+  focal_point: "center"
+  preview_only: false
 
 url_pdf: "https://arxiv.org/pdf/2602.19135"
 url_doi: "https://doi.org/10.1051/0004-6361/202558731"

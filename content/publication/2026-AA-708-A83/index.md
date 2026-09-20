@@ -2,17 +2,17 @@
 title: "Astrometric properties of reference frame sources as a function of redshift"
 
 authors:
-  - Zhiyun Zhang
+  - zyzhang
   - nliu
-  - Xiaxuan Zhang
+  - xxzhang
   - inhuda
   - Sufen Guo
   - zzhu
   - jcliu
   - jyao
   - zwwang
-  - Huafeng Yu
-  - Dading Zhang
+  - hfyu
+  - ddzhang
 
 author_notes:
   - ""
@@ -53,7 +53,11 @@ summary: "An RFC–Gaia study showing that redshift trends in optical astrometry
 
 tags: ["astrometry", "reference systems", "catalogs", "redshift", "Gaia", "VLBI"]
 featured: true
-
+image:
+  caption: "Absolute radio–optical offsets (left) and error-normalised radio–optical offsets (right) as functions of redshift."
+  focal_point: "center"
+  preview_only: false
+  
 url_pdf: "https://arxiv.org/pdf/2602.19135"
 url_doi: "https://doi.org/10.1051/0004-6361/202558731"
 
