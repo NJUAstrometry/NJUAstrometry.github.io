@@ -1,9 +1,37 @@
 ---
-title: Properties of the Gaia reference Frame and Link with the ICRF
-date: 2020-01-01
+title: "Properties of the Gaia Reference Frame and Its Link with the ICRF"
+date: "2019-01-01"
+share: false
 
+authors:
+  - zzhu
+  - jcliu
+
+author_notes:
+  - "Principal investigator"
+  - "Project participant"
+
+image:
+  caption: ""
+  focal_point: "Center"
 ---
 
-The ESA space astrometric satellite Gaia launched in December 2013 is considered as an important milestone in astronomy. The expected accuracy of astrometry is several micro-arcseconds which will greatly promote scientific studies of fundamental reference systems and the Earth’s rotation.
+## Project information
+
+- **Project period:** 1 January 2019 – 31 December 2023
+
+## Project abstract
+
+The successful launch of the European Space Agency's space astrometry satellite Gaia in December 2013 marked a major milestone in astronomy. Its astrometric measurements are expected to reach microarcsecond precision, providing a substantial impetus to research on astronomical reference systems.
 <!--more-->
-The first data release of Gaia (DR1) was published in September of 2016 provided us with very first observational data and with the opportunity to study the theories and application of the new Gaia reference frame.
+Gaia's first official data release (DR1), published in September 2016, provided the first observational material and opened up opportunities to investigate the theory and practice of the new Gaia reference frame. Over the following five years, further observational data will become available. We plan to address three key questions: (1) the properties of the Gaia reference frame at optical wavelengths; (2) the improvement of the radio International Celestial Reference Frame (ICRF); and (3) methods for linking the Gaia reference frame and the ICRF, a central issue in reference-frame research. Our distinctive approach is to use these investigations ultimately to establish the Gaia reference frame as the fundamental celestial reference frame and tie the ICRF to Gaia in its fundamental properties. The aim is to make the new ICRF independent of the International Terrestrial Reference Frame (ITRF), as Gaia is, and subsequently to improve the ITRF through observations based on the new ICRF and develop a new, self-consistent precession model.
+
+## Main research outcomes
+
+### 1. Properties of the Gaia celestial reference frame
+
+### 2. Improvement of the International Celestial Reference Frame (ICRF)
+
+### 3. Methods for linking the Gaia celestial reference frame and the ICRF
+
+### 4. Studies of Earth's precession-nutation model in the Gaia reference frame
