@@ -27,7 +27,7 @@ abstract: >
   dependence of several precession-rate components and the main nutation
   term on dynamical flattening, providing a consistent estimate for
   precession and nutation. We obtain a dynamical flattening of
-  0.00327380936 with a formal uncertainty of 5 × 10⁻¹¹, differing from
+  0.00327380936 with a formal uncertainty of $5 \times 10^{-11}$, differing from
   the IAU 2006 adopted value by approximately 4.54 ppm.
   The simultaneously estimated frame-bias components agree with the
   IAU model. A sliding-window analysis also recovers a broadly parabolic
