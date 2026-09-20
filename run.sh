@@ -17,170 +17,168 @@ sed -i -E \
   content/publication/2026-Universe-12-197/index.md \
   content/publication/2026-Universe-12-197/index.zh.md
 
-mkdir -p content/publication/2026-ApJ-1003-54
 
-cat > content/publication/2026-ApJ-1003-54/index.md <<'EOF'
+mkdir -p content/publication/2026-MNRAS-549-stag953
+
+cat > content/publication/2026-MNRAS-549-stag953/index.md <<'EOF'
 ---
-title: "Detections of Nearly Bias-free Core Shifts with 5–30 μas Precisions at 8–43 GHz in BL Lacertae"
+title: "Astronomical determination of the Earth's dynamical flattening using VLBI observations and IAU 2006/2000 Precession-Nutation Model"
 
 authors:
-  - nliu
-  - Jun Yang
-  - Xiaopeng Cheng
-  - Ai-Ling Zeng
-  - Wen Chen
-  - Xiao-Long Yang
-  - Xiaoyu Hong
-  - xxzhang
+  - inhuda
   - jcliu
-  - zzhu
+  - nliu
+  - jyao
 
-date: "2026-05-14"
-doi: "10.3847/1538-4357/ae63b4"
+author_notes:
+  - "corresponding author"
+  - "corresponding author"
+  - ""
+  - ""
+
+date: "2026-05-21"
+doi: "10.1093/mnras/stag953"
 
 publication_types: ["article-journal"]
-publication: "*The Astrophysical Journal*, 1003, 54 (2026)"
-publication_short: "*ApJ* 1003, 54 (2026)"
+publication: "*Monthly Notices of the Royal Astronomical Society*, 549, stag953 (2026)"
+publication_short: "*MNRAS* 549, stag953 (2026)"
 
 abstract: >
-  We measure frequency-dependent core shifts in BL Lacertae using VLBA
-  observations at 8.4, 12.4, 15.2, 23.6, and 43.2 GHz. Inverse phase
-  referencing to the nearby steep-spectrum source NVSS J220340+420839,
-  separated by only 13.3 arcmin, provides nearly bias-free two-dimensional
-  measurements with precisions of 5–30 μas and detections exceeding
-  3σ significance. The displacement between 8.4 and 43.2 GHz reaches
-  approximately 250 μas. A power-law fit gives a core-shift index
-  of 1.18, with lower and upper uncertainties of 0.34 and 0.59,
-  respectively. This result is consistent with the canonical value of
-  unity expected under equipartition between particle and magnetic
-  energy densities, while allowing modest departures during the
-  observed flaring state.
+  We determine the Earth's dynamical flattening from celestial intermediate
+  pole coordinates constructed using the IAU 2006/2000 precession-nutation
+  model and VLBI celestial pole offsets. The method accounts for the
+  dependence of several precession-rate components and the main nutation
+  term on dynamical flattening, providing a consistent estimate for
+  precession and nutation. We obtain a dynamical flattening of
+  0.00327380936 with a formal uncertainty of 5 × 10⁻¹¹, differing from
+  the IAU 2006 adopted value by approximately 4.54 ppm.
+  The simultaneously estimated frame-bias components agree with the
+  IAU model. A sliding-window analysis also recovers a broadly parabolic
+  long-term variation in J₂, generally consistent with independent
+  satellite laser ranging results.
 
-summary: "Inverse phase-referencing VLBI astrometry measures nearly bias-free core shifts in BL Lacertae with 5–30 μas precision, providing constraints on opacity and physical conditions in the inner jet."
+summary: "VLBI celestial pole observations provide a consistent estimate of the Earth's dynamical flattening for precession and nutation and recover long-term J₂ variations broadly consistent with satellite laser ranging."
 
-tags: ["astrometry", "VLBI", "core shift", "BL Lacertae", "relativistic jets", "magnetic fields"]
+tags: ["astrometry", "reference systems", "Earth rotation", "precession-nutation", "VLBI", "dynamical flattening"]
 featured: true
 
-url_pdf: "https://iopscience.iop.org/article/10.3847/1538-4357/ae63b4/pdf"
-url_doi: "https://doi.org/10.3847/1538-4357/ae63b4"
-url_code: "https://git.nju.edu.cn/astrometry/bllac_core_shift"
+url_doi: "https://doi.org/10.1093/mnras/stag953"
 
 links:
-  - name: arXiv
-    url: "https://arxiv.org/abs/2604.20095"
-  - name: Zenodo
-    url: "https://doi.org/10.5281/zenodo.19691949"
+  - name: Publisher
+    url: "https://academic.oup.com/mnras/article/549/2/stag953/8690238"
 
 image:
   caption: >
-    Core-shift measurements of BL Lacertae.
-    (a) Two-dimensional core shifts at 8.4, 12.4, 15.2, and 23.6 GHz
-    relative to 43.2 GHz; the dashed line shows the best-fit model,
-    and the gray region represents 1000 randomly sampled MCMC realizations.
-    (b) VLBA image at 43 GHz.
-    (c) Core displacements projected along a position angle of 197°;
-    the red dashed line shows the best-fit model, with its 1σ confidence
-    interval in gray.
-    (d) Surrounding calibrator field: black squares mark six RFC sources,
-    and the blue circle identifies the reference calibrator used here.
+    Comparison of J₂ variations derived from satellite laser ranging (SLR)
+    and VLBI. Gray points show the original SLR time series, and the green
+    dashed line is its parabolic fit. Red points and blue open squares show
+    the SLR and VLBI results, respectively, using 15-year sliding windows
+    with a 2-year step. Each point is plotted at the midpoint of its window.
+    Error bars represent 1σ formal uncertainties.
   focal_point: "center"
   preview_only: false
 ---
 
-**Observations and method**
+**Background and method**
 
-The apparent radio core of an active galactic nucleus can shift with observing frequency because of opacity in the inner jet. Measuring this displacement provides a way to investigate the jet origin and its physical conditions.
+The Earth's dynamical flattening, $H_{\mathrm d}$, describes the distribution of its principal moments of inertia and is a fundamental parameter in precession-nutation theory:
 
-We observed BL Lacertae with the VLBA on 27 July 2024 at **8.4, 12.4, 15.2, 23.6, and 43.2 GHz**. The nearby source **NVSS J220340+420839**, only **13.3 arcmin** away, provides a compact, steep-spectrum reference. Its measured spectral index of $-1.27\pm0.02$ supports its use as an optically thin reference source.
+$$
+H_{\mathrm d}=1-\frac{A+B}{2C},
+$$
 
-Using inverse phase referencing, calibration solutions derived from bright BL Lacertae are transferred to the weaker reference source. The differential positions then yield two-dimensional core shifts relative to the 43.2 GHz core, under the assumption that the reference-source position is frequency independent.
+where $A$ and $B$ are the equatorial principal moments of inertia and $C$ is the axial moment.
+
+We estimate this parameter directly from celestial intermediate pole (CIP) coordinates obtained by combining the IAU 2006/2000 precession-nutation model with VLBI celestial pole offsets. The analysis considers four individual analysis-centre series and the IERS C04 combined series, with free core nutation removed before fitting.
+
+The method explicitly accounts for the dependence of several precession-rate contributions and the main nutation term on $H_{\mathrm d}$, while incorporating additional theoretical corrections. This provides a consistent determination of dynamical flattening within the precession-nutation framework.
 
 **Main results**
 
-- Nearly bias-free two-dimensional core shifts are detected with **5–30 μas precision** and **greater than 3σ significance**.
-- The core displacement between **8.4 and 43.2 GHz** reaches approximately **250 μas**.
-- The frequency dependence follows $r\propto\nu^{-1/k_r}$, with a fitted index of $k_r=1.18^{+0.59}_{-0.34}$.
-- The fitted index is consistent within uncertainties with $k_r=1$, as expected for a canonical jet in equipartition between particle and magnetic energy densities. The uncertainties also allow modest departures from this condition during the flaring state.
+- The estimated dynamical flattening is $H_{\mathrm d}=0.00327380936\pm5\times10^{-11}$, with the quoted uncertainty being formal. This differs from the IAU 2006 adopted value by approximately **4.54 ppm**.
+- The simultaneously estimated frame-bias components are $\delta X=-16603\pm8\,\mu\mathrm{as}$ and $\delta Y=-7033\pm8\,\mu\mathrm{as}$, in good agreement with the IAU model.
+- A separate analysis using **15-year sliding windows with a 2-year step** estimates long-term changes in $H_{\mathrm d}$ and converts them to changes in the Earth's second zonal gravity coefficient, $J_2$, under the adopted relationship.
+- The VLBI-derived $J_2$ variations show a broadly **parabolic long-term trend**, generally consistent with smoothed satellite laser ranging results, although differences remain for some windows.
 
-The close reference source reduces differential calibration errors and enables an independent measurement of the core shift, particularly between 23.6 and 43.2 GHz. These observations provide new constraints on the innermost jet of BL Lacertae and demonstrate the potential of nearby steep-spectrum calibrators for high-precision multifrequency VLBI astrometry.
+These results demonstrate the value of VLBI precession-nutation observations as an independent probe of long-term changes in the Earth's dynamical figure and provide observational constraints for further refinement of Earth-rotation models.
 EOF
 
-cat > content/publication/2026-ApJ-1003-54/index.zh.md <<'EOF'
+cat > content/publication/2026-MNRAS-549-stag953/index.zh.md <<'EOF'
 ---
-title: "Detections of Nearly Bias-free Core Shifts with 5–30 μas Precisions at 8–43 GHz in BL Lacertae"
+title: "Astronomical determination of the Earth's dynamical flattening using VLBI observations and IAU 2006/2000 Precession-Nutation Model"
 
 authors:
-  - nliu
-  - Jun Yang
-  - Xiaopeng Cheng
-  - Ai-Ling Zeng
-  - Wen Chen
-  - Xiao-Long Yang
-  - Xiaoyu Hong
-  - xxzhang
+  - inhuda
   - jcliu
-  - zzhu
+  - nliu
+  - jyao
 
-date: "2026-05-14"
-doi: "10.3847/1538-4357/ae63b4"
+author_notes:
+  - "通讯作者"
+  - "通讯作者"
+  - ""
+  - ""
+
+date: "2026-05-21"
+doi: "10.1093/mnras/stag953"
 
 publication_types: ["article-journal"]
-publication: "*《天体物理学报》(The Astrophysical Journal)* 2026年第1003卷，编号54"
-publication_short: "*ApJ* 1003, 54 (2026)"
+publication: "*《英国皇家天文学会月刊》(Monthly Notices of the Royal Astronomical Society)* 2026年第549卷，编号stag953"
+publication_short: "*MNRAS* 549, stag953 (2026)"
 
 abstract: >
-  本文利用8.4、12.4、15.2、23.6和43.2 GHz的VLBA观测，
-  测量BL Lacertae射电核心位置随频率的变化。
-  以角距离仅为13.3角分的邻近陡谱源NVSS J220340+420839为参考，
-  通过反向相位参考技术，获得精度为5–30 μas、显著性超过3σ的近乎无偏二维核移测量。
-  8.4与43.2 GHz之间的核移约为250 μas。
-  幂律拟合得到的核移指数为1.18，下、上不确定度分别为0.34和0.59。
-  该结果在不确定度范围内与粒子和磁场能量密度均分条件下的典型值1一致，
-  同时也允许源在本次观测的耀发状态下存在适度偏离。
+  本文结合IAU 2006/2000岁差章动模型与VLBI观测得到的天极偏移，
+  构建天球中间极坐标并估计地球动力学扁率。
+  方法考虑了多个岁差速率分量及主要章动项对动力学扁率的依赖，
+  为岁差和章动提供一致的动力学扁率估计。
+  得到的动力学扁率为0.00327380936，形式不确定度为5 × 10⁻¹¹，
+  与IAU 2006采用值相差约4.54 ppm。
+  同时估计的参考架偏置分量与IAU模型相符。
+  通过滑动窗口分析得到的J₂长期变化总体呈抛物线趋势，
+  与独立的卫星激光测距结果基本一致。
 
-summary: "利用反向相位参考VLBI技术，以5–30 μas精度测得BL Lacertae的近乎无偏核移，为内喷流的不透明性及物理条件提供约束。"
+summary: "利用VLBI天极观测一致估计岁差章动中的地球动力学扁率，并提取与卫星激光测距结果基本一致的J₂长期变化。"
 
-tags: ["天体测量学", "VLBI", "核移", "BL Lacertae", "相对论性喷流", "磁场"]
+tags: ["天体测量学", "参考系", "地球自转", "岁差章动", "VLBI", "动力学扁率"]
 featured: true
 
-url_pdf: "https://iopscience.iop.org/article/10.3847/1538-4357/ae63b4/pdf"
-url_doi: "https://doi.org/10.3847/1538-4357/ae63b4"
-url_code: "https://git.nju.edu.cn/astrometry/bllac_core_shift"
+url_doi: "https://doi.org/10.1093/mnras/stag953"
 
 links:
-  - name: arXiv
-    url: "https://arxiv.org/abs/2604.20095"
-  - name: Zenodo
-    url: "https://doi.org/10.5281/zenodo.19691949"
+  - name: 期刊页面
+    url: "https://academic.oup.com/mnras/article/549/2/stag953/8690238"
 
 image:
   caption: >
-    BL Lacertae的核移测量。
-    （a）8.4、12.4、15.2和23.6 GHz相对于43.2 GHz的二维核移；
-    虚线为最佳拟合模型，灰色区域表示从MCMC中随机抽取的1000组模型实现的分布。
-    （b）43 GHz的VLBA图像。
-    （c）沿位置角197°方向投影的核心位移；
-    红色虚线为最佳拟合模型，灰色区域为其1σ置信区间。
-    （d）邻近校准源的分布：黑色方框标出六个RFC源，
-    蓝色圆圈标出本研究采用的参考校准源。
+    卫星激光测距（SLR）与VLBI得到的J₂变化比较。
+    灰色点为原始SLR时间序列，绿色虚线为其抛物线拟合。
+    红色点和蓝色空心方框分别表示采用15年窗口、2年步长得到的SLR和VLBI结果，
+    各点对应窗口的中间历元。误差棒表示1σ形式不确定度。
   focal_point: "center"
   preview_only: false
 ---
 
-**观测与方法**
+**研究背景与方法**
 
-活动星系核的射电核心位置会因内喷流的不透明性而随观测频率变化，这一现象称为核移。高精度核移测量能够为喷流起源及其物理条件提供约束。
+地球动力学扁率 $H_{\mathrm d}$ 描述地球主惯性矩的分布，是岁差章动理论中的基本参数：
 
-研究利用2024年7月27日的VLBA观测，在 **8.4、12.4、15.2、23.6和43.2 GHz** 五个频率上测量BL Lacertae。参考源 **NVSS J220340+420839** 与目标的角距离仅为 **13.3角分**，具有致密、陡谱的特征。测得的谱指数为 $-1.27\pm0.02$，支持将其作为光学薄参考源。
+$$
+H_{\mathrm d}=1-\frac{A+B}{2C},
+$$
 
-通过反向相位参考技术，将从明亮目标BL Lacertae得到的定标解传递至较弱的参考源。在假设参考源位置不随频率变化的条件下，利用差分位置确定各频率相对于43.2 GHz核心的二维核移。
+其中，$A$ 和 $B$ 为赤道主惯性矩，$C$ 为轴向主惯性矩。
+
+本文结合IAU 2006/2000岁差章动模型与VLBI观测得到的天极偏移，构建天球中间极（CIP）坐标，直接估计动力学扁率。分析采用四个独立分析中心的时间序列及IERS C04综合序列，并在拟合前去除自由核章动信号。
+
+方法显式考虑了多个岁差速率分量及主要章动项对 $H_{\mathrm d}$ 的依赖，同时纳入其他理论改正，从而在岁差章动框架下对动力学扁率进行一致估计。
 
 **主要结果**
 
-- 获得了精度为 **5–30 μas**、显著性**超过3σ**的近乎无偏二维核移测量。
-- **8.4与43.2 GHz**之间的核心位置偏移约为 **250 μas**。
-- 核心位置随频率的变化符合 $r\propto\nu^{-1/k_r}$，拟合得到核移指数 $k_r=1.18^{+0.59}_{-0.34}$。
-- 该指数在不确定度范围内与粒子和磁场能量密度均分条件下的典型值 $k_r=1$ 一致，同时允许耀发期间存在适度偏离。
+- 得到地球动力学扁率 $H_{\mathrm d}=0.00327380936\pm5\times10^{-11}$，其中给出的不确定度为形式不确定度。该结果与IAU 2006采用值相差约 **4.54 ppm**。
+- 同时得到参考架偏置分量 $\delta X=-16603\pm8\,\mu\mathrm{as}$ 和 $\delta Y=-7033\pm8\,\mu\mathrm{as}$，与IAU模型具有较好的一致性。
+- 在单独的长期变化分析中，采用**15年滑动窗口、2年步长**估计 $H_{\mathrm d}$ 的变化，并依据所采用的关系转换为地球重力场二阶带谐系数 $J_2$ 的变化。
+- VLBI得到的 $J_2$ 长期变化总体呈**抛物线趋势**，与平滑后的卫星激光测距结果基本一致，但部分窗口仍存在差异。
 
-邻近参考源减小了差分定标误差，使研究能够独立测量BL Lacertae的核移，尤其是23.6与43.2 GHz之间的位移。这些结果为BL Lacertae最内侧喷流的物理条件提供了新约束，也展示了利用邻近陡谱校准源开展高精度多频VLBI天体测量的潜力。
+研究表明，VLBI岁差章动观测能够独立探测地球动力学形状的长期变化，并为进一步完善地球自转模型提供观测约束。
 EOF
