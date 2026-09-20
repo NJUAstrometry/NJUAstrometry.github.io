@@ -4,13 +4,6 @@ title: "CSST天体测量科学课题推进研讨会"
 event: "CSST天体测量科学课题推进研讨会"
 location: "南京大学国际会议中心"
 
-address:
-  street: "仙林大道163号"
-  city: "南京"
-  region: "江苏"
-  postcode: "210023"
-  country: "中国"
-
 summary: "交流CSST天体测量科学课题研究进展与成果，讨论各课题对未来仿真数据的需求。"
 abstract: ""
 
