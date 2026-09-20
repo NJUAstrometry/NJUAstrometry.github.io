@@ -3,12 +3,12 @@ title: "Detections of Nearly Bias-free Core Shifts with 5–30 μas Precisions a
 
 authors:
   - nliu
-  - Jun Yang
-  - Xiaopeng Cheng
-  - Ai-Ling Zeng
-  - Wen Chen
-  - Xiao-Long Yang
-  - Xiaoyu Hong
+  - 杨军
+  - 程晓朋
+  - 曾爱玲
+  - 陈文
+  - 杨小龙
+  - 洪晓瑜
   - xxzhang
   - jcliu
   - zzhu
@@ -21,16 +21,12 @@ publication: "*《天体物理学报》(The Astrophysical Journal)* 2026年第10
 publication_short: "*ApJ* 1003, 54 (2026)"
 
 abstract: >
-  本文利用8.4、12.4、15.2、23.6和43.2 GHz的VLBA观测，
-  测量BL Lacertae射电核心位置随频率的变化。
-  以角距离仅为13.3角分的邻近陡谱源NVSS J220340+420839为参考，
-  通过反向相位参考技术，获得精度为5–30 μas、显著性超过3σ的近乎无偏二维核移测量。
+  本文利用8.4、12.4、15.2、23.6和43.2 GHz的VLBA观测，测量BL Lacertae射电核心位置随频率的变化。
+  以角距离仅为13.3角分的邻近陡谱源NVSS J220340+420839为参考，通过反相位参考技术，获得精度为5–30 μas、显著性超过3σ的近乎无偏二维核移测量。
   8.4与43.2 GHz之间的核移约为250 μas。
-  幂律拟合得到的核移指数为1.18，下、上不确定度分别为0.34和0.59。
-  该结果在不确定度范围内与粒子和磁场能量密度均分条件下的典型值1一致，
-  同时也允许源在本次观测的耀发状态下存在适度偏离。
+  幂律拟合得到的核移指数为1.18，该结果在误差范围内与粒子和磁场能量密度均分条件下的典型值一致，微小的偏离与本次观测BL Lacertae处于耀发状态有关。
 
-summary: "利用反向相位参考VLBI技术，以5–30 μas精度测得BL Lacertae的近乎无偏核移，为内喷流的不透明性及物理条件提供约束。"
+summary: "利用反相位参考VLBI技术，以5–30 μas精度测得BL Lacertae的核移，为研究其最内部喷流的物理条件提供约束。"
 
 tags: ["天体测量学", "VLBI", "核移", "BL Lacertae", "相对论性喷流", "磁场"]
 featured: true
@@ -48,13 +44,6 @@ links:
 image:
   caption: >
     BL Lacertae的核移测量。
-    （a）8.4、12.4、15.2和23.6 GHz相对于43.2 GHz的二维核移；
-    虚线为最佳拟合模型，灰色区域表示从MCMC中随机抽取的1000组模型实现的分布。
-    （b）43 GHz的VLBA图像。
-    （c）沿位置角197°方向投影的核心位移；
-    红色虚线为最佳拟合模型，灰色区域为其1σ置信区间。
-    （d）邻近校准源的分布：黑色方框标出六个RFC源，
-    蓝色圆圈标出本研究采用的参考校准源。
   focal_point: "center"
   preview_only: false
 ---

@@ -52,15 +52,6 @@ links:
 image:
   caption: >
     Core-shift measurements of BL Lacertae.
-    (a) Two-dimensional core shifts at 8.4, 12.4, 15.2, and 23.6 GHz
-    relative to 43.2 GHz; the dashed line shows the best-fit model,
-    and the gray region represents 1000 randomly sampled MCMC realizations.
-    (b) VLBA image at 43 GHz.
-    (c) Core displacements projected along a position angle of 197°;
-    the red dashed line shows the best-fit model, with its 1σ confidence
-    interval in gray.
-    (d) Surrounding calibrator field: black squares mark six RFC sources,
-    and the blue circle identifies the reference calibrator used here.
   focal_point: "center"
   preview_only: false
 ---
