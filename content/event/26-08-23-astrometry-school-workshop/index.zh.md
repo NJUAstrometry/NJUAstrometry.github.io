@@ -13,7 +13,9 @@ date_end: "2026-08-29T23:59:00+08:00"
 all_day: true
 publishDate: "2026-09-02T00:00:00+08:00"
 
-authors: []
+authors:
+  - lxu
+
 tags: ["暑期学校", "学术研讨会", "天体测量学", "天文参考系", "地球自转"]
 featured: true
 
