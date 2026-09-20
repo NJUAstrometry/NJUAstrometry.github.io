@@ -32,6 +32,10 @@ summary: "通过九种板模型的全天评估，表明板解不确定度可对�
 
 tags: ["天体测量学", "自主导航", "恒星光行差", "板模型", "Gaia", "StarNAV"]
 featured: true
+image:
+  caption: "选定基准视场（HEALPix像元47，含8颗参考星）中，由底片常数方差引起的位置误差的空间分布。"
+  focal_point: "center"
+  preview_only: false
 
 url_pdf: "https://www.mdpi.com/2218-1997/12/7/197/pdf"
 url_doi: "https://doi.org/10.3390/universe12070197"

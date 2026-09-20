@@ -37,7 +37,11 @@ summary: "An all-sky assessment of nine plate models shows that plate-solution u
 
 tags: ["astrometry", "autonomous navigation", "stellar aberration", "plate models", "Gaia", "StarNAV"]
 featured: true
-
+image:
+  caption: "Spatial distribution of the positional uncertainty due to plate-constant variance (σ_pcv) in the selected fiducial field of view (Pixel 47), containing eight reference stars."
+  focal_point: "center"
+  preview_only: false
+  
 url_pdf: "https://www.mdpi.com/2218-1997/12/7/197/pdf"
 url_doi: "https://doi.org/10.3390/universe12070197"
 
