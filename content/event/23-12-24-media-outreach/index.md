@@ -1,4 +1,5 @@
 ---
+share: false
 title: "Measuring Celestial Distances: A Demonstration on CCTV News"
 
 event: 'CCTV News: "One Lesson Together"'

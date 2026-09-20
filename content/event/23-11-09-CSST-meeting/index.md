@@ -1,4 +1,5 @@
 ---
+share: false
 title: "CSST Astrometry Science Project Progress Workshop"
 
 event: "CSST Astrometry Science Project Progress Workshop"

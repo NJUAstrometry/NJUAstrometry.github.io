@@ -1,4 +1,5 @@
 ---
+share: false
 title: "Oleg Titov and Feng-Chun Shu Visit Our Group"
 
 event: "Academic Visit and Discussions on VLBI and Celestial Reference Frames"

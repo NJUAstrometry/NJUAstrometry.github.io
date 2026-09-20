@@ -1,4 +1,5 @@
 ---
+share: false
 title: "CSST天体测量科学课题推进研讨会"
 
 event: "CSST天体测量科学课题推进研讨会"

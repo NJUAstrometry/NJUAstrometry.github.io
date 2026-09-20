@@ -1,4 +1,5 @@
 ---
+share: false
 title: "Oleg Titov博士与舒逢春研究员访问课题组"
 
 event: "VLBI与天球参考架学术访问及交流"

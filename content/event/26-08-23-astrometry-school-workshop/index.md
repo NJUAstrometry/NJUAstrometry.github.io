@@ -1,4 +1,5 @@
 ---
+share: false
 title: "Astrometry, Astronomical Reference Systems and Earth Rotation: New Challenges in the Microarcsecond Era"
 
 event: "Summer School and Workshop on Astrometry, Astronomical Reference Systems and Earth Rotation"
