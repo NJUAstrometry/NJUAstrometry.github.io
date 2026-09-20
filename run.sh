@@ -7,16 +7,35 @@
 #########################################################################
 
 
-sed -i -E \
-  -e 's/^  - (Zhiyun Zhang|Zhi-Yun Zhang)[[:space:]]*$/  - zyzhang/' \
-  -e 's/^  - (Dading Zhang|Da-Ding Zhang)[[:space:]]*$/  - ddzhang/' \
-  -e 's/^  - (Xiaxuan Zhang|Xia-Xuan Zhang)[[:space:]]*$/  - xxzhang/' \
-  -e 's/^  - (Huafeng Yu|Hua-Feng Yu)[[:space:]]*$/  - hfyu/' \
-  content/publication/2026-AA-708-A83/index.md \
-  content/publication/2026-AA-708-A83/index.zh.md \
-  content/publication/2026-Universe-12-197/index.md \
-  content/publication/2026-Universe-12-197/index.zh.md
+# sed -i -E \
+#   -e 's/^  - (Zhiyun Zhang|Zhi-Yun Zhang)[[:space:]]*$/  - zyzhang/' \
+#   -e 's/^  - (Dading Zhang|Da-Ding Zhang)[[:space:]]*$/  - ddzhang/' \
+#   -e 's/^  - (Xiaxuan Zhang|Xia-Xuan Zhang)[[:space:]]*$/  - xxzhang/' \
+#   -e 's/^  - (Huafeng Yu|Hua-Feng Yu)[[:space:]]*$/  - hfyu/' \
+#   content/publication/2026-AA-708-A83/index.md \
+#   content/publication/2026-AA-708-A83/index.zh.md \
+#   content/publication/2026-Universe-12-197/index.md \
+#   content/publication/2026-Universe-12-197/index.zh.md
 
-sed -i 's/5 × 10⁻¹¹/$5 \\times 10^{-11}$/g' \
-  content/publication/2026-MNRAS-549-stag953/index.md \
-  content/publication/2026-MNRAS-549-stag953/index.zh.md
+
+cat > content/event/_index.md <<'EOF'
+---
+title: "Academic Events"
+view: compact
+
+banner:
+  caption: ""
+  image: ""
+---
+EOF
+
+cat > content/event/_index.zh.md <<'EOF'
+---
+title: "学术活动"
+view: compact
+
+banner:
+  caption: ""
+  image: ""
+---
+EOF

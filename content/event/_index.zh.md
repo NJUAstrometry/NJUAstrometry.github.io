@@ -1,11 +1,8 @@
 ---
-title: 新闻
-
-# Listing view
+title: "学术活动"
 view: compact
 
-# Optional header image (relative to `assets/media/` folder).
 banner:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 ---
