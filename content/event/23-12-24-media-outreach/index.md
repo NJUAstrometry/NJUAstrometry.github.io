@@ -1,66 +1,37 @@
 ---
-title: How to Determine Celestial Distances in One Lesson Together
+title: "Measuring Celestial Distances: A Demonstration on CCTV News"
 
-event: How to Determine Celestial Distances in One Lesson Together
-event_url: 
+event: 'CCTV News: "One Lesson Together"'
 
-location: 
+summary: "Jun Yao demonstrates how trigonometric parallax can be used to measure celestial distances on CCTV News."
+abstract: ""
 
-summary: Yao Jun demonstrates the principle of trigonometric parallax measurement.
-abstract: ''
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: '2023-12-25T08:00:00Z'
-# date_end: '2023-12-25T18:00:00Z'
+date: "2023-12-24T00:00:00+08:00"
 all_day: true
+publishDate: "2024-01-26T00:00:00Z"
 
-# Schedule page publish date (NOT talk date).
-publishDate: '2024-01-26T00:00:00Z'
+authors:
+  - jyao
 
-authors: []
-tags: []
-
-# Is this a featured talk? (true/false)
+tags: ["outreach", "astrometry", "parallax"]
 featured: false
 
 image:
-  caption: ''
-  focal_point: Right
+  caption: 'Jun Yao demonstrates the principle of trigonometric parallax on CCTV News.'
+  focal_point: "Right"
 
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
+url_video: "https://box.nju.edu.cn/f/ba0fe4dfba8741c1a839/"
 
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides:
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects:
+slides: ""
+projects: []
 ---
 
-<!-- Slides can be added in a few ways:
+On **24 December 2023**, CCTV News' *One Lesson Together* invited experts from the School of Astronomy and Space Science at Nanjing University to introduce audiences to the wonders of the Universe.
 
-- **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
+**Jun Yao**, then a doctoral student in our group, gave a live demonstration of **trigonometric parallax**, explaining how the apparent change in an object's position when viewed from different locations can be used to determine its distance.
 
-Further event details, including page elements such as image galleries, can be added to the body of this page. -->
+Watch the [video segment](https://box.nju.edu.cn/f/ba0fe4dfba8741c1a839/) or scan the QR code below.
 
+{{< figure src="fig1.png" caption="Scan the QR code to watch the video segment." numbered="false" >}}
 
-
-On December 24, CCTV News' “One Lesson Together” invited experts from the School of Astronomy and Space Science of Nanjing University to lead the exploration of the mysteries of the universe. Among them, Yao Jun, a doctoral student in the group, led a live measurement of celestial distances using the principle of trigonometric parallax measurement.
-For related videos, please see [https://box.nju.edu.cn/f/ba0fe4dfba8741c1a839/](https://box.nju.edu.cn/f/ba0fe4dfba8741c1a839/), or scan the QR code below.
-
-{{< figure src="fig1.png" caption="" numbered="false" >}}
-
-For the full story and video, see [NJU News](https://www.nju.edu.cn/info/1056/351271.htm).
+The full report and video are available from [Nanjing University News](https://www.nju.edu.cn/info/1056/351271.htm).
