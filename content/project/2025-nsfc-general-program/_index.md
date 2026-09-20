@@ -1,7 +1,13 @@
 ---
-title: Hgh-precision core-shift measurements for a large sample of ICRF3 sources and systematics of multi-waveband reference frames
-date: 2025-01-01
+title: "High-precision core-shift measurements for a large sample of ICRF3 sources and systematics of multi-waveband reference frames"
+date: "2025-01-01"
 
+authors:
+  - nliu
+author_notes:
+  - "Principal investigator"
+
+share: false
 ---
 
 The celestial reference frame is a cornerstone of fundamental astronomy, extensively used in astronomy, geodesy, and deep-space navigation. Constructing a fully consistent multi-wavelength celestial reference frame is a primary task in astrometry, while deeply investigating subtle positional differences of ICRF reference sources across various electromagnetic wavebands is crucial to achieving this goal.
