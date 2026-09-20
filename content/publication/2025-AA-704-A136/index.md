@@ -1,6 +1,3 @@
-mkdir -p content/publication/2025-AA-704-A136
-
-cat > content/publication/2025-AA-704-A136/index.md <<'EOF'
 ---
 title: 'An infrared celestial reference frame realized by the CatWISE2020 catalog'
 
@@ -51,7 +48,7 @@ draft: false
 share: false
 
 image:
-  caption: ''
+  caption: 'Coordinate (left) and proper-motion (right) offsets between CatWISE2020 and Gaia DR3.'
   focal_point: Center
   preview_only: false
 
@@ -67,73 +64,22 @@ url_video: ''
 projects: []
 slides: ''
 ---
-EOF
 
-cat > content/publication/2025-AA-704-A136/index.zh.md <<'EOF'
----
-title: 'An infrared celestial reference frame realized by the CatWISE2020 catalog'
+## An infrared extension of the celestial reference frame
 
-authors:
-  - zwwang
-  - jcliu
-  - nliu
-  - zzhu
-  - jyao
-  - inhuda
-  - xxzhang
-  - hfyu
+The International Celestial Reference System is currently realized primarily in the radio and optical bands. An infrared realization would extend its wavelength coverage and provide a denser reference grid in regions affected by strong interstellar extinction, such as the Galactic plane and bulge.
 
-author_notes:
-  - ''
-  - '通讯作者'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+In this study, we cross-matched CatWISE2020 with Gaia DR3, identifying approximately 404 million common sources, including 1.38 million Gaia-CRF3 quasars. We investigated their positional and proper-motion differences using vector spherical harmonics, with separate analyses for stellar and extragalactic sources.
 
-date: '2025-12-01'
-publication_types: ['2']
-publication: '*Astronomy & Astrophysics*, **704**, A136'
-publication_short: '*A&A*, **704**, A136'
-doi: '10.1051/0004-6361/202556271'
+## Main results
 
-abstract: >-
-  背景：国际天球参考系（ICRS）目前已在射电和光学波段分别通过ICRF3和Gaia-CRF3实现，但仍缺少红外波段的参考架。
-  目标：利用CatWISE2020星表建立红外天球参考架，并研究其与Gaia DR3的对齐情况。
-  方法：将CatWISE2020中的18.9亿个源与Gaia DR3及Gaia-CRF3中具有五参数或六参数天体测量解的源进行交叉匹配，采用矢量球谐函数（VSH）分析共同源的位置和自行差异。
-  结果：CatWISE2020与Gaia DR3之间位置系统的整体旋转和滑移分别为6.6和6.9 mas，自行系统的整体旋转和滑移分别为1.9和$2.7\,\mathrm{mas\,yr^{-1}}$。CatWISE2020内部恒星参考架与河外源参考架之间的位置差异约为6 mas，自行差异约为$1\,\mathrm{mas\,yr^{-1}}$。此外，还发现位置和自行存在与星等相关的系统差异。
-  结论：CatWISE2020是目前可用的综合性红外全天巡天星表中天体测量精度最高的星表。在改正相对于Gaia天球参考架的系统误差后，它可作为ICRS在红外波段的一种实现。
+- **Large-scale systematic offsets:** For stellar sources, the rotation and glide amplitudes relative to Gaia DR3 are approximately 6.6 and 6.9 mas in position, and 1.9 and $2.7\,\mathrm{mas\,yr^{-1}}$ in proper motion.
+- **Internal frame differences:** The stellar and extragalactic reference frames within CatWISE2020 differ by approximately 6 mas in position and $1\,\mathrm{mas\,yr^{-1}}$ in proper motion.
+- **Magnitude-dependent systematics:** The offsets vary significantly with magnitude, indicating that a single global correction cannot fully describe the systematic differences. No significant color dependence was found.
+- **Underestimated uncertainties:** The reported positional uncertainties are underestimated by factors of approximately 1.5–2.5.
 
-summary: >-
-  通过与Gaia DR3交叉匹配，研究CatWISE2020的位置和自行系统误差，表明其在完成系统误差改正后可作为国际天球参考系在红外波段的一种实现。
+The featured figure illustrates the spatial distribution of the positional and proper-motion offsets. Averaging the offsets within 192 equal-area sky pixels reveals coherent patterns, demonstrating the need to account for large-scale systematics when linking CatWISE2020 to Gaia.
 
-tags:
-  - 天体测量
-  - 天文参考系
-  - CatWISE2020
-  - Gaia
+## Implications
 
-featured: false
-draft: false
-share: false
-
-image:
-  caption: ''
-  focal_point: Center
-  preview_only: false
-
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-projects: []
-slides: ''
----
-EOF
+After correcting systematic offsets relative to Gaia, CatWISE2020 can serve as an infrared realization of the ICRS. Its deeper coverage and improved proper motions offer substantial advantages over AllWISE. However, global corrections do not remove all tile-dependent systematics, and the comparatively large proper-motion uncertainties limit the long-term stability of the frame. Further improvements will require refined calibration and, ultimately, higher-precision infrared astrometry.
