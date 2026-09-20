@@ -2,6 +2,11 @@
 title: "自洽的地球岁差-章动模型"
 date: "2026-01-01"
 
+authors:
+  - jcliu
+author_notes:
+  - "项目参与人"
+
 share: false
 ---
 
