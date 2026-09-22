@@ -5,7 +5,7 @@ profile: false
 share: false
 ---
 
-A warm welcome to Huafeng Yu, [Lin Xu]({{< relref "/authors/lxu" >}}), and [Chaojin Chen]({{< relref "/authors/cjchen" >}}).
+A warm welcome to [Hua-Feng Yu]({{< relref "/authors/hfyu" >}}), [Lin Xu]({{< relref "/authors/lxu" >}}), and [Chaojin Chen]({{< relref "/authors/cjchen" >}}).
 
 <!--more-->
 

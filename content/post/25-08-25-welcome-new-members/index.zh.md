@@ -5,7 +5,7 @@ profile: false
 share: false
 ---
 
-欢迎余华峰、[徐琳]({{< relref "/authors/lxu" >}})和[陈朝锦]({{< relref "/authors/cjchen" >}})同学加入课题组。
+欢迎[余华峰]({{< relref "/authors/hfyu" >}})、[徐琳]({{< relref "/authors/lxu" >}})和[陈朝锦]({{< relref "/authors/cjchen" >}})同学加入课题组。
 
 <!--more-->
 
